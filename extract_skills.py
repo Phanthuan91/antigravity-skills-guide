@@ -62,6 +62,12 @@ TRANSLATION_MAP = {
     "Web application testing principles. E2E, Playwright": "Nguyên lý kiểm thử ứng dụng Web: Kiểm thử cuối đầu (E2E) và audit sâu.",
     "React and Next.js performance optimization from Vercel Engineering": "Tối ưu hóa hiệu năng React và Next.js theo tiêu chuẩn kỹ thuật của Vercel.",
     "Master Rust 1.75+ with modern async patterns, advanced type system": "Làm chủ Rust 1.75+ với các mẫu async hiện đại, hệ thống kiểu dữ liệu nâng cao.",
+    "Adjust terminology based on user technical level": "Điều chỉnh thuật ngữ theo cấp độ kỹ thuật của người dùng.",
+    "Eternal Context System - Auto-save session": "Hệ thống Ngữ cảnh Vĩnh viễn - Tự động lưu phiên để tránh mất dữ liệu.",
+    "Context-aware help based on current workflow state": "Trợ giúp thông minh dựa trên trạng thái quy trình hiện tại.",
+    "Translate technical errors to human-friendly language": "Dịch các lỗi kỹ thuật sang ngôn ngữ thân thiện, dễ hiểu.",
+    "First-time user onboarding experience": "Trải nghiệm chào mừng và hướng dẫn người dùng mới.",
+    "Lazy-loading context restore with 3 levels": "Khôi phục ngữ cảnh linh hoạt 3 cấp độ (lazy-loading).",
 }
 
 def translate_to_vn(text, skill_name):

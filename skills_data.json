@@ -631,7 +631,7 @@
   },
   {
     "name": "awf-auto-save",
-    "description": "Eternal Context System - Auto-save session to prevent context loss. Triggers: workflow end, user leaving, decisions, periodic checkpoint. Warns when context is getting full.",
+    "description": "Hệ thống Ngữ cảnh Vĩnh viễn - Tự động lưu phiên để tránh mất dữ liệu.",
     "category": "awf"
   },
   {
@@ -651,7 +651,7 @@
   },
   {
     "name": "awf-session-restore",
-    "description": "Lazy-loading context restore with 3 levels. Fast startup with minimal tokens. Keywords: context, memory, session, restore, recap, remember, resume, continue.",
+    "description": "Khôi phục ngữ cảnh linh hoạt 3 cấp độ (lazy-loading).",
     "category": "awf"
   },
   {
