@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antigravity Skills Guide — Hướng Dẫn Sử Dụng 214 Skills</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=1.0.2">
+</head>
+<body>
+
+<div id="app-frame">
+  <!-- Sidebar Navigation -->
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-box">AG</div>
+      <span class="logo-text">Antigravity</span>
+    </div>
+    
+    <nav class="sidebar-nav">
+
+      <div class="nav-label">Bắt đầu</div>
+      <a href="#hero" class="nav-link active" id="nav-hero">Tổng quan</a>
+      <a href="#features" class="nav-link" id="nav-features">Tính năng nổi bật</a>
+      <a href="#guide" class="nav-link" id="nav-guide">Cẩm nang vận hành</a>
+      
+      <div class="nav-label">Quy chuẩn SOP</div>
+      <a href="#sop-library" class="nav-link" id="nav-sop-library" style="color:var(--primary); font-weight:600">Thư viện SOP</a>
+      <a href="#slash-commands" class="nav-link" id="nav-slash-commands">Danh mục Lệnh (/)</a>
+      
+      <div class="nav-label">Agents & Workflows</div>
+      <a href="#agencies" class="nav-link" id="nav-agencies">Chuyên Gia AI</a>
+      
+      <div class="nav-label">KWP Plugins</div>
+      <a href="#kwp-sales" class="nav-link" id="nav-kwp-sales">Bán Hàng & Tiếp Cận</a>
+      <a href="#kwp-marketing" class="nav-link" id="nav-kwp-marketing">Marketing & Tăng Trưởng</a>
+      <a href="#kwp-product" class="nav-link" id="nav-kwp-product">Sản Phẩm & Lộ Trình</a>
+      <a href="#kwp-eng" class="nav-link" id="nav-kwp-eng">Dữ Liệu & Kỹ Thuật</a>
+      <a href="#kwp-biz" class="nav-link" id="nav-kwp-biz">Kinh Doanh & Vận Hành</a>
+      
+      <div class="nav-label">Core & Systems</div>
+      <a href="#tech" class="nav-link" id="nav-tech">Mẫu Kỹ Thuật</a>
+      <a href="#awf" class="nav-link" id="nav-awf">Quy Trình AWF</a>
+                                    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main">
+    
+    <!-- Hero Section -->
+    <section class="hero js-section" id="hero">
+      <div class="hero-label">Antigravity Kit v2.0.1 Official</div>
+      <h1 class="hero-title">Hướng Dẫn Sử Dụng<br><span>Hệ Thống AI Chuyên Gia</span></h1>
+      <p class="hero-version">
+        Thư viện 238+ kỹ năng được thiết kế theo tiêu chuẩn công nghiệp.
+      </p>
+
+      <!-- Search Bar Visual -->
+      <div style="max-width: 600px; margin: 40px auto; position: relative;">
+        <input type="text" id="searchInput" placeholder="Gõ / để tìm nhanh các lệnh chuyên gia..." style="width:100%; padding:16px 24px 16px 48px; border-radius:12px; border:1px solid var(--border); background:var(--bg-white); font-size:15px; outline:none; transition: border-color 0.2s; box-shadow: var(--shadow);">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--text-dim)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="position:absolute; left:16px; top:16px"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        
+        <!-- Suggestions Dropdown -->
+        <div id="searchSuggestions" class="suggestions-dropdown"></div>
+      </div>
+      
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-value blue">116</div>
+          <div class="stat-label">Chuyên Gia AI</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value orange">115</div>
+          <div class="stat-label">Kỹ Năng Cốt Lõi</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value red">18+</div>
+          <div class="stat-label">Luồng Quy Trình</div>
+        </div>
+      </div>
+
+      <p style="font-size:13px; margin-top:32px; color:var(--text-dim)">
+        Biên soạn bởi <a href="https://zalo.me/g/igkywu632" target="_blank" style="color:var(--primary); font-weight:600; text-decoration:none">Sage Thuần</a> • Cập nhật lần cuối: 29/03/2026
+      </p>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="content-section js-section hidden-section" id="features">
+      <h2 class="section-title">Tại sao chọn Antigravity Kit?</h2>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Thách thức hiện tại</th>
+            <th>Giải pháp với Antigravity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="td-no-skill">AI phản hồi hời hợt, không đúng chuyên môn sâu.</td>
+            <td class="td-with-skill">Triệu hồi đúng <strong>Expert Persona</strong> (Dev, Legal, HR...) cho từng tác vụ.</td>
+          </tr>
+          <tr>
+            <td class="td-no-skill">Mất quá nhiều thời gian để viết prompt hướng dẫn.</td>
+            <td class="td-with-skill">Dùng <code>/commands</code> để kích hoạt quy trình tự động hóa 100%.</td>
+          </tr>
+          <tr>
+            <td class="td-no-skill">Kết quả đầu ra không nhất quán, khó sử dụng ngay.</td>
+            <td class="td-with-skill">Định dạng chuẩn công nghiệp (JSON, Markdown, Docs) sắc nét.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+        <div class="feature-card">
+          <div class="tag-badge blue">Auto-trigger</div>
+          <div class="card-title">Kích hoạt thông minh</div>
+          <p class="card-text">Hệ thống tự động nhận diện ý định và kích hoạt kỹ năng phù hợp mà không cần bạn phải nhớ tên lệnh.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="tag-badge red">Manual Control</div>
+          <div class="card-title">Lệnh điều khiển trực tiếp</div>
+          <p class="card-text">Sử dụng các lệnh <code>/</code> để can thiệp sâu vào quy trình hoặc yêu cầu các tác vụ phức tạp hơn.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Operating Guide Section -->
+    <section class="content-section js-section hidden-section" id="guide">
+      <h2 class="section-title">Cẩm nang vận hành thông minh</h2>
+      
+      <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; margin-bottom: 40px;">
+        <div class="feature-card" style="border-top: 4px solid var(--primary);">
+          <div style="font-size: 24px; margin-bottom: 12px;">⚡</div>
+          <div class="card-title">1. Chế độ Triệu hồi trực tiếp (Slash Commands)</div>
+          <p class="card-text">Gõ <code>/</code> và tên lệnh để AI chạy đúng SOP chuẩn cho tác vụ đó. Phù hợp khi anh đã rõ mục tiêu cụ thể.</p>
+        </div>
+
+        <div class="feature-card" style="border-top: 4px solid var(--secondary);">
+          <div style="font-size: 24px; margin-bottom: 12px;">🎭</div>
+          <div class="card-title">2. Chế độ Nhập vai Chuyên gia (Persona)</div>
+          <p class="card-text">Yêu cầu AI "Acting as [Skill Name]" để thảo luận sâu. Phù hợp khi cần tư vấn chiến lược hoặc review chuyên môn.</p>
+        </div>
+
+        <div class="feature-card" style="border-top: 4px solid var(--accent);">
+          <div style="font-size: 24px; margin-bottom: 12px;">📡</div>
+          <div class="card-title">3. Chế độ Kích hoạt tự động (Contextual)</div>
+          <p class="card-text">Pha trò bình thường, AI sẽ tự nhận diện ý định và gọi kỹ năng ẩn bên dưới dựa trên Ngữ cảnh (Context).</p>
+        </div>
+      </div>
+
+      <div style="background: var(--bg-light); padding: 30px; border-radius: 16px; border: 1px dashed var(--border);">
+        <h3 style="color: var(--primary); margin-bottom: 16px; font-size: 18px;">💡 Bí kíp tối ưu hiệu quả</h3>
+        <ul style="list-style: none; padding: 0;">
+          <li style="margin-bottom: 12px; display: flex; align-items: start; gap: 12px;">
+            <span style="color: var(--primary); font-weight: bold;">✔</span>
+            <span><strong>Theo sát SOP:</strong> Luôn kiểm tra Thư viện SOP trước khi làm việc phức tạp. Nếu chưa có, gõ <code>/sop</code> để đóng gói ngay.</span>
+          </li>
+          <li style="margin-bottom: 12px; display: flex; align-items: start; gap: 12px;">
+            <span style="color: var(--primary); font-weight: bold;">✔</span>
+            <span><strong>Đa chuyên gia:</strong> Có thể kết hợp nhiều Agency cùng lúc bằng cách nêu tên các Skill cần phối hợp.</span>
+          </li>
+          <li style="margin-bottom: 12px; display: flex; align-items: start; gap: 12px;">
+            <span style="color: var(--primary); font-weight: bold;">✔</span>
+            <span><strong>Dùng Hoa tiêu:</strong> Nếu bị "stuck", gõ <code>/next</code> để AI định vị lại dự án và gợi ý hướng đi đúng.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Slash Commands Section Placeholder -->
+
+    <section class="content-section js-section hidden-section" id="sop-library">
+      <h2 class="section-title">Thư viện Quy trình vận hành (SOP) (1)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Tên Quy trình</div>
+          <div>Loại</div>
+          <div>Mô tả quy trình</div>
+        </div>
+
+        <div class="data-row" id="sop-02_Ky_Thuat/Bao_cao_Tien_do_Du_an">
+          <div class="col-label"><a href="file:///D:/brain/sops/02_Ky_Thuat/Bao_cao_Tien_do_Du_an.md" target="_blank"><code>02_Ky_Thuat/Bao_cao_Tien_do_Du_an</code></a></div>
+          <div class="col-meta">SOP</div>
+          <div class="col-value">Quy trình vận hành chuẩn cho 02_Ky_Thuat/Bao_cao_Tien_do_Du_an</div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="slash-commands">
+      <h2 class="section-title">Danh Sách Lệnh Nhanh (/) (22)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Lệnh / Phím tắt</div>
+          <div>Loại</div>
+          <div>Chức năng và cách dùng</div>
+        </div>
+
+        <div class="data-row" id="command-init">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/init</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Khởi tạo dự án mới</strong><br><span style="font-size:12px; color:var(--text-dim)">Khởi tạo dự án mới, cài đặt môi trường và cấu trúc folder ban đầu.</span></div>
+        </div>
+        <div class="data-row" id="command-brainstorm">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/brainstorm</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Động não</strong><br><span style="font-size:12px; color:var(--text-dim)">Động não, thảo luận ý tưởng, nghiên cứu giải pháp trước khi bắt tay làm.</span></div>
+        </div>
+        <div class="data-row" id="command-plan">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/plan</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Lập kế hoạch chi tiết</strong><br><span style="font-size:12px; color:var(--text-dim)">Lập kế hoạch chi tiết, phân rã công việc thành các task nhỏ và định rõ mục tiêu.</span></div>
+        </div>
+        <div class="data-row" id="command-design">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/design</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Thiết kế kỹ thuật: sơ đồ DB</strong><br><span style="font-size:12px; color:var(--text-dim)">Thiết kế kỹ thuật: sơ đồ DB, logic API, luồng xử lý và kiến trúc hệ thống.</span></div>
+        </div>
+        <div class="data-row" id="command-visualize">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/visualize</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Thiết kế UI/UX mockup</strong><br><span style="font-size:12px; color:var(--text-dim)">Thiết kế UI/UX mockup, tạo hình ảnh giao diện phác thảo để hình dung sản phẩm.</span></div>
+        </div>
+        <div class="data-row" id="command-code">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/code</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Bắt đầu viết code dựa trên Spec và thiết kế đã thống nhất.</strong><br><span style="font-size:12px; color:var(--text-dim)">Bắt đầu viết code dựa trên Spec và thiết kế đã thống nhất.</span></div>
+        </div>
+        <div class="data-row" id="command-run">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/run</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Chạy thử ứng dụng trong môi trường local để kiểm tra chức năng.</strong><br><span style="font-size:12px; color:var(--text-dim)">Chạy thử ứng dụng trong môi trường local để kiểm tra chức năng.</span></div>
+        </div>
+        <div class="data-row" id="command-debug">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/debug</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Truy tìm và sửa lỗi khi hệ thống gặp trục trặc hoặc không chạy đúng ý.</strong><br><span style="font-size:12px; color:var(--text-dim)">Truy tìm và sửa lỗi khi hệ thống gặp trục trặc hoặc không chạy đúng ý.</span></div>
+        </div>
+        <div class="data-row" id="command-test">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/test</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Thực hiện kiểm thử Unit Test</strong><br><span style="font-size:12px; color:var(--text-dim)">Thực hiện kiểm thử Unit Test, E2E để đảm bảo chất lượng code và logic.</span></div>
+        </div>
+        <div class="data-row" id="command-audit">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/audit</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Kiểm tra bảo mật và tối ưu hóa code theo các tiêu chuẩn vận hành.</strong><br><span style="font-size:12px; color:var(--text-dim)">Kiểm tra bảo mật và tối ưu hóa code theo các tiêu chuẩn vận hành.</span></div>
+        </div>
+        <div class="data-row" id="command-deploy">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/deploy</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Triển khai mã nguồn lên môi trường Production (Vercel</strong><br><span style="font-size:12px; color:var(--text-dim)">Triển khai mã nguồn lên môi trường Production (Vercel, Cloudflare, VPS).</span></div>
+        </div>
+        <div class="data-row" id="command-next">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/next</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Hỏi AI bước tiếp theo cần làm gì khi bạn cảm thấy bị tắc hoặc cần gợi ý.</strong><br><span style="font-size:12px; color:var(--text-dim)">Hỏi AI bước tiếp theo cần làm gì khi bạn cảm thấy bị tắc hoặc cần gợi ý.</span></div>
+        </div>
+        <div class="data-row" id="command-recap">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/recap</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Tóm tắt lại toàn bộ tiến độ dự án để khôi phục ngữ cảnh làm việc.</strong><br><span style="font-size:12px; color:var(--text-dim)">Tóm tắt lại toàn bộ tiến độ dự án để khôi phục ngữ cảnh làm việc.</span></div>
+        </div>
+        <div class="data-row" id="command-help">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/help</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Trợ giúp và hướng dẫn sử dụng các lệnh hoặc công cụ trong hệ thống.</strong><br><span style="font-size:12px; color:var(--text-dim)">Trợ giúp và hướng dẫn sử dụng các lệnh hoặc công cụ trong hệ thống.</span></div>
+        </div>
+        <div class="data-row" id="command-customize">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/customize</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Cá nhân hóa AI</strong><br><span style="font-size:12px; color:var(--text-dim)">Cá nhân hóa AI, điều chỉnh tính cách và phong cách làm việc của trợ lý.</span></div>
+        </div>
+        <div class="data-row" id="command-refactor">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/refactor</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Làm sạch và tối ưu hóa lại code hiện có mà không làm thay đổi tính năng.</strong><br><span style="font-size:12px; color:var(--text-dim)">Làm sạch và tối ưu hóa lại code hiện có mà không làm thay đổi tính năng.</span></div>
+        </div>
+        <div class="data-row" id="command-review">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/review</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Tổng quan lại toàn bộ dự án trước khi bàn giao hoặc kết thúc session.</strong><br><span style="font-size:12px; color:var(--text-dim)">Tổng quan lại toàn bộ dự án trước khi bàn giao hoặc kết thúc session.</span></div>
+        </div>
+        <div class="data-row" id="command-save-brain">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/save-brain</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Lưu lại các kiến thức quan trọng của dự án vào bộ nhớ Eternal Context.</strong><br><span style="font-size:12px; color:var(--text-dim)">Lưu lại các kiến thức quan trọng của dự án vào bộ nhớ Eternal Context.</span></div>
+        </div>
+        <div class="data-row" id="command-rollback">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/rollback</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Quay lại phiên bản trước đó nếu bản cập nhật mới gặp lỗi nghiêm trọng.</strong><br><span style="font-size:12px; color:var(--text-dim)">Quay lại phiên bản trước đó nếu bản cập nhật mới gặp lỗi nghiêm trọng.</span></div>
+        </div>
+        <div class="data-row" id="command-awf-update">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/awf-update</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Cập nhật hệ thống AWF lên phiên bản mới nhất từ Cloud.</strong><br><span style="font-size:12px; color:var(--text-dim)">Cập nhật hệ thống AWF lên phiên bản mới nhất từ Cloud.</span></div>
+        </div>
+        <div class="data-row" id="command-cloudflare-tunnel">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/cloudflare-tunnel</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Quản lý Tunnel Cloudflare để public web từ local ra internet.</strong><br><span style="font-size:12px; color:var(--text-dim)">Quản lý Tunnel Cloudflare để public web từ local ra internet.</span></div>
+        </div>
+        <div class="data-row" id="command-sop">
+          <div class="col-label"><code style="background:var(--primary-light); color:var(--primary)">/sop</code></div>
+          <div class="col-meta">Command</div>
+          <div class="col-value"><strong>Xây dựng và đóng gói quy trình vận hành tiêu chuẩn theo Framework v2.0.</strong><br><span style="font-size:12px; color:var(--text-dim)">Xây dựng và đóng gói quy trình vận hành tiêu chuẩn theo Framework v2.0.</span></div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="agencies">
+      <h2 class="section-title">Hệ Thống Chuyên Gia AI (Personas) (116)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Skill ID / Name</div>
+          <div>Loại</div>
+          <div>Mô tả chức năng</div>
+        </div>
+
+        <div class="data-row" id="skill-agency-accessibility-auditor">
+          <div class="col-label"><code>agency-accessibility-auditor</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia kiểm định khả năng tiếp cận, audit giao diện theo tiêu chuẩn WCAG và đảm bảo thiết kế bao trùm cho mọi người dùng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-account-strategist">
+          <div class="col-label"><code>agency-account-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chiến lược gia tài khoản sau bán hàng, chuyên về mở rộng tài khoản, lập bản đồ bên liên quan và duy trì doanh thu hợp đồng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-accounts-payable-agent">
+          <div class="col-label"><code>agency-accounts-payable-agent</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia xử lý thanh toán tự động cho nhà cung cấp, hóa đơn nhà thầu qua crypto, tiền định danh hoặc stablecoin.</div>
+        </div>
+        <div class="data-row" id="skill-agency-ad-creative-strategist">
+          <div class="col-label"><code>agency-ad-creative-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia sáng tạo nội dung quảng cáo trả phí, tối ưu hóa RSA và thử nghiệm nội dung trên Google, Meta, Microsoft.</div>
+        </div>
+        <div class="data-row" id="skill-agency-agentic-identity-trust-architect">
+          <div class="col-label"><code>agency-agentic-identity-trust-architect</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư thiết kế hệ thống định danh và niềm tin cho các AI agent tự hành trong môi trường đa tác nhân.</div>
+        </div>
+        <div class="data-row" id="skill-agency-agents-orchestrator">
+          <div class="col-label"><code>agency-agents-orchestrator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Quản lý quy trình tự động, điều phối toàn bộ luồng phát triển. Đây là lãnh đạo của quy trình này.</div>
+        </div>
+        <div class="data-row" id="skill-agency-ai-data-remediation-engineer">
+          <div class="col-label"><code>agency-ai-data-remediation-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia về đường ống dữ liệu tự phục hồi, sử dụng SLM để phát hiện và sửa lỗi dữ liệu quy mô lớn mà không làm dừng quy trình.</div>
+        </div>
+        <div class="data-row" id="skill-agency-ai-engineer">
+          <div class="col-label"><code>agency-ai-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư AI/ML chuyên nghiệp, phát triển và tích hợp các mô hình học máy vào hệ thống sản xuất thực tế.</div>
+        </div>
+        <div class="data-row" id="skill-agency-analytics-reporter">
+          <div class="col-label"><code>agency-analytics-reporter</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia phân tích dữ liệu chuyên sâu, biến dữ liệu thô thành thông tin kinh doanh hữu ích qua dashboard và báo cáo.</div>
+        </div>
+        <div class="data-row" id="skill-agency-api-tester">
+          <div class="col-label"><code>agency-api-tester</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia kiểm thử API toàn diện, xác thực hiệu suất và đảm bảo chất lượng trên mọi hệ thống tích hợp.</div>
+        </div>
+        <div class="data-row" id="skill-agency-app-store-optimizer">
+          <div class="col-label"><code>agency-app-store-optimizer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia marketing cửa hàng ứng dụng, tập trung vào ASO, tối ưu tỷ lệ chuyển đổi và khả năng tìm kiếm ứng dụng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-automation-governance-architect">
+          <div class="col-label"><code>agency-automation-governance-architect</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư nội bộ cho tự động hóa kinh doanh, audit giá trị, rủi ro và khả năng bảo trì trước khi triển khai.</div>
+        </div>
+        <div class="data-row" id="skill-agency-autonomous-optimization-architect">
+          <div class="col-label"><code>agency-autonomous-optimization-architect</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Người quản trị hệ thống thông minh, liên tục chạy shadow-test các API để kiểm tra hiệu suất và kiểm soát chi phí.</div>
+        </div>
+        <div class="data-row" id="skill-agency-backend-architect">
+          <div class="col-label"><code>agency-backend-architect</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư backend cao cấp, chuyên thiết kế hệ thống mở rộng, DB architecture và hạ tầng đám mây hiệu năng cao.</div>
+        </div>
+        <div class="data-row" id="skill-agency-behavioral-nudge-engine">
+          <div class="col-label"><code>agency-behavioral-nudge-engine</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tâm lý học hành vi, điều chỉnh phong cách tương tác phần mềm để tối đa hóa động lực người dùng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-blockchain-security-auditor">
+          <div class="col-label"><code>agency-blockchain-security-auditor</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia audit bảo mật smart contract, phát hiện lỗ hổng và phân tích khai thác cho các giao thức DeFi.</div>
+        </div>
+        <div class="data-row" id="skill-agency-book-co-author">
+          <div class="col-label"><code>agency-book-co-author</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Cộng tác viên chiến lược viết sách cho lãnh đạo, biến các ghi chú rời rạc thành các chương sách có cấu trúc.</div>
+        </div>
+        <div class="data-row" id="skill-agency-brand-guardian">
+          <div class="col-label"><code>agency-brand-guardian</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia chiến lược và bảo vệ thương hiệu, duy trì tính nhất quán và định vị thương hiệu trên thị trường.</div>
+        </div>
+        <div class="data-row" id="skill-agency-carousel-growth-engine">
+          <div class="col-label"><code>agency-carousel-growth-engine</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tạo nội dung carousel tự động cho TikTok/Instagram, phân tích URL và đăng bài kèm nhạc xu hướng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-code-reviewer">
+          <div class="col-label"><code>agency-code-reviewer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia review code tập trung vào tính chính xác, khả năng bảo trì, bảo mật và hiệu năng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-compliance-auditor">
+          <div class="col-label"><code>agency-compliance-auditor</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia audit tuân thủ kỹ thuật (SOC 2, ISO 27001, HIPAA) từ đánh giá đến khi đạt chứng nhận.</div>
+        </div>
+        <div class="data-row" id="skill-agency-content-creator">
+          <div class="col-label"><code>agency-content-creator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia chiến lược và sáng tạo nội dung đa nền tảng, quản lý lịch biên tập và kể chuyện thương hiệu.</div>
+        </div>
+        <div class="data-row" id="skill-agency-corporate-training-designer">
+          <div class="col-label"><code>agency-corporate-training-designer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia thiết kế hệ thống đào tạo doanh nghiệp và chương trình giảng dạy, đánh giá hiệu quả đào tạo.</div>
+        </div>
+        <div class="data-row" id="skill-agency-cultural-intelligence-strategist">
+          <div class="col-label"><code>agency-cultural-intelligence-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia trí tuệ văn hóa, đảm bảo phần mềm cộng hưởng chân thực với các bản sắc văn hóa toàn cầu.</div>
+        </div>
+        <div class="data-row" id="skill-agency-data-consolidation-agent">
+          <div class="col-label"><code>agency-data-consolidation-agent</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">AI agent tổng hợp dữ liệu bán hàng vào dashboard báo cáo trực tiếp theo khu vực và phễu khách hàng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-data-engineer">
+          <div class="col-label"><code>agency-data-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư dữ liệu chuyên nghiệp, xây dựng đường ống dữ liệu tin cậy (ETL/ELT) và kiến trúc lakehouse mở rộng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-database-optimizer">
+          <div class="col-label"><code>agency-database-optimizer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tối ưu hóa DB, thiết kế schema, tối ưu truy vấn và tinh chỉnh hiệu năng cho PostgreSQL/MySQL.</div>
+        </div>
+        <div class="data-row" id="skill-agency-deal-strategist">
+          <div class="col-label"><code>agency-deal-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chiến lược gia thương vụ cao cấp, chuyên về quy trình MEDDPICC và lập kế hoạch thắng thầu B2B phức tạp.</div>
+        </div>
+        <div class="data-row" id="skill-agency-developer-advocate">
+          <div class="col-label"><code>agency-developer-advocate</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia cộng đồng lập trình viên, tối ưu trải nghiệm DX và thúc đẩy việc sử dụng nền tảng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-devops-automator">
+          <div class="col-label"><code>agency-devops-automator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư DevOps chuyên nghiệp, tự động hóa hạ tầng và vận hành hệ thống đám mây (CI/CD).</div>
+        </div>
+        <div class="data-row" id="skill-agency-discovery-coach">
+          <div class="col-label"><code>agency-discovery-coach</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Huấn luyện đội ngũ bán hàng về phương pháp khai thác thông tin, tìm kiếm động lực mua hàng thực sự.</div>
+        </div>
+        <div class="data-row" id="skill-agency-document-generator">
+          <div class="col-label"><code>agency-document-generator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tạo tài liệu chuyên nghiệp (PDF, PPTX, DOCX) bằng mã nguồn với biểu đồ sắc nét.</div>
+        </div>
+        <div class="data-row" id="skill-agency-embedded-firmware-engineer">
+          <div class="col-label"><code>agency-embedded-firmware-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư phần cứng nhúng và RTOS, chuyên về ESP32, STM32, ARM và các hệ điều hành thời gian thực.</div>
+        </div>
+        <div class="data-row" id="skill-agency-evidence-collector">
+          <div class="col-label"><code>agency-evidence-collector</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia QA 'ám ảnh' bằng chứng hình ảnh, săn lùng lỗi và yêu cầu minh chứng trực quan cho mọi thứ.</div>
+        </div>
+        <div class="data-row" id="skill-agency-executive-summary-generator">
+          <div class="col-label"><code>agency-executive-summary-generator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia AI cấp cố vấn chiến lược, tóm tắt các vấn đề kinh doanh phức tạp theo khung chuẩn McKinsey/BCG.</div>
+        </div>
+        <div class="data-row" id="skill-agency-experiment-tracker">
+          <div class="col-label"><code>agency-experiment-tracker</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Quản lý dự án chuyên về thiết kế thử nghiệm A/B và ra quyết định dựa trên dữ liệu phân tích.</div>
+        </div>
+        <div class="data-row" id="skill-agency-feedback-synthesizer">
+          <div class="col-label"><code>agency-feedback-synthesizer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia thu thập và tổng hợp phản hồi người dùng đa kênh để rút ra các thông tin sản phẩm hành động.</div>
+        </div>
+        <div class="data-row" id="skill-agency-finance-tracker">
+          <div class="col-label"><code>agency-finance-tracker</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia phân tích tài chính và kiểm soát, quản lý ngân sách và tối ưu hóa dòng tiền doanh nghiệp.</div>
+        </div>
+        <div class="data-row" id="skill-agency-frontend-developer">
+          <div class="col-label"><code>agency-frontend-developer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Lập trình viên frontend chuyên nghiệp, chuyên về React/Vue/Angular và tối ưu hóa trải nghiệm UI/UX.</div>
+        </div>
+        <div class="data-row" id="skill-agency-game-audio-engineer">
+          <div class="col-label"><code>agency-game-audio-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia âm thanh tương tác trong game, thành thạo FMOD/Wwise và âm thanh không gian.</div>
+        </div>
+        <div class="data-row" id="skill-agency-game-designer">
+          <div class="col-label"><code>agency-game-designer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư hệ thống game, chuyên về GDD, tâm lý người chơi và vòng lặp gameplay.</div>
+        </div>
+        <div class="data-row" id="skill-agency-git-workflow-master">
+          <div class="col-label"><code>agency-git-workflow-master</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia quy trình Git, chiến lược phân nhánh và các quy chuẩn kiểm soát phiên bản hiện đại.</div>
+        </div>
+        <div class="data-row" id="skill-agency-government-digital-presales-consultant">
+          <div class="col-label"><code>agency-government-digital-presales-consultant</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Cố vấn tiền bán hàng cho thị trường chính phủ, thành thạo chính sách, hồ sơ thầu và tuân thủ kỹ thuật.</div>
+        </div>
+        <div class="data-row" id="skill-agency-growth-hacker">
+          <div class="col-label"><code>agency-growth-hacker</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chiến lược gia tăng trưởng, chuyên thu hút người dùng nhanh qua thử nghiệm dữ liệu và vòng lặp viral.</div>
+        </div>
+        <div class="data-row" id="skill-agency-healthcare-marketing-compliance-specialist">
+          <div class="col-label"><code>agency-healthcare-marketing-compliance-specialist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tuân thủ marketing y tế, thành thạo luật quảng cáo dược phẩm và bảo vệ quyền riêng tư bệnh nhân.</div>
+        </div>
+        <div class="data-row" id="skill-agency-identity-graph-operator">
+          <div class="col-label"><code>agency-identity-graph-operator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Người vận hành biểu đồ danh tính chung cho các AI agent trong hệ thống đa tác nhân.</div>
+        </div>
+        <div class="data-row" id="skill-agency-image-prompt-engineer">
+          <div class="col-label"><code>agency-image-prompt-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia prompt hình ảnh, biến khái niệm thị giác thành ngôn ngữ chính xác cho AI tạo ảnh nghệ thuật.</div>
+        </div>
+        <div class="data-row" id="skill-agency-incident-response-commander">
+          <div class="col-label"><code>agency-incident-response-commander</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chỉ huy ứng phó sự cố hệ thống, điều phối phản ứng có cấu trúc và tổ chức post-mortem.</div>
+        </div>
+        <div class="data-row" id="skill-agency-inclusive-visuals-specialist">
+          <div class="col-label"><code>agency-inclusive-visuals-specialist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia hình ảnh bao trùm, loại bỏ định kiến AI để tạo nội dung chính xác về văn hóa.</div>
+        </div>
+        <div class="data-row" id="skill-agency-infrastructure-maintainer">
+          <div class="col-label"><code>agency-infrastructure-maintainer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia duy trì hạ tầng hệ thống, tập trung vào độ tin cậy, bảo mật và tối ưu chi phí.</div>
+        </div>
+        <div class="data-row" id="skill-agency-instagram-curator">
+          <div class="col-label"><code>agency-instagram-curator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia marketing Instagram, kể chuyện bằng hình ảnh và xây dựng cộng đồng gắn kết.</div>
+        </div>
+        <div class="data-row" id="skill-agency-jira-workflow-steward">
+          <div class="col-label"><code>agency-jira-workflow-steward</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Người quản lý quy trình Jira, đảm bảo commit có thể truy vết và chiến lược release an toàn.</div>
+        </div>
+        <div class="data-row" id="skill-agency-legal-compliance-checker">
+          <div class="col-label"><code>agency-legal-compliance-checker</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia pháp lý và tuân thủ, đảm bảo hoạt động kinh doanh tuân thủ luật pháp đa quốc gia.</div>
+        </div>
+        <div class="data-row" id="skill-agency-level-designer">
+          <div class="col-label"><code>agency-level-designer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia thiết kế màn chơi, thành thạo kể chuyện qua môi trường và nhịp độ game.</div>
+        </div>
+        <div class="data-row" id="skill-agency-linkedin-content-creator">
+          <div class="col-label"><code>agency-linkedin-content-creator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia nội dung LinkedIn, xây dựng thương hiệu cá nhân và vị thế chuyên gia.</div>
+        </div>
+        <div class="data-row" id="skill-agency-livestream-commerce-coach">
+          <div class="col-label"><code>agency-livestream-commerce-coach</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Huấn luyện viên bán hàng livestream, đào tạo host và vận hành phòng live chuyên nghiệp.</div>
+        </div>
+        <div class="data-row" id="skill-agency-lsp-index-engineer">
+          <div class="col-label"><code>agency-lsp-index-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư giao thức LSP, xây dựng hệ thống trí tuệ mã nguồn qua indexing ngữ nghĩa.</div>
+        </div>
+        <div class="data-row" id="skill-agency-macos-spatial-metal-engineer">
+          <div class="col-label"><code>agency-macos-spatial-metal-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư Swift và Metal, xây dựng hệ thống dựng hình 3D cho macOS và Vision Pro.</div>
+        </div>
+        <div class="data-row" id="skill-agency-mcp-builder">
+          <div class="col-label"><code>agency-mcp-builder</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia phát triển server MCP để mở rộng khả năng của AI agent với các công cụ tùy chỉnh.</div>
+        </div>
+        <div class="data-row" id="skill-agency-mobile-app-builder">
+          <div class="col-label"><code>agency-mobile-app-builder</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Lập trình viên ứng dụng di động chuyên nghiệp (iOS/Android) và đa nền tảng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-model-qa-specialist">
+          <div class="col-label"><code>agency-model-qa-specialist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia QA mô hình ML độc lập, audit toàn diện từ tài liệu đến hiệu suất thực tế.</div>
+        </div>
+        <div class="data-row" id="skill-agency-narrative-designer">
+          <div class="col-label"><code>agency-narrative-designer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư nội dung và hội thoại game, xây dựng thế giới và câu chuyện nhập vai.</div>
+        </div>
+        <div class="data-row" id="skill-agency-outbound-strategist">
+          <div class="col-label"><code>agency-outbound-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tiếp cận khách hàng dựa trên tín hiệu và cá nhân hóa chuyên sâu.</div>
+        </div>
+        <div class="data-row" id="skill-agency-paid-media-auditor">
+          <div class="col-label"><code>agency-paid-media-auditor</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiểm toán truyền thông trả phí, đánh giá hệ thống quảng cáo qua hơn 200 tiêu chuẩn kiểm tra.</div>
+        </div>
+        <div class="data-row" id="skill-agency-paid-social-strategist">
+          <div class="col-label"><code>agency-paid-social-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chiến lược gia quảng cáo mạng xã hội đa nền tảng, thiết kế chiến dịch phễu đầy đủ.</div>
+        </div>
+        <div class="data-row" id="skill-agency-performance-benchmarker">
+          <div class="col-label"><code>agency-performance-benchmarker</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia đo lường và tối ưu hóa hiệu năng hệ thống trên toàn bộ hạ tầng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-pipeline-analyst">
+          <div class="col-label"><code>agency-pipeline-analyst</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia phân tích phễu doanh thu, chẩn đoán sức khỏe pipeline và độ chính xác dự báo.</div>
+        </div>
+        <div class="data-row" id="skill-agency-podcast-strategist">
+          <div class="col-label"><code>agency-podcast-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia chiến lược podcast, định vị chương trình và phát triển khán giả audio.</div>
+        </div>
+        <div class="data-row" id="skill-agency-ppc-campaign-strategist">
+          <div class="col-label"><code>agency-ppc-campaign-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chiến lược gia PPC cao cấp, kiến trúc chiến dịch tìm kiếm quy mô lớn trên Google/Amazon.</div>
+        </div>
+        <div class="data-row" id="skill-agency-programmatic-display-buyer">
+          <div class="col-label"><code>agency-programmatic-display-buyer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia mua quảng cáo hiển thị lập trình và chiến lược hiển thị ABM.</div>
+        </div>
+        <div class="data-row" id="skill-agency-project-shepherd">
+          <div class="col-label"><code>agency-project-shepherd</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Quản lý dự án chuyên nghiệp, điều phối liên phòng ban và dẫn dắt dự án về đích.</div>
+        </div>
+        <div class="data-row" id="skill-agency-proposal-strategist">
+          <div class="col-label"><code>agency-proposal-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư đề xuất chiến lược, biến các cơ hội thầu thành câu chuyện thắng lợi.</div>
+        </div>
+        <div class="data-row" id="skill-agency-rapid-prototyper">
+          <div class="col-label"><code>agency-rapid-prototyper</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tạo mẫu nhanh, xây dựng POC và MVP tốc độ cao bằng công cụ hiện đại.</div>
+        </div>
+        <div class="data-row" id="skill-agency-reality-checker">
+          <div class="col-label"><code>agency-reality-checker</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiểm chứng thực tế, ngăn chặn các phê duyệt mơ hồ và yêu cầu bằng chứng sẵn sàng sản xuất.</div>
+        </div>
+        <div class="data-row" id="skill-agency-recruitment-specialist">
+          <div class="col-label"><code>agency-recruitment-specialist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tuyển dụng và thu hút nhân tài, thành thạo các nền tảng và luật lao động.</div>
+        </div>
+        <div class="data-row" id="skill-agency-reddit-community-builder">
+          <div class="col-label"><code>agency-reddit-community-builder</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia marketing Reddit, tương tác cộng đồng chân thực và xây dựng quan hệ lâu dài.</div>
+        </div>
+        <div class="data-row" id="skill-agency-report-distribution-agent">
+          <div class="col-label"><code>agency-report-distribution-agent</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">AI agent tự động phân phối báo cáo bán hàng cho đại diện theo khu vực quản lý.</div>
+        </div>
+        <div class="data-row" id="skill-agency-sales-coach">
+          <div class="col-label"><code>agency-sales-coach</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Huấn luyện viên bán hàng, phát triển kỹ năng nhân viên và chiến lược thương vụ.</div>
+        </div>
+        <div class="data-row" id="skill-agency-sales-data-extraction-agent">
+          <div class="col-label"><code>agency-sales-data-extraction-agent</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">AI agent trích xuất chỉ số bán hàng từ file Excel để báo cáo trực tiếp nội bộ.</div>
+        </div>
+        <div class="data-row" id="skill-agency-sales-engineer">
+          <div class="col-label"><code>agency-sales-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư bán hàng (tiền bán hàng), xây dựng demo và kết nối sản phẩm với mục tiêu kinh doanh.</div>
+        </div>
+        <div class="data-row" id="skill-agency-search-query-analyst">
+          <div class="col-label"><code>agency-search-query-analyst</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia phân tích truy vấn, cấu trúc từ khóa phủ định và tối ưu hóa ý định tìm kiếm.</div>
+        </div>
+        <div class="data-row" id="skill-agency-security-engineer">
+          <div class="col-label"><code>agency-security-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư bảo mật ứng dụng, chuyên đánh giá lỗ hổng và thiết kế kiến trúc bảo mật.</div>
+        </div>
+        <div class="data-row" id="skill-agency-senior-developer">
+          <div class="col-label"><code>agency-senior-developer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia triển khai cao cấp, thành thạo Laravel, CSS nâng cao và Three.js.</div>
+        </div>
+        <div class="data-row" id="skill-agency-senior-project-manager">
+          <div class="col-label"><code>agency-senior-project-manager</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Quản lý dự án cao cấp, bám sát phạm vi thực tế và không bao giờ quên dự án cũ.</div>
+        </div>
+        <div class="data-row" id="skill-agency-seo-specialist">
+          <div class="col-label"><code>agency-seo-specialist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia chiến lược SEO, tối ưu hóa kỹ thuật và nội dung để tăng trưởng tự nhiên.</div>
+        </div>
+        <div class="data-row" id="skill-agency-short-video-editing-coach">
+          <div class="col-label"><code>agency-short-video-editing-coach</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Huấn luyện viên dựng video ngắn, thành thạo hậu kỳ và các công cụ AI hỗ trợ.</div>
+        </div>
+        <div class="data-row" id="skill-agency-social-media-strategist">
+          <div class="col-label"><code>agency-social-media-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chiến lược gia mạng xã hội, xây dựng cộng đồng và quản lý tương tác thời gian thực.</div>
+        </div>
+        <div class="data-row" id="skill-agency-software-architect">
+          <div class="col-label"><code>agency-software-architect</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư phần mềm, thiết kế hệ thống lớn và đưa ra các quyết định kỹ thuật bền vững.</div>
+        </div>
+        <div class="data-row" id="skill-agency-solidity-smart-contract-engineer">
+          <div class="col-label"><code>agency-solidity-smart-contract-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư Solidity, chuyên kiến trúc smart contract EVM và tối ưu hóa bảo mật.</div>
+        </div>
+        <div class="data-row" id="skill-agency-sprint-prioritizer">
+          <div class="col-label"><code>agency-sprint-prioritizer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia ưu tiên Sprint, lập kế hoạch Agile và phân bổ nguồn lực dựa trên dữ liệu.</div>
+        </div>
+        <div class="data-row" id="skill-agency-sre-site-reliability-engineer">
+          <div class="col-label"><code>agency-sre-site-reliability-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư tin cậy hệ thống, chuyên về SLO và giảm tải công việc vận hành thủ công.</div>
+        </div>
+        <div class="data-row" id="skill-agency-studio-operations">
+          <div class="col-label"><code>agency-studio-operations</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Quản lý vận hành studio, tối ưu hóa quy trình và điều phối nguồn lực hàng ngày.</div>
+        </div>
+        <div class="data-row" id="skill-agency-studio-producer">
+          <div class="col-label"><code>agency-studio-producer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Lãnh đạo dự án Studio, điều phối các dự án sáng tạo và kỹ thuật ở cấp chiến lược.</div>
+        </div>
+        <div class="data-row" id="skill-agency-study-abroad-advisor">
+          <div class="col-label"><code>agency-study-abroad-advisor</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tư vấn du học toàn diện cho các thị trường Âu-Mỹ-Úc và Châu Á.</div>
+        </div>
+        <div class="data-row" id="skill-agency-supply-chain-strategist">
+          <div class="col-label"><code>agency-supply-chain-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chiến lược gia chuỗi cung ứng, xây dựng mạng lưới cung ứng hiệu quả và bền vững.</div>
+        </div>
+        <div class="data-row" id="skill-agency-support-responder">
+          <div class="col-label"><code>agency-support-responder</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia phản hồi hỗ trợ, giải quyết sự cố và tối ưu hóa trải nghiệm khách hàng.</div>
+        </div>
+        <div class="data-row" id="skill-agency-technical-artist">
+          <div class="col-label"><code>agency-technical-artist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia kỹ thuật mỹ thuật, thành thạo shader và tối ưu hóa tài nguyên engine.</div>
+        </div>
+        <div class="data-row" id="skill-agency-technical-writer">
+          <div class="col-label"><code>agency-technical-writer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia viết tài liệu kỹ thuật, chuyển đổi khái niệm phức tạp thành hướng dẫn dễ hiểu.</div>
+        </div>
+        <div class="data-row" id="skill-agency-terminal-integration-specialist">
+          <div class="col-label"><code>agency-terminal-integration-specialist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tích hợp terminal và tối ưu hóa hiển thị văn bản cho ứng dụng Swift.</div>
+        </div>
+        <div class="data-row" id="skill-agency-test-results-analyzer">
+          <div class="col-label"><code>agency-test-results-analyzer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia phân tích kết quả kiểm thử, đánh giá chất lượng từ các hoạt động testing.</div>
+        </div>
+        <div class="data-row" id="skill-agency-threat-detection-engineer">
+          <div class="col-label"><code>agency-threat-detection-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư phát hiện mối đe dọa, xây dựng quy tắc SIEM và đường ống detection-as-code.</div>
+        </div>
+        <div class="data-row" id="skill-agency-tiktok-strategist">
+          <div class="col-label"><code>agency-tiktok-strategist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chiến lược gia TikTok, tập trung vào nội dung viral và tối ưu hóa thuật toán.</div>
+        </div>
+        <div class="data-row" id="skill-agency-tool-evaluator">
+          <div class="col-label"><code>agency-tool-evaluator</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia đánh giá công cụ công nghệ, đề xuất phần mềm tối ưu hóa năng suất.</div>
+        </div>
+        <div class="data-row" id="skill-agency-tracking-measurement-specialist">
+          <div class="col-label"><code>agency-tracking-measurement-specialist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia đo lường chuyển đổi, quản lý tag và các mô hình phân bổ attribution.</div>
+        </div>
+        <div class="data-row" id="skill-agency-trend-researcher">
+          <div class="col-label"><code>agency-trend-researcher</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia nghiên cứu xu hướng thị trường, phân tích đối thủ và đánh giá cơ hội.</div>
+        </div>
+        <div class="data-row" id="skill-agency-twitter-engager">
+          <div class="col-label"><code>agency-twitter-engager</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tương tác Twitter, xây dựng vị thế qua các thảo luận thời gian thực.</div>
+        </div>
+        <div class="data-row" id="skill-agency-ui-designer">
+          <div class="col-label"><code>agency-ui-designer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Thiết kế UI chuyên nghiệp, xây dựng Design System và giao diện hoàn hảo từng pixel.</div>
+        </div>
+        <div class="data-row" id="skill-agency-ux-architect">
+          <div class="col-label"><code>agency-ux-architect</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư UX, cung cấp nền tảng và hướng dẫn triển khai CSS cho lập trình viên.</div>
+        </div>
+        <div class="data-row" id="skill-agency-ux-researcher">
+          <div class="col-label"><code>agency-ux-researcher</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia nghiên cứu UX, phân tích hành vi người dùng bằng các thông tin dựa trên dữ liệu.</div>
+        </div>
+        <div class="data-row" id="skill-agency-visionos-spatial-engineer">
+          <div class="col-label"><code>agency-visionos-spatial-engineer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kỹ sư không gian VisionOS, chuyên về tính toán không gian và giao diện SwiftUI.</div>
+        </div>
+        <div class="data-row" id="skill-agency-visual-storyteller">
+          <div class="col-label"><code>agency-visual-storyteller</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia kể chuyện bằng hình ảnh, biến thông tin thành các câu chuyện thị giác lôi cuốn.</div>
+        </div>
+        <div class="data-row" id="skill-agency-whimsy-injector">
+          <div class="col-label"><code>agency-whimsy-injector</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia sáng tạo, thêm thắt cá tính và sự thú vị vào trải nghiệm thương hiệu.</div>
+        </div>
+        <div class="data-row" id="skill-agency-workflow-optimizer">
+          <div class="col-label"><code>agency-workflow-optimizer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tối ưu hóa quy trình, tự động hóa luồng công việc để đạt năng suất cao nhất.</div>
+        </div>
+        <div class="data-row" id="skill-agency-xr-cockpit-interaction-specialist">
+          <div class="col-label"><code>agency-xr-cockpit-interaction-specialist</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Chuyên gia tương tác buồng lái XR, thiết kế hệ thống điều khiển trong môi trường ảo.</div>
+        </div>
+        <div class="data-row" id="skill-agency-xr-immersive-developer">
+          <div class="col-label"><code>agency-xr-immersive-developer</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Lập trình viên XR nhập vai, chuyên các ứng dụng AR/VR/XR trên trình duyệt.</div>
+        </div>
+        <div class="data-row" id="skill-agency-xr-interface-architect">
+          <div class="col-label"><code>agency-xr-interface-architect</code></div>
+          <div class="col-meta">Agent</div>
+          <div class="col-value">Kiến trúc sư giao diện XR, thiết kế tương tác không gian cho môi trường nhập vai.</div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="kwp-sales">
+      <h2 class="section-title">KWP: Bán Hàng & Tiếp Cận (6)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Skill ID / Name</div>
+          <div>Loại</div>
+          <div>Mô tả chức năng</div>
+        </div>
+
+        <div class="data-row" id="skill-account-research">
+          <div class="col-label"><code>account-research</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nghiên cứu công ty hoặc cá nhân để thu thập thông tin bán hàng giá trị. Hoạt động độc lập với tìm kiếm web hoặc mạnh mẽ hơn khi kết nối CRM.</div>
+        </div>
+        <div class="data-row" id="skill-call-prep">
+          <div class="col-label"><code>call-prep</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Chuẩn bị cho cuộc gọi bán hàng với bối cảnh tài khoản và nghiên cứu người tham gia.</div>
+        </div>
+        <div class="data-row" id="skill-competitive-intelligence">
+          <div class="col-label"><code>competitive-intelligence</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nghiên cứu đối thủ và xây dựng các thẻ đối đầu (battlecard) tương tác.</div>
+        </div>
+        <div class="data-row" id="skill-create-an-asset">
+          <div class="col-label"><code>create-an-asset</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos) from your deal context. Describe your prospect, audience, and goal — get a polished, branded asset ready to share with customers.</div>
+        </div>
+        <div class="data-row" id="skill-daily-briefing">
+          <div class="col-label"><code>daily-briefing</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Bản tin bán hàng đầu ngày với các cuộc họp và ưu tiên quan trọng.</div>
+        </div>
+        <div class="data-row" id="skill-draft-outreach">
+          <div class="col-label"><code>draft-outreach</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nghiên cứu khách hàng tiềm năng và soạn thảo nội dung tiếp cận cá nhân hóa.</div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="kwp-marketing">
+      <h2 class="section-title">KWP: Marketing & Tăng Trưởng (5)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Skill ID / Name</div>
+          <div>Loại</div>
+          <div>Mô tả chức năng</div>
+        </div>
+
+        <div class="data-row" id="skill-brand-voice">
+          <div class="col-label"><code>brand-voice</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Áp dụng và thực thi giọng điệu thương hiệu và hướng dẫn phong cách nội dung.</div>
+        </div>
+        <div class="data-row" id="skill-campaign-planning">
+          <div class="col-label"><code>campaign-planning</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Lập kế hoạch chiến dịch marketing, phân bổ ngân sách và xác định KPI.</div>
+        </div>
+        <div class="data-row" id="skill-competitive-analysis">
+          <div class="col-label"><code>competitive-analysis</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phân tích đối thủ về định vị, thông điệp và chiến lược sản phẩm.</div>
+        </div>
+        <div class="data-row" id="skill-content-creation">
+          <div class="col-label"><code>content-creation</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Soạn thảo nội dung marketing đa kênh (blog, social, email) chuẩn SEO.</div>
+        </div>
+        <div class="data-row" id="skill-performance-analytics">
+          <div class="col-label"><code>performance-analytics</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phân tích hiệu quả marketing qua các chỉ số then chốt và xu hướng.</div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="kwp-product">
+      <h2 class="section-title">KWP: Sản Phẩm & Lộ Trình (6)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Skill ID / Name</div>
+          <div>Loại</div>
+          <div>Mô tả chức năng</div>
+        </div>
+
+        <div class="data-row" id="skill-competitive-analysis">
+          <div class="col-label"><code>competitive-analysis</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phân tích đối thủ về định vị, thông điệp và chiến lược sản phẩm.</div>
+        </div>
+        <div class="data-row" id="skill-feature-spec">
+          <div class="col-label"><code>feature-spec</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Viết tài liệu yêu cầu sản phẩm (PRD) với User Stories và tiêu chí thành công.</div>
+        </div>
+        <div class="data-row" id="skill-metrics-tracking">
+          <div class="col-label"><code>metrics-tracking</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Xác định và theo dõi các chỉ số sản phẩm cùng các khung mục tiêu (OKRs).</div>
+        </div>
+        <div class="data-row" id="skill-roadmap-management">
+          <div class="col-label"><code>roadmap-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Lập kế hoạch và ưu tiên lộ trình sản phẩm (Now/Next/Later).</div>
+        </div>
+        <div class="data-row" id="skill-stakeholder-comms">
+          <div class="col-label"><code>stakeholder-comms</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Soạn thảo cập nhật cho cổ đông, lãnh đạo hoặc đối tác tùy loại đối tượng.</div>
+        </div>
+        <div class="data-row" id="skill-user-research-synthesis">
+          <div class="col-label"><code>user-research-synthesis</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tổng hợp nghiên cứu định tính và định lượng thành các bài học sâu sắc.</div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="kwp-eng">
+      <h2 class="section-title">KWP: Dữ Liệu & Kỹ Thuật (18)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Skill ID / Name</div>
+          <div>Loại</div>
+          <div>Mô tả chức năng</div>
+        </div>
+
+        <div class="data-row" id="skill-code-review">
+          <div class="col-label"><code>code-review</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Review code để tìm bug, lỗ hổng bảo mật và đảm bảo khả năng bảo trì.</div>
+        </div>
+        <div class="data-row" id="skill-data-context-extractor">
+          <div class="col-label"><code>data-context-extractor</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">></div>
+        </div>
+        <div class="data-row" id="skill-data-exploration">
+          <div class="col-label"><code>data-exploration</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Khám phá bộ dữ liệu để hiểu cấu trúc và chất lượng trước khi phân tích.</div>
+        </div>
+        <div class="data-row" id="skill-data-validation">
+          <div class="col-label"><code>data-validation</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">QA các báo cáo phân tích để đảm bảo tính chính xác và không có sai lệch.</div>
+        </div>
+        <div class="data-row" id="skill-data-visualization">
+          <div class="col-label"><code>data-visualization</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Trực quan hóa dữ liệu hiệu quả bằng Python (matplotlib, seaborn, plotly).</div>
+        </div>
+        <div class="data-row" id="skill-documentation">
+          <div class="col-label"><code>documentation</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Viết và duy trì tài liệu kỹ thuật, README và hướng dẫn vận hành.</div>
+        </div>
+        <div class="data-row" id="skill-incident-response">
+          <div class="col-label"><code>incident-response</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Điều phối và quản lý các sự cố hệ thống ngay lập tức.</div>
+        </div>
+        <div class="data-row" id="skill-instrument-data-to-allotrope">
+          <div class="col-label"><code>instrument-data-to-allotrope</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Chuyển đổi dữ liệu thiết bị phòng thí nghiệm sang chuẩn ASM JSON.</div>
+        </div>
+        <div class="data-row" id="skill-interactive-dashboard-builder">
+          <div class="col-label"><code>interactive-dashboard-builder</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Xây dựng dashboard HTML tương tác, không cần server để hoạt động.</div>
+        </div>
+        <div class="data-row" id="skill-nextflow-development">
+          <div class="col-label"><code>nextflow-development</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Chạy các đường ống tin sinh học nf-core trên dữ liệu giải trình tự.</div>
+        </div>
+        <div class="data-row" id="skill-scientific-problem-selection">
+          <div class="col-label"><code>scientific-problem-selection</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Hỗ trợ nhà khoa học lựa chọn vấn đề nghiên cứu và chiến lược khoa học.</div>
+        </div>
+        <div class="data-row" id="skill-scvi-tools">
+          <div class="col-label"><code>scvi-tools</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Học sâu cho phân tích tế bào đơn bằng công cụ scvi-tools.</div>
+        </div>
+        <div class="data-row" id="skill-single-cell-rna-qc">
+          <div class="col-label"><code>single-cell-rna-qc</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Thực hiện kiểm soát chất lượng dữ liệu RNA-seq tế bào đơn.</div>
+        </div>
+        <div class="data-row" id="skill-sql-queries">
+          <div class="col-label"><code>sql-queries</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Viết SQL hiệu năng cao trên các nền tảng (Snowflake, BigQuery, Postgres).</div>
+        </div>
+        <div class="data-row" id="skill-statistical-analysis">
+          <div class="col-label"><code>statistical-analysis</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Áp dụng phương pháp thống kê để giải mã ý nghĩa của dữ liệu.</div>
+        </div>
+        <div class="data-row" id="skill-system-design">
+          <div class="col-label"><code>system-design</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Thiết kế hệ thống, dịch vụ và kiến trúc phần mềm quy mô lớn.</div>
+        </div>
+        <div class="data-row" id="skill-tech-debt">
+          <div class="col-label"><code>tech-debt</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Xác định, phân loại và ưu tiên các nợ kỹ thuật cần giải quyết.</div>
+        </div>
+        <div class="data-row" id="skill-testing-strategy">
+          <div class="col-label"><code>testing-strategy</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Thiết kế chiến lược và kế hoạch kiểm thử tổng thể cho dự án.</div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="kwp-biz">
+      <h2 class="section-title">KWP: Kinh Doanh & Vận Hành (43)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Skill ID / Name</div>
+          <div>Loại</div>
+          <div>Mô tả chức năng</div>
+        </div>
+
+        <div class="data-row" id="skill-accessibility-review">
+          <div class="col-label"><code>accessibility-review</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Audit thiết kế và code theo chuẩn WCAG 2.1 AA. Kích hoạt khi hỏi về khả năng tiếp cận, kiểm tra WCAG, hoặc tương thích trình đọc màn hình.</div>
+        </div>
+        <div class="data-row" id="skill-audit-support">
+          <div class="col-label"><code>audit-support</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Hỗ trợ tuân thủ SOX 404 với phương pháp thử nghiệm và chuẩn hóa tài liệu.</div>
+        </div>
+        <div class="data-row" id="skill-canned-responses">
+          <div class="col-label"><code>canned-responses</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tạo các mẫu phản hồi cho các yêu cầu pháp lý hoặc hỗ trợ phổ biến.</div>
+        </div>
+        <div class="data-row" id="skill-change-management">
+          <div class="col-label"><code>change-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Lập kế hoạch và thực hiện các thay đổi tổ chức hoặc kỹ thuật.</div>
+        </div>
+        <div class="data-row" id="skill-close-management">
+          <div class="col-label"><code>close-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Quản lý quy trình chốt sổ tài chính cuối tháng và theo dõi trạng thái.</div>
+        </div>
+        <div class="data-row" id="skill-compensation-benchmarking">
+          <div class="col-label"><code>compensation-benchmarking</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">So sánh mức lương thưởng với dữ liệu thị trường để có đề xuất cạnh tranh.</div>
+        </div>
+        <div class="data-row" id="skill-compliance">
+          <div class="col-label"><code>compliance</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Điều hướng các quy định quyền riêng tư và xử lý yêu cầu dữ liệu người dùng.</div>
+        </div>
+        <div class="data-row" id="skill-compliance-tracking">
+          <div class="col-label"><code>compliance-tracking</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Theo dõi các yêu cầu tuân thủ và mức độ sẵn sàng cho audit chuyên sâu.</div>
+        </div>
+        <div class="data-row" id="skill-contract-review">
+          <div class="col-label"><code>contract-review</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Review hợp đồng dựa trên cẩm nang của tổ chức, đánh dấu các sai lệch.</div>
+        </div>
+        <div class="data-row" id="skill-cowork-plugin-customizer">
+          <div class="col-label"><code>cowork-plugin-customizer</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">></div>
+        </div>
+        <div class="data-row" id="skill-create-cowork-plugin">
+          <div class="col-label"><code>create-cowork-plugin</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">></div>
+        </div>
+        <div class="data-row" id="skill-customer-research">
+          <div class="col-label"><code>customer-research</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nghiên cứu câu hỏi khách hàng dựa trên dữ liệu đa nguồn và tổng hợp câu trả lời.</div>
+        </div>
+        <div class="data-row" id="skill-design-critique">
+          <div class="col-label"><code>design-critique</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Đánh giá thiết kế về tính khả dụng, phân cấp thị giác và tính nhất quán.</div>
+        </div>
+        <div class="data-row" id="skill-design-handoff">
+          <div class="col-label"><code>design-handoff</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tạo tài liệu bàn giao kỹ thuật chi tiết từ các bản thiết kế UI/UX.</div>
+        </div>
+        <div class="data-row" id="skill-design-system-management">
+          <div class="col-label"><code>design-system-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Quản lý Design Tokens, thư viện component và tài liệu quy chuẩn thiết kế.</div>
+        </div>
+        <div class="data-row" id="skill-employee-handbook">
+          <div class="col-label"><code>employee-handbook</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Giải đáp các câu hỏi về chính sách công ty, phúc lợi và quy trình nội bộ.</div>
+        </div>
+        <div class="data-row" id="skill-escalation">
+          <div class="col-label"><code>escalation</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Đóng gói các yêu cầu hỗ trợ chuyển cấp cho đội kỹ thuật hoặc lãnh đạo.</div>
+        </div>
+        <div class="data-row" id="skill-financial-statements">
+          <div class="col-label"><code>financial-statements</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tạo báo cáo kết quả kinh doanh và bảng cân đối kế toán chuẩn GAAP.</div>
+        </div>
+        <div class="data-row" id="skill-interview-prep">
+          <div class="col-label"><code>interview-prep</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tạo kế hoạch phỏng vấn có cấu trúc với bộ câu hỏi dựa trên năng lực.</div>
+        </div>
+        <div class="data-row" id="skill-journal-entry-prep">
+          <div class="col-label"><code>journal-entry-prep</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Chuẩn bị các bút toán kế toán cho quy trình chốt sổ tháng.</div>
+        </div>
+        <div class="data-row" id="skill-knowledge-management">
+          <div class="col-label"><code>knowledge-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Xây dựng bài viết cơ sở tri thức từ các vấn đề hỗ trợ đã giải quyết.</div>
+        </div>
+        <div class="data-row" id="skill-knowledge-synthesis">
+          <div class="col-label"><code>knowledge-synthesis</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tổng hợp kết quả tìm kiếm đa nguồn thành câu trả lời thống nhất.</div>
+        </div>
+        <div class="data-row" id="skill-kwp-admin-nd30">
+          <div class="col-label"><code>kwp-admin-nd30</code></div>
+          <div class="col-meta">Plugin</div>
+          <div class="col-value">Soạn thảo văn bản hành chính chuẩn Nghị định 30/2020/NĐ-CP.</div>
+        </div>
+        <div class="data-row" id="skill-legal-risk-assessment">
+          <div class="col-label"><code>legal-risk-assessment</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Đánh giá và phân loại rủi ro pháp lý theo mức độ nghiêm trọng.</div>
+        </div>
+        <div class="data-row" id="skill-meeting-briefing">
+          <div class="col-label"><code>meeting-briefing</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Chuẩn bị tài liệu briefing và theo dõi các hành động sau cuộc họp.</div>
+        </div>
+        <div class="data-row" id="skill-memory-management">
+          <div class="col-label"><code>memory-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Hệ thống bộ nhớ hai tầng giúp AI hiểu các thuật ngữ nội bộ của bạn.</div>
+        </div>
+        <div class="data-row" id="skill-nda-triage">
+          <div class="col-label"><code>nda-triage</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Sàng lọc và phân loại mức độ rủi ro của các hợp đồng bảo mật (NDA).</div>
+        </div>
+        <div class="data-row" id="skill-org-planning">
+          <div class="col-label"><code>org-planning</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Lập kế hoạch nhân sự, thiết kế tổ chức và tối ưu cấu trúc đội ngũ.</div>
+        </div>
+        <div class="data-row" id="skill-people-analytics">
+          <div class="col-label"><code>people-analytics</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phân tích dữ liệu nhân sự về biến động, gắn kết và năng suất lao động.</div>
+        </div>
+        <div class="data-row" id="skill-process-optimization">
+          <div class="col-label"><code>process-optimization</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phân tích và cải thiện các quy trình kinh doanh hiện có.</div>
+        </div>
+        <div class="data-row" id="skill-reconciliation">
+          <div class="col-label"><code>reconciliation</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Đối soát tài khoản giữa số dư sổ cái và các báo cáo bên thứ ba.</div>
+        </div>
+        <div class="data-row" id="skill-recruiting-pipeline">
+          <div class="col-label"><code>recruiting-pipeline</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Theo dõi và quản lý các giai đoạn trong phễu tuyển dụng nhân tài.</div>
+        </div>
+        <div class="data-row" id="skill-resource-planning">
+          <div class="col-label"><code>resource-planning</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Lập kế hoạch và tối ưu hóa việc phân bổ nguồn lực (nhân sự, ngân sách).</div>
+        </div>
+        <div class="data-row" id="skill-response-drafting">
+          <div class="col-label"><code>response-drafting</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Soạn thảo các phản hồi khách hàng chuyên nghiệp, thấu cảm và đúng ngữ cảnh.</div>
+        </div>
+        <div class="data-row" id="skill-risk-assessment">
+          <div class="col-label"><code>risk-assessment</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Xác định, đánh giá và giảm thiểu các rủi ro vận hành doanh nghiệp.</div>
+        </div>
+        <div class="data-row" id="skill-search-strategy">
+          <div class="col-label"><code>search-strategy</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Chiến lược phân rã câu hỏi và điều phối tìm kiếm đa nguồn.</div>
+        </div>
+        <div class="data-row" id="skill-source-management">
+          <div class="col-label"><code>source-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Quản lý các nguồn tri thức MCP cho tìm kiếm doanh nghiệp.</div>
+        </div>
+        <div class="data-row" id="skill-task-management">
+          <div class="col-label"><code>task-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Quản lý công việc đơn giản thông qua file chia sẻ TASKS.md.</div>
+        </div>
+        <div class="data-row" id="skill-ticket-triage">
+          <div class="col-label"><code>ticket-triage</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phân loại và điều hướng các ticket hỗ trợ khách hàng theo mức độ ưu tiên.</div>
+        </div>
+        <div class="data-row" id="skill-user-research">
+          <div class="col-label"><code>user-research</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Lập kế hoạch, thực hiện và tổng hợp các nghiên cứu người dùng.</div>
+        </div>
+        <div class="data-row" id="skill-ux-writing">
+          <div class="col-label"><code>ux-writing</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Viết nội dung microcopy cho giao diện người dùng (nút bấm, thông báo lỗi).</div>
+        </div>
+        <div class="data-row" id="skill-variance-analysis">
+          <div class="col-label"><code>variance-analysis</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phân tích chênh lệch tài chính và giải thích các yếu tố tác động.</div>
+        </div>
+        <div class="data-row" id="skill-vendor-management">
+          <div class="col-label"><code>vendor-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Đánh giá, so sánh và quản lý mối quan hệ với các nhà cung cấp.</div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="tech">
+      <h2 class="section-title">Mẫu Kỹ Thuật (Engineering Patterns) (38)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Skill ID / Name</div>
+          <div>Loại</div>
+          <div>Mô tả chức năng</div>
+        </div>
+
+        <div class="data-row" id="skill-Folder Organization System">
+          <div class="col-label"><code>Folder Organization System</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Hệ thống hóa và tổ chức lại cấu trúc folder/file một cách khoa học, có thể áp dụng cho cá nhân hoặc doanh nghiệp.</div>
+        </div>
+        <div class="data-row" id="skill-api-patterns">
+          <div class="col-label"><code>api-patterns</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc thiết kế API (REST, GraphQL, tRPC) và ra quyết định kiến trúc.</div>
+        </div>
+        <div class="data-row" id="skill-app-builder">
+          <div class="col-label"><code>app-builder</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nhạc trưởng điều phối xây dựng ứng dụng toàn diện từ yêu cầu ngôn ngữ tự nhiên.</div>
+        </div>
+        <div class="data-row" id="skill-architecture">
+          <div class="col-label"><code>architecture</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Khung ra quyết định kiến trúc, đánh giá đánh đổi và tài liệu ADR.</div>
+        </div>
+        <div class="data-row" id="skill-bash-linux">
+          <div class="col-label"><code>bash-linux</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các mẫu terminal Bash/Linux, câu lệnh quan trọng và kỹ thuật scripting.</div>
+        </div>
+        <div class="data-row" id="skill-behavioral-modes">
+          <div class="col-label"><code>behavioral-modes</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các chế độ vận hành (brainstorm, implement, debug...) để thích ứng theo nhiệm vụ.</div>
+        </div>
+        <div class="data-row" id="skill-brainstorming">
+          <div class="col-label"><code>brainstorming</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Quy trình đặt câu hỏi Socratic cho các yêu cầu phức tạp hoặc chưa rõ ràng.</div>
+        </div>
+        <div class="data-row" id="skill-clean-code">
+          <div class="col-label"><code>clean-code</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các quy chuẩn code thực dụng, ngắn gọn, không làm quá (over-engineering).</div>
+        </div>
+        <div class="data-row" id="skill-code-review-checklist">
+          <div class="col-label"><code>code-review-checklist</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các hướng dẫn review code bao quát chất lượng, bảo mật và best practices.</div>
+        </div>
+        <div class="data-row" id="skill-database-design">
+          <div class="col-label"><code>database-design</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc thiết kế DB, schema, indexing và chiến lược ORM.</div>
+        </div>
+        <div class="data-row" id="skill-deployment-procedures">
+          <div class="col-label"><code>deployment-procedures</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc triển khai production an toàn và chiến lược rollback khi cần.</div>
+        </div>
+        <div class="data-row" id="skill-documentation-templates">
+          <div class="col-label"><code>documentation-templates</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các mẫu tài liệu và hướng dẫn cấu trúc chuẩn AI-friendly.</div>
+        </div>
+        <div class="data-row" id="skill-frontend-design">
+          <div class="col-label"><code>frontend-design</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tư duy thiết kế và ra quyết định cho giao diện web thẩm mỹ.</div>
+        </div>
+        <div class="data-row" id="skill-game-development">
+          <div class="col-label"><code>game-development</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nhạc trưởng điều phối phát triển game, điều hướng đến các skill chuyên biệt.</div>
+        </div>
+        <div class="data-row" id="skill-geo-fundamentals">
+          <div class="col-label"><code>geo-fundamentals</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tối ưu hóa nội dung cho các công cụ tìm kiếm AI (Generative Engine Optimization).</div>
+        </div>
+        <div class="data-row" id="skill-i18n-localization">
+          <div class="col-label"><code>i18n-localization</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Mẫu thiết kế đa ngôn ngữ và quản lý bản dịch (L10n/I18n).</div>
+        </div>
+        <div class="data-row" id="skill-intelligent-routing">
+          <div class="col-label"><code>intelligent-routing</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tự động chọn agent và điều phối nhiệm vụ thông minh theo yêu cầu.</div>
+        </div>
+        <div class="data-row" id="skill-lint-and-validate">
+          <div class="col-label"><code>lint-and-validate</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Kiểm soát chất lượng tự động, linting và phân tích tĩnh sau khi sửa code.</div>
+        </div>
+        <div class="data-row" id="skill-mcp-builder">
+          <div class="col-label"><code>mcp-builder</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc xây dựng server MCP, thiết kế công cụ và tài nguyên.</div>
+        </div>
+        <div class="data-row" id="skill-mobile-design">
+          <div class="col-label"><code>mobile-design</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tư duy thiết kế ưu tiên di động (Mobile-first) cho iOS và Android.</div>
+        </div>
+        <div class="data-row" id="skill-nodejs-best-practices">
+          <div class="col-label"><code>nodejs-best-practices</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc phát triển Node.js, framework và bảo mật phía server.</div>
+        </div>
+        <div class="data-row" id="skill-parallel-agents">
+          <div class="col-label"><code>parallel-agents</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các mẫu điều phối đa tác nhân chạy song song cho nhiệm vụ phức tạp.</div>
+        </div>
+        <div class="data-row" id="skill-performance-profiling">
+          <div class="col-label"><code>performance-profiling</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các phương pháp đo lường, phân tích và tối ưu hóa hiệu năng phần mềm.</div>
+        </div>
+        <div class="data-row" id="skill-plan-writing">
+          <div class="col-label"><code>plan-writing</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Lập kế hoạch công việc có cấu trúc với các phụ thuộc và tiêu chí xác minh.</div>
+        </div>
+        <div class="data-row" id="skill-powershell-windows">
+          <div class="col-label"><code>powershell-windows</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các mẫu PowerShell cho Windows, xử lý lỗi và các bẫy kỹ thuật thường gặp.</div>
+        </div>
+        <div class="data-row" id="skill-python-patterns">
+          <div class="col-label"><code>python-patterns</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc phát triển Python, cấu trúc dự án và các pattern hiện đại.</div>
+        </div>
+        <div class="data-row" id="skill-react-best-practices">
+          <div class="col-label"><code>react-best-practices</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tối ưu hóa hiệu năng React và Next.js từ kỹ thuật của Vercel.</div>
+        </div>
+        <div class="data-row" id="skill-red-team-tactics">
+          <div class="col-label"><code>red-team-tactics</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các chiến thuật tấn công mô phỏng (Red team) dựa trên MITRE ATT&CK.</div>
+        </div>
+        <div class="data-row" id="skill-rust-pro">
+          <div class="col-label"><code>rust-pro</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Thành thạo Rust 1.75+ với async pattern và hệ thống type nâng cao.</div>
+        </div>
+        <div class="data-row" id="skill-seo-fundamentals">
+          <div class="col-label"><code>seo-fundamentals</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc SEO bản chất, E-E-A-T và thuật toán tìm kiếm của Google.</div>
+        </div>
+        <div class="data-row" id="skill-server-management">
+          <div class="col-label"><code>server-management</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc quản lý máy chủ, giám sát và ra quyết định mở rộng.</div>
+        </div>
+        <div class="data-row" id="skill-systematic-debugging">
+          <div class="col-label"><code>systematic-debugging</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phương pháp gỡ lỗi hệ thống 4 bước với phân tích nguyên nhân gốc rễ.</div>
+        </div>
+        <div class="data-row" id="skill-tailwind-patterns">
+          <div class="col-label"><code>tailwind-patterns</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Sử dụng Tailwind CSS v4 với cấu trúc ưu tiên CSS và tokens.</div>
+        </div>
+        <div class="data-row" id="skill-tdd-workflow">
+          <div class="col-label"><code>tdd-workflow</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Quy trình phát triển hướng kiểm thử (TDD) theo chu kỳ Red-Green-Refactor.</div>
+        </div>
+        <div class="data-row" id="skill-testing-patterns">
+          <div class="col-label"><code>testing-patterns</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Các mẫu kiểm thử đơn vị, tích hợp và chiến lược giả lập (mocking).</div>
+        </div>
+        <div class="data-row" id="skill-vulnerability-scanner">
+          <div class="col-label"><code>vulnerability-scanner</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Phân tích lỗ hổng bảo mật nâng cao theo chuẩn OWASP 2025.</div>
+        </div>
+        <div class="data-row" id="skill-web-design-guidelines">
+          <div class="col-label"><code>web-design-guidelines</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Review code UI theo các tiêu chuẩn giao diện web và khả năng truy cập.</div>
+        </div>
+        <div class="data-row" id="skill-webapp-testing">
+          <div class="col-label"><code>webapp-testing</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Nguyên tắc kiểm thử web ứng dụng toàn diện (E2E, Playwright).</div>
+        </div>
+      </div>
+    </section>    <section class="content-section js-section hidden-section" id="awf">
+      <h2 class="section-title">Quy Trình Nội Bộ AWF (7)</h2>
+      <div class="data-table-wrap">
+        <div class="data-table-header">
+          <div>Skill ID / Name</div>
+          <div>Loại</div>
+          <div>Mô tả chức năng</div>
+        </div>
+
+        <div class="data-row" id="skill-SOP Management System">
+          <div class="col-label"><code>SOP Management System</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Xây dựng, quản lý và thực thi các quy trình vận hành tiêu chuẩn (SOP) cho AI Agents theo Framework v2.0</div>
+        </div>
+        <div class="data-row" id="skill-awf-adaptive-language">
+          <div class="col-label"><code>awf-adaptive-language</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Điều chỉnh ngôn ngữ dựa trên trình độ kỹ thuật của người dùng.</div>
+        </div>
+        <div class="data-row" id="skill-awf-auto-save">
+          <div class="col-label"><code>awf-auto-save</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Hệ thống tự động lưu session để không mất dữ liệu ngữ cảnh.</div>
+        </div>
+        <div class="data-row" id="skill-awf-context-help">
+          <div class="col-label"><code>awf-context-help</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Trợ giúp thông minh dựa trên ngữ cảnh công việc hiện tại.</div>
+        </div>
+        <div class="data-row" id="skill-awf-error-translator">
+          <div class="col-label"><code>awf-error-translator</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Dịch lỗi kỹ thuật sang ngôn ngữ đời thường dễ hiểu.</div>
+        </div>
+        <div class="data-row" id="skill-awf-onboarding">
+          <div class="col-label"><code>awf-onboarding</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Trải nghiệm hướng dẫn cho người dùng mới sử dụng lần đầu.</div>
+        </div>
+        <div class="data-row" id="skill-awf-session-restore">
+          <div class="col-label"><code>awf-session-restore</code></div>
+          <div class="col-meta">Core</div>
+          <div class="col-value">Tự động khôi phục ngữ cảnh làm việc giúp tiếp tục nhanh chóng.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- Mobile Toggle Button -->
+<div class="mobile-toggle" id="mobileToggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

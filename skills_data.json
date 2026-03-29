@@ -1,0 +1,1197 @@
+[
+  {
+    "name": "SOP Management System",
+    "description": "Xây dựng, quản lý và thực thi các quy trình vận hành tiêu chuẩn (SOP) cho AI Agents theo Framework v2.0",
+    "category": "awf"
+  },
+  {
+    "name": "Folder Organization System",
+    "description": "Hệ thống hóa và tổ chức lại cấu trúc folder/file một cách khoa học, có thể áp dụng cho cá nhân hoặc doanh nghiệp.",
+    "category": "tech"
+  },
+  {
+    "name": "accessibility-review",
+    "description": "Audit thiết kế và code theo chuẩn WCAG 2.1 AA. Kích hoạt khi hỏi về khả năng tiếp cận, kiểm tra WCAG, hoặc tương thích trình đọc màn hình.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "account-research",
+    "description": "Nghiên cứu công ty hoặc cá nhân để thu thập thông tin bán hàng giá trị. Hoạt động độc lập với tìm kiếm web hoặc mạnh mẽ hơn khi kết nối CRM.",
+    "category": "kwp-sales"
+  },
+  {
+    "name": "agency-accessibility-auditor",
+    "description": "Chuyên gia kiểm định khả năng tiếp cận, audit giao diện theo tiêu chuẩn WCAG và đảm bảo thiết kế bao trùm cho mọi người dùng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-account-strategist",
+    "description": "Chiến lược gia tài khoản sau bán hàng, chuyên về mở rộng tài khoản, lập bản đồ bên liên quan và duy trì doanh thu hợp đồng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-accounts-payable-agent",
+    "description": "Chuyên gia xử lý thanh toán tự động cho nhà cung cấp, hóa đơn nhà thầu qua crypto, tiền định danh hoặc stablecoin.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-ad-creative-strategist",
+    "description": "Chuyên gia sáng tạo nội dung quảng cáo trả phí, tối ưu hóa RSA và thử nghiệm nội dung trên Google, Meta, Microsoft.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-agentic-identity-trust-architect",
+    "description": "Kiến trúc sư thiết kế hệ thống định danh và niềm tin cho các AI agent tự hành trong môi trường đa tác nhân.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-agents-orchestrator",
+    "description": "Quản lý quy trình tự động, điều phối toàn bộ luồng phát triển. Đây là lãnh đạo của quy trình này.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-ai-data-remediation-engineer",
+    "description": "Chuyên gia về đường ống dữ liệu tự phục hồi, sử dụng SLM để phát hiện và sửa lỗi dữ liệu quy mô lớn mà không làm dừng quy trình.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-ai-engineer",
+    "description": "Kỹ sư AI/ML chuyên nghiệp, phát triển và tích hợp các mô hình học máy vào hệ thống sản xuất thực tế.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-analytics-reporter",
+    "description": "Chuyên gia phân tích dữ liệu chuyên sâu, biến dữ liệu thô thành thông tin kinh doanh hữu ích qua dashboard và báo cáo.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-api-tester",
+    "description": "Chuyên gia kiểm thử API toàn diện, xác thực hiệu suất và đảm bảo chất lượng trên mọi hệ thống tích hợp.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-app-store-optimizer",
+    "description": "Chuyên gia marketing cửa hàng ứng dụng, tập trung vào ASO, tối ưu tỷ lệ chuyển đổi và khả năng tìm kiếm ứng dụng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-automation-governance-architect",
+    "description": "Kiến trúc sư nội bộ cho tự động hóa kinh doanh, audit giá trị, rủi ro và khả năng bảo trì trước khi triển khai.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-autonomous-optimization-architect",
+    "description": "Người quản trị hệ thống thông minh, liên tục chạy shadow-test các API để kiểm tra hiệu suất và kiểm soát chi phí.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-backend-architect",
+    "description": "Kiến trúc sư backend cao cấp, chuyên thiết kế hệ thống mở rộng, DB architecture và hạ tầng đám mây hiệu năng cao.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-behavioral-nudge-engine",
+    "description": "Chuyên gia tâm lý học hành vi, điều chỉnh phong cách tương tác phần mềm để tối đa hóa động lực người dùng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-blockchain-security-auditor",
+    "description": "Chuyên gia audit bảo mật smart contract, phát hiện lỗ hổng và phân tích khai thác cho các giao thức DeFi.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-book-co-author",
+    "description": "Cộng tác viên chiến lược viết sách cho lãnh đạo, biến các ghi chú rời rạc thành các chương sách có cấu trúc.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-brand-guardian",
+    "description": "Chuyên gia chiến lược và bảo vệ thương hiệu, duy trì tính nhất quán và định vị thương hiệu trên thị trường.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-carousel-growth-engine",
+    "description": "Chuyên gia tạo nội dung carousel tự động cho TikTok/Instagram, phân tích URL và đăng bài kèm nhạc xu hướng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-code-reviewer",
+    "description": "Chuyên gia review code tập trung vào tính chính xác, khả năng bảo trì, bảo mật và hiệu năng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-compliance-auditor",
+    "description": "Chuyên gia audit tuân thủ kỹ thuật (SOC 2, ISO 27001, HIPAA) từ đánh giá đến khi đạt chứng nhận.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-content-creator",
+    "description": "Chuyên gia chiến lược và sáng tạo nội dung đa nền tảng, quản lý lịch biên tập và kể chuyện thương hiệu.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-corporate-training-designer",
+    "description": "Chuyên gia thiết kế hệ thống đào tạo doanh nghiệp và chương trình giảng dạy, đánh giá hiệu quả đào tạo.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-cultural-intelligence-strategist",
+    "description": "Chuyên gia trí tuệ văn hóa, đảm bảo phần mềm cộng hưởng chân thực với các bản sắc văn hóa toàn cầu.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-data-consolidation-agent",
+    "description": "AI agent tổng hợp dữ liệu bán hàng vào dashboard báo cáo trực tiếp theo khu vực và phễu khách hàng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-data-engineer",
+    "description": "Kỹ sư dữ liệu chuyên nghiệp, xây dựng đường ống dữ liệu tin cậy (ETL/ELT) và kiến trúc lakehouse mở rộng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-database-optimizer",
+    "description": "Chuyên gia tối ưu hóa DB, thiết kế schema, tối ưu truy vấn và tinh chỉnh hiệu năng cho PostgreSQL/MySQL.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-deal-strategist",
+    "description": "Chiến lược gia thương vụ cao cấp, chuyên về quy trình MEDDPICC và lập kế hoạch thắng thầu B2B phức tạp.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-developer-advocate",
+    "description": "Chuyên gia cộng đồng lập trình viên, tối ưu trải nghiệm DX và thúc đẩy việc sử dụng nền tảng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-devops-automator",
+    "description": "Kỹ sư DevOps chuyên nghiệp, tự động hóa hạ tầng và vận hành hệ thống đám mây (CI/CD).",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-discovery-coach",
+    "description": "Huấn luyện đội ngũ bán hàng về phương pháp khai thác thông tin, tìm kiếm động lực mua hàng thực sự.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-document-generator",
+    "description": "Chuyên gia tạo tài liệu chuyên nghiệp (PDF, PPTX, DOCX) bằng mã nguồn với biểu đồ sắc nét.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-embedded-firmware-engineer",
+    "description": "Kỹ sư phần cứng nhúng và RTOS, chuyên về ESP32, STM32, ARM và các hệ điều hành thời gian thực.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-evidence-collector",
+    "description": "Chuyên gia QA 'ám ảnh' bằng chứng hình ảnh, săn lùng lỗi và yêu cầu minh chứng trực quan cho mọi thứ.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-executive-summary-generator",
+    "description": "Chuyên gia AI cấp cố vấn chiến lược, tóm tắt các vấn đề kinh doanh phức tạp theo khung chuẩn McKinsey/BCG.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-experiment-tracker",
+    "description": "Quản lý dự án chuyên về thiết kế thử nghiệm A/B và ra quyết định dựa trên dữ liệu phân tích.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-feedback-synthesizer",
+    "description": "Chuyên gia thu thập và tổng hợp phản hồi người dùng đa kênh để rút ra các thông tin sản phẩm hành động.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-finance-tracker",
+    "description": "Chuyên gia phân tích tài chính và kiểm soát, quản lý ngân sách và tối ưu hóa dòng tiền doanh nghiệp.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-frontend-developer",
+    "description": "Lập trình viên frontend chuyên nghiệp, chuyên về React/Vue/Angular và tối ưu hóa trải nghiệm UI/UX.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-game-audio-engineer",
+    "description": "Chuyên gia âm thanh tương tác trong game, thành thạo FMOD/Wwise và âm thanh không gian.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-game-designer",
+    "description": "Kiến trúc sư hệ thống game, chuyên về GDD, tâm lý người chơi và vòng lặp gameplay.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-git-workflow-master",
+    "description": "Chuyên gia quy trình Git, chiến lược phân nhánh và các quy chuẩn kiểm soát phiên bản hiện đại.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-government-digital-presales-consultant",
+    "description": "Cố vấn tiền bán hàng cho thị trường chính phủ, thành thạo chính sách, hồ sơ thầu và tuân thủ kỹ thuật.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-growth-hacker",
+    "description": "Chiến lược gia tăng trưởng, chuyên thu hút người dùng nhanh qua thử nghiệm dữ liệu và vòng lặp viral.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-healthcare-marketing-compliance-specialist",
+    "description": "Chuyên gia tuân thủ marketing y tế, thành thạo luật quảng cáo dược phẩm và bảo vệ quyền riêng tư bệnh nhân.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-identity-graph-operator",
+    "description": "Người vận hành biểu đồ danh tính chung cho các AI agent trong hệ thống đa tác nhân.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-image-prompt-engineer",
+    "description": "Chuyên gia prompt hình ảnh, biến khái niệm thị giác thành ngôn ngữ chính xác cho AI tạo ảnh nghệ thuật.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-incident-response-commander",
+    "description": "Chỉ huy ứng phó sự cố hệ thống, điều phối phản ứng có cấu trúc và tổ chức post-mortem.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-inclusive-visuals-specialist",
+    "description": "Chuyên gia hình ảnh bao trùm, loại bỏ định kiến AI để tạo nội dung chính xác về văn hóa.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-infrastructure-maintainer",
+    "description": "Chuyên gia duy trì hạ tầng hệ thống, tập trung vào độ tin cậy, bảo mật và tối ưu chi phí.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-instagram-curator",
+    "description": "Chuyên gia marketing Instagram, kể chuyện bằng hình ảnh và xây dựng cộng đồng gắn kết.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-jira-workflow-steward",
+    "description": "Người quản lý quy trình Jira, đảm bảo commit có thể truy vết và chiến lược release an toàn.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-legal-compliance-checker",
+    "description": "Chuyên gia pháp lý và tuân thủ, đảm bảo hoạt động kinh doanh tuân thủ luật pháp đa quốc gia.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-level-designer",
+    "description": "Chuyên gia thiết kế màn chơi, thành thạo kể chuyện qua môi trường và nhịp độ game.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-linkedin-content-creator",
+    "description": "Chuyên gia nội dung LinkedIn, xây dựng thương hiệu cá nhân và vị thế chuyên gia.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-livestream-commerce-coach",
+    "description": "Huấn luyện viên bán hàng livestream, đào tạo host và vận hành phòng live chuyên nghiệp.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-lsp-index-engineer",
+    "description": "Kỹ sư giao thức LSP, xây dựng hệ thống trí tuệ mã nguồn qua indexing ngữ nghĩa.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-macos-spatial-metal-engineer",
+    "description": "Kỹ sư Swift và Metal, xây dựng hệ thống dựng hình 3D cho macOS và Vision Pro.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-mcp-builder",
+    "description": "Chuyên gia phát triển server MCP để mở rộng khả năng của AI agent với các công cụ tùy chỉnh.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-mobile-app-builder",
+    "description": "Lập trình viên ứng dụng di động chuyên nghiệp (iOS/Android) và đa nền tảng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-model-qa-specialist",
+    "description": "Chuyên gia QA mô hình ML độc lập, audit toàn diện từ tài liệu đến hiệu suất thực tế.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-narrative-designer",
+    "description": "Kiến trúc sư nội dung và hội thoại game, xây dựng thế giới và câu chuyện nhập vai.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-outbound-strategist",
+    "description": "Chuyên gia tiếp cận khách hàng dựa trên tín hiệu và cá nhân hóa chuyên sâu.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-paid-media-auditor",
+    "description": "Kiểm toán truyền thông trả phí, đánh giá hệ thống quảng cáo qua hơn 200 tiêu chuẩn kiểm tra.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-paid-social-strategist",
+    "description": "Chiến lược gia quảng cáo mạng xã hội đa nền tảng, thiết kế chiến dịch phễu đầy đủ.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-performance-benchmarker",
+    "description": "Chuyên gia đo lường và tối ưu hóa hiệu năng hệ thống trên toàn bộ hạ tầng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-pipeline-analyst",
+    "description": "Chuyên gia phân tích phễu doanh thu, chẩn đoán sức khỏe pipeline và độ chính xác dự báo.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-podcast-strategist",
+    "description": "Chuyên gia chiến lược podcast, định vị chương trình và phát triển khán giả audio.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-ppc-campaign-strategist",
+    "description": "Chiến lược gia PPC cao cấp, kiến trúc chiến dịch tìm kiếm quy mô lớn trên Google/Amazon.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-programmatic-display-buyer",
+    "description": "Chuyên gia mua quảng cáo hiển thị lập trình và chiến lược hiển thị ABM.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-project-shepherd",
+    "description": "Quản lý dự án chuyên nghiệp, điều phối liên phòng ban và dẫn dắt dự án về đích.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-proposal-strategist",
+    "description": "Kiến trúc sư đề xuất chiến lược, biến các cơ hội thầu thành câu chuyện thắng lợi.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-rapid-prototyper",
+    "description": "Chuyên gia tạo mẫu nhanh, xây dựng POC và MVP tốc độ cao bằng công cụ hiện đại.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-reality-checker",
+    "description": "Kiểm chứng thực tế, ngăn chặn các phê duyệt mơ hồ và yêu cầu bằng chứng sẵn sàng sản xuất.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-recruitment-specialist",
+    "description": "Chuyên gia tuyển dụng và thu hút nhân tài, thành thạo các nền tảng và luật lao động.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-reddit-community-builder",
+    "description": "Chuyên gia marketing Reddit, tương tác cộng đồng chân thực và xây dựng quan hệ lâu dài.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-report-distribution-agent",
+    "description": "AI agent tự động phân phối báo cáo bán hàng cho đại diện theo khu vực quản lý.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-sales-coach",
+    "description": "Huấn luyện viên bán hàng, phát triển kỹ năng nhân viên và chiến lược thương vụ.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-sales-data-extraction-agent",
+    "description": "AI agent trích xuất chỉ số bán hàng từ file Excel để báo cáo trực tiếp nội bộ.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-sales-engineer",
+    "description": "Kỹ sư bán hàng (tiền bán hàng), xây dựng demo và kết nối sản phẩm với mục tiêu kinh doanh.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-search-query-analyst",
+    "description": "Chuyên gia phân tích truy vấn, cấu trúc từ khóa phủ định và tối ưu hóa ý định tìm kiếm.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-security-engineer",
+    "description": "Kỹ sư bảo mật ứng dụng, chuyên đánh giá lỗ hổng và thiết kế kiến trúc bảo mật.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-senior-developer",
+    "description": "Chuyên gia triển khai cao cấp, thành thạo Laravel, CSS nâng cao và Three.js.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-senior-project-manager",
+    "description": "Quản lý dự án cao cấp, bám sát phạm vi thực tế và không bao giờ quên dự án cũ.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-seo-specialist",
+    "description": "Chuyên gia chiến lược SEO, tối ưu hóa kỹ thuật và nội dung để tăng trưởng tự nhiên.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-short-video-editing-coach",
+    "description": "Huấn luyện viên dựng video ngắn, thành thạo hậu kỳ và các công cụ AI hỗ trợ.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-social-media-strategist",
+    "description": "Chiến lược gia mạng xã hội, xây dựng cộng đồng và quản lý tương tác thời gian thực.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-software-architect",
+    "description": "Kiến trúc sư phần mềm, thiết kế hệ thống lớn và đưa ra các quyết định kỹ thuật bền vững.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-solidity-smart-contract-engineer",
+    "description": "Kỹ sư Solidity, chuyên kiến trúc smart contract EVM và tối ưu hóa bảo mật.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-sprint-prioritizer",
+    "description": "Chuyên gia ưu tiên Sprint, lập kế hoạch Agile và phân bổ nguồn lực dựa trên dữ liệu.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-sre-site-reliability-engineer",
+    "description": "Kỹ sư tin cậy hệ thống, chuyên về SLO và giảm tải công việc vận hành thủ công.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-studio-operations",
+    "description": "Quản lý vận hành studio, tối ưu hóa quy trình và điều phối nguồn lực hàng ngày.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-studio-producer",
+    "description": "Lãnh đạo dự án Studio, điều phối các dự án sáng tạo và kỹ thuật ở cấp chiến lược.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-study-abroad-advisor",
+    "description": "Chuyên gia tư vấn du học toàn diện cho các thị trường Âu-Mỹ-Úc và Châu Á.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-supply-chain-strategist",
+    "description": "Chiến lược gia chuỗi cung ứng, xây dựng mạng lưới cung ứng hiệu quả và bền vững.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-support-responder",
+    "description": "Chuyên gia phản hồi hỗ trợ, giải quyết sự cố và tối ưu hóa trải nghiệm khách hàng.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-technical-artist",
+    "description": "Chuyên gia kỹ thuật mỹ thuật, thành thạo shader và tối ưu hóa tài nguyên engine.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-technical-writer",
+    "description": "Chuyên gia viết tài liệu kỹ thuật, chuyển đổi khái niệm phức tạp thành hướng dẫn dễ hiểu.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-terminal-integration-specialist",
+    "description": "Chuyên gia tích hợp terminal và tối ưu hóa hiển thị văn bản cho ứng dụng Swift.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-test-results-analyzer",
+    "description": "Chuyên gia phân tích kết quả kiểm thử, đánh giá chất lượng từ các hoạt động testing.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-threat-detection-engineer",
+    "description": "Kỹ sư phát hiện mối đe dọa, xây dựng quy tắc SIEM và đường ống detection-as-code.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-tiktok-strategist",
+    "description": "Chiến lược gia TikTok, tập trung vào nội dung viral và tối ưu hóa thuật toán.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-tool-evaluator",
+    "description": "Chuyên gia đánh giá công cụ công nghệ, đề xuất phần mềm tối ưu hóa năng suất.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-tracking-measurement-specialist",
+    "description": "Chuyên gia đo lường chuyển đổi, quản lý tag và các mô hình phân bổ attribution.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-trend-researcher",
+    "description": "Chuyên gia nghiên cứu xu hướng thị trường, phân tích đối thủ và đánh giá cơ hội.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-twitter-engager",
+    "description": "Chuyên gia tương tác Twitter, xây dựng vị thế qua các thảo luận thời gian thực.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-ui-designer",
+    "description": "Thiết kế UI chuyên nghiệp, xây dựng Design System và giao diện hoàn hảo từng pixel.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-ux-architect",
+    "description": "Kiến trúc sư UX, cung cấp nền tảng và hướng dẫn triển khai CSS cho lập trình viên.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-ux-researcher",
+    "description": "Chuyên gia nghiên cứu UX, phân tích hành vi người dùng bằng các thông tin dựa trên dữ liệu.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-visionos-spatial-engineer",
+    "description": "Kỹ sư không gian VisionOS, chuyên về tính toán không gian và giao diện SwiftUI.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-visual-storyteller",
+    "description": "Chuyên gia kể chuyện bằng hình ảnh, biến thông tin thành các câu chuyện thị giác lôi cuốn.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-whimsy-injector",
+    "description": "Chuyên gia sáng tạo, thêm thắt cá tính và sự thú vị vào trải nghiệm thương hiệu.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-workflow-optimizer",
+    "description": "Chuyên gia tối ưu hóa quy trình, tự động hóa luồng công việc để đạt năng suất cao nhất.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-xr-cockpit-interaction-specialist",
+    "description": "Chuyên gia tương tác buồng lái XR, thiết kế hệ thống điều khiển trong môi trường ảo.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-xr-immersive-developer",
+    "description": "Lập trình viên XR nhập vai, chuyên các ứng dụng AR/VR/XR trên trình duyệt.",
+    "category": "agencies"
+  },
+  {
+    "name": "agency-xr-interface-architect",
+    "description": "Kiến trúc sư giao diện XR, thiết kế tương tác không gian cho môi trường nhập vai.",
+    "category": "agencies"
+  },
+  {
+    "name": "api-patterns",
+    "description": "Nguyên tắc thiết kế API (REST, GraphQL, tRPC) và ra quyết định kiến trúc.",
+    "category": "tech"
+  },
+  {
+    "name": "app-builder",
+    "description": "Nhạc trưởng điều phối xây dựng ứng dụng toàn diện từ yêu cầu ngôn ngữ tự nhiên.",
+    "category": "tech"
+  },
+  {
+    "name": "architecture",
+    "description": "Khung ra quyết định kiến trúc, đánh giá đánh đổi và tài liệu ADR.",
+    "category": "tech"
+  },
+  {
+    "name": "audit-support",
+    "description": "Hỗ trợ tuân thủ SOX 404 với phương pháp thử nghiệm và chuẩn hóa tài liệu.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "awf-adaptive-language",
+    "description": "Điều chỉnh ngôn ngữ dựa trên trình độ kỹ thuật của người dùng.",
+    "category": "awf"
+  },
+  {
+    "name": "awf-auto-save",
+    "description": "Hệ thống tự động lưu session để không mất dữ liệu ngữ cảnh.",
+    "category": "awf"
+  },
+  {
+    "name": "awf-context-help",
+    "description": "Trợ giúp thông minh dựa trên ngữ cảnh công việc hiện tại.",
+    "category": "awf"
+  },
+  {
+    "name": "awf-error-translator",
+    "description": "Dịch lỗi kỹ thuật sang ngôn ngữ đời thường dễ hiểu.",
+    "category": "awf"
+  },
+  {
+    "name": "awf-onboarding",
+    "description": "Trải nghiệm hướng dẫn cho người dùng mới sử dụng lần đầu.",
+    "category": "awf"
+  },
+  {
+    "name": "awf-session-restore",
+    "description": "Tự động khôi phục ngữ cảnh làm việc giúp tiếp tục nhanh chóng.",
+    "category": "awf"
+  },
+  {
+    "name": "bash-linux",
+    "description": "Các mẫu terminal Bash/Linux, câu lệnh quan trọng và kỹ thuật scripting.",
+    "category": "tech"
+  },
+  {
+    "name": "behavioral-modes",
+    "description": "Các chế độ vận hành (brainstorm, implement, debug...) để thích ứng theo nhiệm vụ.",
+    "category": "tech"
+  },
+  {
+    "name": "brainstorming",
+    "description": "Quy trình đặt câu hỏi Socratic cho các yêu cầu phức tạp hoặc chưa rõ ràng.",
+    "category": "tech"
+  },
+  {
+    "name": "brand-voice",
+    "description": "Áp dụng và thực thi giọng điệu thương hiệu và hướng dẫn phong cách nội dung.",
+    "category": "kwp-marketing"
+  },
+  {
+    "name": "call-prep",
+    "description": "Chuẩn bị cho cuộc gọi bán hàng với bối cảnh tài khoản và nghiên cứu người tham gia.",
+    "category": "kwp-sales"
+  },
+  {
+    "name": "campaign-planning",
+    "description": "Lập kế hoạch chiến dịch marketing, phân bổ ngân sách và xác định KPI.",
+    "category": "kwp-marketing"
+  },
+  {
+    "name": "canned-responses",
+    "description": "Tạo các mẫu phản hồi cho các yêu cầu pháp lý hoặc hỗ trợ phổ biến.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "change-management",
+    "description": "Lập kế hoạch và thực hiện các thay đổi tổ chức hoặc kỹ thuật.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "clean-code",
+    "description": "Các quy chuẩn code thực dụng, ngắn gọn, không làm quá (over-engineering).",
+    "category": "tech"
+  },
+  {
+    "name": "close-management",
+    "description": "Quản lý quy trình chốt sổ tài chính cuối tháng và theo dõi trạng thái.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "code-review",
+    "description": "Review code để tìm bug, lỗ hổng bảo mật và đảm bảo khả năng bảo trì.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "code-review-checklist",
+    "description": "Các hướng dẫn review code bao quát chất lượng, bảo mật và best practices.",
+    "category": "tech"
+  },
+  {
+    "name": "compensation-benchmarking",
+    "description": "So sánh mức lương thưởng với dữ liệu thị trường để có đề xuất cạnh tranh.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "competitive-analysis",
+    "description": "Phân tích đối thủ về định vị, thông điệp và chiến lược sản phẩm.",
+    "category": "kwp-marketing"
+  },
+  {
+    "name": "competitive-analysis",
+    "description": "Phân tích đối thủ về định vị, thông điệp và chiến lược sản phẩm.",
+    "category": "kwp-product"
+  },
+  {
+    "name": "competitive-intelligence",
+    "description": "Nghiên cứu đối thủ và xây dựng các thẻ đối đầu (battlecard) tương tác.",
+    "category": "kwp-sales"
+  },
+  {
+    "name": "compliance",
+    "description": "Điều hướng các quy định quyền riêng tư và xử lý yêu cầu dữ liệu người dùng.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "compliance-tracking",
+    "description": "Theo dõi các yêu cầu tuân thủ và mức độ sẵn sàng cho audit chuyên sâu.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "content-creation",
+    "description": "Soạn thảo nội dung marketing đa kênh (blog, social, email) chuẩn SEO.",
+    "category": "kwp-marketing"
+  },
+  {
+    "name": "contract-review",
+    "description": "Review hợp đồng dựa trên cẩm nang của tổ chức, đánh dấu các sai lệch.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "cowork-plugin-customizer",
+    "description": ">",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "create-an-asset",
+    "description": "Generate tailored sales assets (landing pages, decks, one-pagers, workflow demos) from your deal context. Describe your prospect, audience, and goal — get a polished, branded asset ready to share with customers.",
+    "category": "kwp-sales"
+  },
+  {
+    "name": "create-cowork-plugin",
+    "description": ">",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "customer-research",
+    "description": "Nghiên cứu câu hỏi khách hàng dựa trên dữ liệu đa nguồn và tổng hợp câu trả lời.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "daily-briefing",
+    "description": "Bản tin bán hàng đầu ngày với các cuộc họp và ưu tiên quan trọng.",
+    "category": "kwp-sales"
+  },
+  {
+    "name": "data-context-extractor",
+    "description": ">",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "data-exploration",
+    "description": "Khám phá bộ dữ liệu để hiểu cấu trúc và chất lượng trước khi phân tích.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "data-validation",
+    "description": "QA các báo cáo phân tích để đảm bảo tính chính xác và không có sai lệch.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "data-visualization",
+    "description": "Trực quan hóa dữ liệu hiệu quả bằng Python (matplotlib, seaborn, plotly).",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "database-design",
+    "description": "Nguyên tắc thiết kế DB, schema, indexing và chiến lược ORM.",
+    "category": "tech"
+  },
+  {
+    "name": "deployment-procedures",
+    "description": "Nguyên tắc triển khai production an toàn và chiến lược rollback khi cần.",
+    "category": "tech"
+  },
+  {
+    "name": "design-critique",
+    "description": "Đánh giá thiết kế về tính khả dụng, phân cấp thị giác và tính nhất quán.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "design-handoff",
+    "description": "Tạo tài liệu bàn giao kỹ thuật chi tiết từ các bản thiết kế UI/UX.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "design-system-management",
+    "description": "Quản lý Design Tokens, thư viện component và tài liệu quy chuẩn thiết kế.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "documentation",
+    "description": "Viết và duy trì tài liệu kỹ thuật, README và hướng dẫn vận hành.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "documentation-templates",
+    "description": "Các mẫu tài liệu và hướng dẫn cấu trúc chuẩn AI-friendly.",
+    "category": "tech"
+  },
+  {
+    "name": "draft-outreach",
+    "description": "Nghiên cứu khách hàng tiềm năng và soạn thảo nội dung tiếp cận cá nhân hóa.",
+    "category": "kwp-sales"
+  },
+  {
+    "name": "employee-handbook",
+    "description": "Giải đáp các câu hỏi về chính sách công ty, phúc lợi và quy trình nội bộ.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "escalation",
+    "description": "Đóng gói các yêu cầu hỗ trợ chuyển cấp cho đội kỹ thuật hoặc lãnh đạo.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "feature-spec",
+    "description": "Viết tài liệu yêu cầu sản phẩm (PRD) với User Stories và tiêu chí thành công.",
+    "category": "kwp-product"
+  },
+  {
+    "name": "financial-statements",
+    "description": "Tạo báo cáo kết quả kinh doanh và bảng cân đối kế toán chuẩn GAAP.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "frontend-design",
+    "description": "Tư duy thiết kế và ra quyết định cho giao diện web thẩm mỹ.",
+    "category": "tech"
+  },
+  {
+    "name": "game-development",
+    "description": "Nhạc trưởng điều phối phát triển game, điều hướng đến các skill chuyên biệt.",
+    "category": "tech"
+  },
+  {
+    "name": "geo-fundamentals",
+    "description": "Tối ưu hóa nội dung cho các công cụ tìm kiếm AI (Generative Engine Optimization).",
+    "category": "tech"
+  },
+  {
+    "name": "i18n-localization",
+    "description": "Mẫu thiết kế đa ngôn ngữ và quản lý bản dịch (L10n/I18n).",
+    "category": "tech"
+  },
+  {
+    "name": "incident-response",
+    "description": "Điều phối và quản lý các sự cố hệ thống ngay lập tức.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "instrument-data-to-allotrope",
+    "description": "Chuyển đổi dữ liệu thiết bị phòng thí nghiệm sang chuẩn ASM JSON.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "intelligent-routing",
+    "description": "Tự động chọn agent và điều phối nhiệm vụ thông minh theo yêu cầu.",
+    "category": "tech"
+  },
+  {
+    "name": "interactive-dashboard-builder",
+    "description": "Xây dựng dashboard HTML tương tác, không cần server để hoạt động.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "interview-prep",
+    "description": "Tạo kế hoạch phỏng vấn có cấu trúc với bộ câu hỏi dựa trên năng lực.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "journal-entry-prep",
+    "description": "Chuẩn bị các bút toán kế toán cho quy trình chốt sổ tháng.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "knowledge-management",
+    "description": "Xây dựng bài viết cơ sở tri thức từ các vấn đề hỗ trợ đã giải quyết.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "knowledge-synthesis",
+    "description": "Tổng hợp kết quả tìm kiếm đa nguồn thành câu trả lời thống nhất.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "kwp-admin-nd30",
+    "description": "Soạn thảo văn bản hành chính chuẩn Nghị định 30/2020/NĐ-CP.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "legal-risk-assessment",
+    "description": "Đánh giá và phân loại rủi ro pháp lý theo mức độ nghiêm trọng.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "lint-and-validate",
+    "description": "Kiểm soát chất lượng tự động, linting và phân tích tĩnh sau khi sửa code.",
+    "category": "tech"
+  },
+  {
+    "name": "mcp-builder",
+    "description": "Nguyên tắc xây dựng server MCP, thiết kế công cụ và tài nguyên.",
+    "category": "tech"
+  },
+  {
+    "name": "meeting-briefing",
+    "description": "Chuẩn bị tài liệu briefing và theo dõi các hành động sau cuộc họp.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "memory-management",
+    "description": "Hệ thống bộ nhớ hai tầng giúp AI hiểu các thuật ngữ nội bộ của bạn.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "metrics-tracking",
+    "description": "Xác định và theo dõi các chỉ số sản phẩm cùng các khung mục tiêu (OKRs).",
+    "category": "kwp-product"
+  },
+  {
+    "name": "mobile-design",
+    "description": "Tư duy thiết kế ưu tiên di động (Mobile-first) cho iOS và Android.",
+    "category": "tech"
+  },
+  {
+    "name": "nda-triage",
+    "description": "Sàng lọc và phân loại mức độ rủi ro của các hợp đồng bảo mật (NDA).",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "nextflow-development",
+    "description": "Chạy các đường ống tin sinh học nf-core trên dữ liệu giải trình tự.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "nodejs-best-practices",
+    "description": "Nguyên tắc phát triển Node.js, framework và bảo mật phía server.",
+    "category": "tech"
+  },
+  {
+    "name": "org-planning",
+    "description": "Lập kế hoạch nhân sự, thiết kế tổ chức và tối ưu cấu trúc đội ngũ.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "parallel-agents",
+    "description": "Các mẫu điều phối đa tác nhân chạy song song cho nhiệm vụ phức tạp.",
+    "category": "tech"
+  },
+  {
+    "name": "people-analytics",
+    "description": "Phân tích dữ liệu nhân sự về biến động, gắn kết và năng suất lao động.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "performance-analytics",
+    "description": "Phân tích hiệu quả marketing qua các chỉ số then chốt và xu hướng.",
+    "category": "kwp-marketing"
+  },
+  {
+    "name": "performance-profiling",
+    "description": "Các phương pháp đo lường, phân tích và tối ưu hóa hiệu năng phần mềm.",
+    "category": "tech"
+  },
+  {
+    "name": "plan-writing",
+    "description": "Lập kế hoạch công việc có cấu trúc với các phụ thuộc và tiêu chí xác minh.",
+    "category": "tech"
+  },
+  {
+    "name": "powershell-windows",
+    "description": "Các mẫu PowerShell cho Windows, xử lý lỗi và các bẫy kỹ thuật thường gặp.",
+    "category": "tech"
+  },
+  {
+    "name": "process-optimization",
+    "description": "Phân tích và cải thiện các quy trình kinh doanh hiện có.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "python-patterns",
+    "description": "Nguyên tắc phát triển Python, cấu trúc dự án và các pattern hiện đại.",
+    "category": "tech"
+  },
+  {
+    "name": "react-best-practices",
+    "description": "Tối ưu hóa hiệu năng React và Next.js từ kỹ thuật của Vercel.",
+    "category": "tech"
+  },
+  {
+    "name": "reconciliation",
+    "description": "Đối soát tài khoản giữa số dư sổ cái và các báo cáo bên thứ ba.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "recruiting-pipeline",
+    "description": "Theo dõi và quản lý các giai đoạn trong phễu tuyển dụng nhân tài.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "red-team-tactics",
+    "description": "Các chiến thuật tấn công mô phỏng (Red team) dựa trên MITRE ATT&CK.",
+    "category": "tech"
+  },
+  {
+    "name": "resource-planning",
+    "description": "Lập kế hoạch và tối ưu hóa việc phân bổ nguồn lực (nhân sự, ngân sách).",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "response-drafting",
+    "description": "Soạn thảo các phản hồi khách hàng chuyên nghiệp, thấu cảm và đúng ngữ cảnh.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "risk-assessment",
+    "description": "Xác định, đánh giá và giảm thiểu các rủi ro vận hành doanh nghiệp.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "roadmap-management",
+    "description": "Lập kế hoạch và ưu tiên lộ trình sản phẩm (Now/Next/Later).",
+    "category": "kwp-product"
+  },
+  {
+    "name": "rust-pro",
+    "description": "Thành thạo Rust 1.75+ với async pattern và hệ thống type nâng cao.",
+    "category": "tech"
+  },
+  {
+    "name": "scientific-problem-selection",
+    "description": "Hỗ trợ nhà khoa học lựa chọn vấn đề nghiên cứu và chiến lược khoa học.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "scvi-tools",
+    "description": "Học sâu cho phân tích tế bào đơn bằng công cụ scvi-tools.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "search-strategy",
+    "description": "Chiến lược phân rã câu hỏi và điều phối tìm kiếm đa nguồn.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "seo-fundamentals",
+    "description": "Nguyên tắc SEO bản chất, E-E-A-T và thuật toán tìm kiếm của Google.",
+    "category": "tech"
+  },
+  {
+    "name": "server-management",
+    "description": "Nguyên tắc quản lý máy chủ, giám sát và ra quyết định mở rộng.",
+    "category": "tech"
+  },
+  {
+    "name": "single-cell-rna-qc",
+    "description": "Thực hiện kiểm soát chất lượng dữ liệu RNA-seq tế bào đơn.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "source-management",
+    "description": "Quản lý các nguồn tri thức MCP cho tìm kiếm doanh nghiệp.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "sql-queries",
+    "description": "Viết SQL hiệu năng cao trên các nền tảng (Snowflake, BigQuery, Postgres).",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "stakeholder-comms",
+    "description": "Soạn thảo cập nhật cho cổ đông, lãnh đạo hoặc đối tác tùy loại đối tượng.",
+    "category": "kwp-product"
+  },
+  {
+    "name": "statistical-analysis",
+    "description": "Áp dụng phương pháp thống kê để giải mã ý nghĩa của dữ liệu.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "system-design",
+    "description": "Thiết kế hệ thống, dịch vụ và kiến trúc phần mềm quy mô lớn.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "systematic-debugging",
+    "description": "Phương pháp gỡ lỗi hệ thống 4 bước với phân tích nguyên nhân gốc rễ.",
+    "category": "tech"
+  },
+  {
+    "name": "tailwind-patterns",
+    "description": "Sử dụng Tailwind CSS v4 với cấu trúc ưu tiên CSS và tokens.",
+    "category": "tech"
+  },
+  {
+    "name": "task-management",
+    "description": "Quản lý công việc đơn giản thông qua file chia sẻ TASKS.md.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "tdd-workflow",
+    "description": "Quy trình phát triển hướng kiểm thử (TDD) theo chu kỳ Red-Green-Refactor.",
+    "category": "tech"
+  },
+  {
+    "name": "tech-debt",
+    "description": "Xác định, phân loại và ưu tiên các nợ kỹ thuật cần giải quyết.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "testing-patterns",
+    "description": "Các mẫu kiểm thử đơn vị, tích hợp và chiến lược giả lập (mocking).",
+    "category": "tech"
+  },
+  {
+    "name": "testing-strategy",
+    "description": "Thiết kế chiến lược và kế hoạch kiểm thử tổng thể cho dự án.",
+    "category": "kwp-eng"
+  },
+  {
+    "name": "ticket-triage",
+    "description": "Phân loại và điều hướng các ticket hỗ trợ khách hàng theo mức độ ưu tiên.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "user-research",
+    "description": "Lập kế hoạch, thực hiện và tổng hợp các nghiên cứu người dùng.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "user-research-synthesis",
+    "description": "Tổng hợp nghiên cứu định tính và định lượng thành các bài học sâu sắc.",
+    "category": "kwp-product"
+  },
+  {
+    "name": "ux-writing",
+    "description": "Viết nội dung microcopy cho giao diện người dùng (nút bấm, thông báo lỗi).",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "variance-analysis",
+    "description": "Phân tích chênh lệch tài chính và giải thích các yếu tố tác động.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "vendor-management",
+    "description": "Đánh giá, so sánh và quản lý mối quan hệ với các nhà cung cấp.",
+    "category": "kwp-biz"
+  },
+  {
+    "name": "vulnerability-scanner",
+    "description": "Phân tích lỗ hổng bảo mật nâng cao theo chuẩn OWASP 2025.",
+    "category": "tech"
+  },
+  {
+    "name": "web-design-guidelines",
+    "description": "Review code UI theo các tiêu chuẩn giao diện web và khả năng truy cập.",
+    "category": "tech"
+  },
+  {
+    "name": "webapp-testing",
+    "description": "Nguyên tắc kiểm thử web ứng dụng toàn diện (E2E, Playwright).",
+    "category": "tech"
+  }
+]
