@@ -1021,7 +1021,7 @@
   },
   {
     "name": "react-best-practices",
-    "description": "React and Next.js performance optimization from Vercel Engineering. Use when building React components, optimizing performance, eliminating waterfalls, reducing bundle size, reviewing code for performance issues, or implementing server/client-side optimizations.",
+    "description": "Tối ưu hóa hiệu năng React và Next.js theo tiêu chuẩn kỹ thuật của Vercel.",
     "category": "tech"
   },
   {
@@ -1061,7 +1061,7 @@
   },
   {
     "name": "rust-pro",
-    "description": "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. Expert in the latest Rust ecosystem including Tokio, axum, and cutting-edge crates. Use PROACTIVELY for Rust development, performance optimization, or systems programming.",
+    "description": "Làm chủ Rust 1.75+ với các mẫu async hiện đại, hệ thống kiểu dữ liệu nâng cao.",
     "category": "tech"
   },
   {

@@ -60,6 +60,8 @@ TRANSLATION_MAP = {
     "Advanced vulnerability analysis principles. OWASP 2025": "Nguyên lý phân tích lỗ hổng nâng cao: OWASP 2025, bảo mật chuỗi cung ứng.",
     "Review UI code for Web Interface Guidelines compliance": "Đánh giá mã nguồn UI theo tiêu chuẩn Hướng dẫn Giao diện Web (WIG).",
     "Web application testing principles. E2E, Playwright": "Nguyên lý kiểm thử ứng dụng Web: Kiểm thử cuối đầu (E2E) và audit sâu.",
+    "React and Next.js performance optimization from Vercel Engineering": "Tối ưu hóa hiệu năng React và Next.js theo tiêu chuẩn kỹ thuật của Vercel.",
+    "Master Rust 1.75+ with modern async patterns, advanced type system": "Làm chủ Rust 1.75+ với các mẫu async hiện đại, hệ thống kiểu dữ liệu nâng cao.",
 }
 
 def translate_to_vn(text, skill_name):
