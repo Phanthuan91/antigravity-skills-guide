@@ -316,7 +316,7 @@
   },
   {
     "name": "agency-mcp-builder",
-    "description": "Hệ thống AI chuyên trách (Mcp Builder) hỗ trợ doanh nghiệp thực hiện các nhiệm vụ chuyên sâu về mcp builder.",
+    "description": "Chuyên gia phát triển Giao thức Ngữ cảnh Mô hình (MCP) - thiết kế và xây dựng server.",
     "category": "agencies"
   },
   {
@@ -606,7 +606,7 @@
   },
   {
     "name": "api-patterns",
-    "description": "API design principles and decision-making. REST vs GraphQL vs tRPC selection, response formats, versioning, pagination.",
+    "description": "Nguyên tắc thiết kế API: So sánh REST, GraphQL và tRPC để đưa ra lựa chọn tối ưu.",
     "category": "tech"
   },
   {
@@ -616,7 +616,7 @@
   },
   {
     "name": "architecture",
-    "description": "Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design.",
+    "description": "Khung ra quyết định kiến trúc: Phân tích yêu cầu và đánh giá sự đánh đổi (trade-offs).",
     "category": "tech"
   },
   {
@@ -656,17 +656,17 @@
   },
   {
     "name": "bash-linux",
-    "description": "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
+    "description": "Mẫu lệnh Bash/Linux: Các lệnh quan trọng, kỹ thuật bọc lệnh (piping) và xử lý lỗi.",
     "category": "tech"
   },
   {
     "name": "behavioral-modes",
-    "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
+    "description": "Các chế độ vận hành của AI (tư duy, triển khai, sửa lỗi, đánh giá, hướng dẫn...).",
     "category": "tech"
   },
   {
     "name": "brainstorming",
-    "description": "Socratic questioning protocol + user communication. MANDATORY for complex requests, new features, or unclear requirements. Includes progress reporting and error handling.",
+    "description": "Quy trình đặt câu hỏi kiểu Socrates và giao tiếp với người dùng.",
     "category": "tech"
   },
   {
@@ -711,7 +711,7 @@
   },
   {
     "name": "code-review-checklist",
-    "description": "Code review guidelines covering code quality, security, and best practices.",
+    "description": "Hướng dẫn review mã nguồn về chất lượng, bảo mật và các quy chuẩn tốt nhất.",
     "category": "tech"
   },
   {
@@ -801,12 +801,12 @@
   },
   {
     "name": "database-design",
-    "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
+    "description": "Nguyên tắc thiết kế cơ sở dữ liệu: Thiết kế schema, chiến lược đánh index và chọn ORM.",
     "category": "tech"
   },
   {
     "name": "deployment-procedures",
-    "description": "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts.",
+    "description": "Nguyên tắc triển khai Production: Quy trình triển khai an toàn, kỹ thuật rollback.",
     "category": "tech"
   },
   {
@@ -831,7 +831,7 @@
   },
   {
     "name": "documentation-templates",
-    "description": "Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation.",
+    "description": "Mẫu tài liệu và hướng dẫn cấu trúc: README, tài liệu API, comment mã nguồn.",
     "category": "tech"
   },
   {
@@ -871,12 +871,12 @@
   },
   {
     "name": "geo-fundamentals",
-    "description": "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).",
+    "description": "Tối ưu hóa công cụ tạo nội dung (GEO) cho các bộ máy tìm kiếm AI.",
     "category": "tech"
   },
   {
     "name": "i18n-localization",
-    "description": "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.",
+    "description": "Mẫu đa ngôn ngữ và địa phương hóa (i18n/L10n). Khử các chuỗi văn bản cứng.",
     "category": "tech"
   },
   {
@@ -891,7 +891,7 @@
   },
   {
     "name": "intelligent-routing",
-    "description": "Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions.",
+    "description": "Tự động lựa chọn agent và điều hướng tác vụ thông minh dựa trên yêu cầu.",
     "category": "tech"
   },
   {
@@ -956,7 +956,7 @@
   },
   {
     "name": "mobile-design",
-    "description": "Mobile-first design thinking and decision-making for iOS and Android apps. Touch interaction, performance patterns, platform conventions. Teaches principles, not fixed values. Use when building React Native, Flutter, or native mobile apps.",
+    "description": "Tư duy thiết kế ưu tiên di động (Mobile-first) cho iOS và Android.",
     "category": "tech"
   },
   {
@@ -971,7 +971,7 @@
   },
   {
     "name": "nodejs-best-practices",
-    "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
+    "description": "Nguyên tắc phát triển Node.js: Lựa chọn framework, mô hình bất đồng bộ và bảo mật.",
     "category": "tech"
   },
   {
@@ -981,7 +981,7 @@
   },
   {
     "name": "parallel-agents",
-    "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
+    "description": "Mẫu điều phối đa agent: Sử dụng khi cần phối hợp nhiều tác vụ độc lập.",
     "category": "tech"
   },
   {
@@ -1001,12 +1001,12 @@
   },
   {
     "name": "plan-writing",
-    "description": "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.",
+    "description": "Lập kế hoạch tác vụ có cấu trúc: Phân rã công việc, xác định phụ thuộc và xác minh.",
     "category": "tech"
   },
   {
     "name": "powershell-windows",
-    "description": "PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling.",
+    "description": "Mẫu lệnh PowerShell Windows: Các lỗi thường gặp, cú pháp toán tử và xử lý lỗi.",
     "category": "tech"
   },
   {
@@ -1016,7 +1016,7 @@
   },
   {
     "name": "python-patterns",
-    "description": "Python development principles and decision-making. Framework selection, async patterns, type hints, project structure. Teaches thinking, not copying.",
+    "description": "Nguyên tắc phát triển Python: Lựa chọn framework, async patterns và cấu trúc dự án.",
     "category": "tech"
   },
   {
@@ -1036,7 +1036,7 @@
   },
   {
     "name": "red-team-tactics",
-    "description": "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.",
+    "description": "Nguyên lý tấn công (Red team) dựa trên khung kỹ thuật MITRE ATT&CK.",
     "category": "tech"
   },
   {
@@ -1081,12 +1081,12 @@
   },
   {
     "name": "seo-fundamentals",
-    "description": "SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles.",
+    "description": "Nền tảng SEO: Các chỉ số E-E-A-T, Core Web Vitals và nguyên lý thuật toán Google.",
     "category": "tech"
   },
   {
     "name": "server-management",
-    "description": "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.",
+    "description": "Nguyên tắc quản trị máy chủ: Quản lý tiến trình, chiến lược giám sát và mở rộng.",
     "category": "tech"
   },
   {
@@ -1121,12 +1121,12 @@
   },
   {
     "name": "systematic-debugging",
-    "description": "4-phase systematic debugging methodology with root cause analysis and evidence-based verification. Use when debugging complex issues.",
+    "description": "Phương pháp sửa lỗi hệ thống 4 pha: Phân tích nguyên nhân gốc rễ và xác minh.",
     "category": "tech"
   },
   {
     "name": "tailwind-patterns",
-    "description": "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
+    "description": "Nguyên lý Tailwind CSS v4: Cấu hình ưu tiên CSS, container queries và thiết kế hiện đại.",
     "category": "tech"
   },
   {
@@ -1136,7 +1136,7 @@
   },
   {
     "name": "tdd-workflow",
-    "description": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+    "description": "Nguyên lý quy trình TDD: Chu trình RED-GREEN-REFACTOR (Viết test - Viết code - Tối ưu).",
     "category": "tech"
   },
   {
@@ -1146,7 +1146,7 @@
   },
   {
     "name": "testing-patterns",
-    "description": "Testing patterns and principles. Unit, integration, mocking strategies.",
+    "description": "Mẫu và nguyên lý kiểm thử: Chiến lược Unit test, Integration test và Mocking.",
     "category": "tech"
   },
   {
@@ -1186,17 +1186,17 @@
   },
   {
     "name": "vulnerability-scanner",
-    "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.",
+    "description": "Nguyên lý phân tích lỗ hổng nâng cao: OWASP 2025, bảo mật chuỗi cung ứng.",
     "category": "tech"
   },
   {
     "name": "web-design-guidelines",
-    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+    "description": "Đánh giá mã nguồn UI theo tiêu chuẩn Hướng dẫn Giao diện Web (WIG).",
     "category": "tech"
   },
   {
     "name": "webapp-testing",
-    "description": "Web application testing principles. E2E, Playwright, deep audit strategies.",
+    "description": "Nguyên lý kiểm thử ứng dụng Web: Kiểm thử cuối đầu (E2E) và audit sâu.",
     "category": "tech"
   }
 ]
