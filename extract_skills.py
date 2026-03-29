@@ -44,6 +44,7 @@ TRANSLATION_MAP = {
     "Internationalization and localization patterns. Detecting hardcoded strings": "Mẫu đa ngôn ngữ và địa phương hóa (i18n/L10n). Khử các chuỗi văn bản cứng.",
     "Automatic agent selection and intelligent task routing": "Tự động lựa chọn agent và điều hướng tác vụ thông minh dựa trên yêu cầu.",
     "Expert Model Context Protocol developer who designs, builds, and tests MCP servers": "Chuyên gia phát triển Giao thức Ngữ cảnh Mô hình (MCP) - thiết kế và xây dựng server.",
+    "MCP (Model Context Protocol) server building principles": "Chuyên gia phát triển Giao thức Ngữ cảnh Mô hình (MCP) - thiết kế và xây dựng server.",
     "Mobile-first design thinking and decision-making for iOS and Android": "Tư duy thiết kế ưu tiên di động (Mobile-first) cho iOS và Android.",
     "Node.js development principles and decision-making. Framework selection": "Nguyên tắc phát triển Node.js: Lựa chọn framework, mô hình bất đồng bộ và bảo mật.",
     "Multi-agent orchestration patterns. Use when multiple independent tasks can run": "Mẫu điều phối đa agent: Sử dụng khi cần phối hợp nhiều tác vụ độc lập.",
@@ -73,7 +74,31 @@ TRANSLATION_MAP = {
 def translate_to_vn(text, skill_name):
     # If already has true VN chars, return as is
     if any(c in VN_CHARS for c in text):
-        return text
+        # Pattern matching for Tech/Core skills if no map match
+    if not skill_name.startswith("agency-") and not skill_name.startswith("kwp-"):
+        # Generic technical term replacements
+        replacements = {
+            "principles": "nguyên lý",
+            "decision-making": "ra quyết định",
+            "patterns": "mẫu",
+            "best practices": "quy chuẩn tốt nhất",
+            "optimization": "tối ưu hóa",
+            "testing": "kiểm thử",
+            "principles": "nguyên tắc",
+            "guidelines": "hướng dẫn",
+            "development": "phát triển",
+            "management": "quản lý",
+            "architecture": "kiến trúc",
+        }
+        translated_text = text.lower()
+        for eng, vn in replacements.items():
+            translated_text = translated_text.replace(eng, vn)
+        
+        # Capitalize first letter and return if any replacement was made
+        if translated_text != text.lower():
+            return translated_text.capitalize()
+
+    return text
         
     # Check exact map (case insensitive)
     for eng, vn in TRANSLATION_MAP.items():
