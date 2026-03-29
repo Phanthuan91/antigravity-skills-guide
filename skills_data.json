@@ -611,7 +611,7 @@
   },
   {
     "name": "app-builder",
-    "description": "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.",
+    "description": "Main application xây dựng orchestrator. creates full-stack applications from natural language requests. determines project type, selects tech stack, coordinates agents.",
     "category": "tech"
   },
   {
@@ -866,7 +866,7 @@
   },
   {
     "name": "game-development",
-    "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
+    "description": "Game phát triển orchestrator. routes to platform-specific skills based on project needs.",
     "category": "tech"
   },
   {
@@ -936,7 +936,7 @@
   },
   {
     "name": "mcp-builder",
-    "description": "MCP (Model Context Protocol) server building principles. Tool design, resource patterns, best practices.",
+    "description": "Chuyên gia phát triển Giao thức Ngữ cảnh Mô hình (MCP) - thiết kế và xây dựng server.",
     "category": "tech"
   },
   {

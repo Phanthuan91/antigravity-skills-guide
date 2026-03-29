@@ -70,42 +70,17 @@ TRANSLATION_MAP = {
     "First-time user onboarding experience": "Trải nghiệm chào mừng và hướng dẫn người dùng mới.",
     "Lazy-loading context restore with 3 levels": "Khôi phục ngữ cảnh linh hoạt 3 cấp độ (lazy-loading).",
 }
-
 def translate_to_vn(text, skill_name):
-    # If already has true VN chars, return as is
+    # 1. If it already has significant Vietnamese chars, keep it
     if any(c in VN_CHARS for c in text):
-        # Pattern matching for Tech/Core skills if no map match
-    if not skill_name.startswith("agency-") and not skill_name.startswith("kwp-"):
-        # Generic technical term replacements
-        replacements = {
-            "principles": "nguyên lý",
-            "decision-making": "ra quyết định",
-            "patterns": "mẫu",
-            "best practices": "quy chuẩn tốt nhất",
-            "optimization": "tối ưu hóa",
-            "testing": "kiểm thử",
-            "principles": "nguyên tắc",
-            "guidelines": "hướng dẫn",
-            "development": "phát triển",
-            "management": "quản lý",
-            "architecture": "kiến trúc",
-        }
-        translated_text = text.lower()
-        for eng, vn in replacements.items():
-            translated_text = translated_text.replace(eng, vn)
+        return text
         
-        # Capitalize first letter and return if any replacement was made
-        if translated_text != text.lower():
-            return translated_text.capitalize()
-
-    return text
-        
-    # Check exact map (case insensitive)
+    # 2. Check Explicit Translation Map first
     for eng, vn in TRANSLATION_MAP.items():
         if eng.lower() in text.lower():
             return vn
             
-    # Pattern matching for Agency skills
+    # 3. Specialized Logic for Agency Skills
     if skill_name.startswith("agency-"):
         role = skill_name.replace("agency-", "").replace("-", " ").title()
         role_map = {
@@ -134,7 +109,7 @@ def translate_to_vn(text, skill_name):
         translated_role = role_map.get(role, role)
         return f"Hệ thống AI chuyên trách ({translated_role}) hỗ trợ doanh nghiệp thực hiện các nhiệm vụ chuyên sâu về {role.lower()}."
 
-    # Pattern matching for KWP skills
+    # 4. Specialized Logic for KWP Skills
     if skill_name.startswith("kwp-"):
         parts = skill_name.split('-')
         category = parts[1] if len(parts) > 1 else ""
@@ -156,7 +131,44 @@ def translate_to_vn(text, skill_name):
         }
         return f"Quy trình làm việc (KWP) cho bộ phận {cat_map.get(category, category)}: Tập trung vào {action}."
 
-    return text # Fallback
+    # 5. Smart Mode: Generic Technical Pattern Fallback
+    replacements = {
+        "principles": "nguyên lý",
+        "decision-making": "ra quyết định",
+        "patterns": "mẫu",
+        "best practices": "quy chuẩn tốt nhất",
+        "optimization": "tối ưu hóa",
+        "testing": "kiểm thử",
+        "guidelines": "hướng dẫn",
+        "development": "phát triển",
+        "management": "quản lý",
+        "architecture": "kiến trúc",
+        "expert": "chuyên gia",
+        "specializing in": "chuyên về",
+        "building": "xây dựng",
+        "designing": "thiết kế",
+        "framework": "khung làm việc",
+        "workflow": "quy trình",
+        "automated": "tự động hóa",
+        "integration": "tích hợp",
+        "performance": "hiệu năng",
+        "security": "bảo mật",
+        "implementation": "triển khai thực tế",
+        "scaling": "mở rộng",
+        "deployment": "triển khai",
+    }
+    
+    translated_text = text.lower()
+    any_match = False
+    for eng, vn in replacements.items():
+        if eng in translated_text:
+            translated_text = translated_text.replace(eng, vn)
+            any_match = True
+    
+    if any_match:
+        return translated_text.capitalize()
+
+    return text
 
 def extract_metadata(skill_path):
     skill_md = os.path.join(skill_path, "SKILL.md")
