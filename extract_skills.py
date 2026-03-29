@@ -46,23 +46,34 @@ def extract_metadata(skill_path):
     name = frontmatter.get('name', name)
     description = frontmatter.get('description', "").strip()
     
-    # Handle block scalars and missing VN descriptions
-    if description in [">", ">-", "|", "|-"] or not description or any(c.isalpha() for c in description) and not any(ord(c) > 127 for c in description):
-        # Scan body for first Vietnamese sentence (heuristic: contains non-ascii Vietnamese characters)
+    # NEW: Remove block scalar indicators like >-, >, |-, |
+    description = re.sub(r'^([>|]-?)\s*', '', description)
+    
+    # If description is English or missing, look for VN text in body
+    is_pure_ascii = not any(ord(c) > 127 for c in description)
+    if not description or description in [">", ">-", "|", "|-"] or is_pure_ascii:
+        # Heuristic: Find first paragraph that starts after a title and contains VN chars
         body = content.split('---')[-1] if '---' in content else content
-        # Look for first paragraph after first header
-        vn_match = re.search(r"^#.*?\n\n(.*?)\n", body, re.MULTILINE | re.DOTALL)
-        if vn_match:
-            candidate = vn_match.group(1).strip()
-            if any(ord(c) > 127 for c in candidate): # Has VN chars
-                description = candidate
+        # Find first line that contains a lot of VN chars and isn't a header
+        vn_paras = []
+        for p in body.split('\n\n'):
+            p = p.strip()
+            if p and not p.startswith('#') and any(ord(c) > 127 for c in p):
+                vn_paras.append(p)
+        if vn_paras:
+            description = vn_paras[0]
         
     if not description or description in [">", ">-", "|", "|-"]:
         description = "Chưa có mô tả kỹ năng bằng tiếng Việt."
     
-    # Clean up description (remove markdown links, etc)
-    description = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', description)
-    description = description.split('\n')[0] # Keep only first line/paragraph
+    # Clean up description
+    description = re.sub(r'\[(.*?)\]\(.*?\)', r'\1', description) # Remove links
+    description = re.sub(r'\*\*(.*?)\*\*', r'\1', description) # Remove bold
+    description = description.split('\n')[0].strip() # First line only
+    
+    # Final check length
+    if len(description) > 300:
+        description = description[:297] + "..."
     
     # Categorize using FOLDER name for more reliability
     folder_name = os.path.basename(skill_path).lower()
