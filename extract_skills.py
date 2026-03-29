@@ -19,8 +19,10 @@ def extract_metadata(skill_path):
     # Extract YAML frontmatter
     fm_match = re.search(r'^---(.*?)---', content, re.DOTALL | re.MULTILINE)
     frontmatter = {}
+    body = content
     if fm_match:
         fm_block = fm_match.group(1)
+        body = content[fm_match.end():]
         current_key = None
         for line in fm_block.split('\n'):
             line = line.rstrip()
@@ -42,11 +44,12 @@ def extract_metadata(skill_path):
     is_pure_ascii = not any(ord(c) > 127 for c in description)
     if not description or is_pure_ascii:
         # Search body for first paragraph that has VN chars
-        body = content.split('---')[-1] if '---' in content else content
-        for p in body.split('\n'): # Check line by line for first descriptive line
+        for p in body.split('\n'):
             p = p.strip()
-            # Must not be header, must be long enough, must have VN chars
-            if p and not p.startswith('#') and len(p) > 20 and any(ord(c) > 127 for c in p):
+            # Ignore headers, tables, code blocks, short lines
+            if not p or p.startswith('#') or p.startswith('|') or p.startswith('```') or len(p) < 20:
+                continue
+            if any(ord(c) > 127 for c in p): # Has VN chars
                 description = p
                 break
     
@@ -60,25 +63,19 @@ def extract_metadata(skill_path):
     if len(description) > 300:
         description = description[:297] + "..."
     
-    # Categorize using FOLDER name
+    # Categorize
     folder_name = os.path.basename(skill_path).lower()
     category = "other"
-    
-    if folder_name.startswith("agency-"):
-        category = "agencies"
+    if folder_name.startswith("agency-"): category = "agencies"
     elif folder_name.startswith("kwp-"):
         if "sales" in folder_name: category = "kwp-sales"
         elif "marketing" in folder_name: category = "kwp-marketing"
         elif "product-management" in folder_name: category = "kwp-product"
         elif any(k in folder_name for k in ["engineering", "data", "bio-research"]): category = "kwp-eng"
-        elif any(k in folder_name for k in ["finance", "legal", "human-resources", "operations", "admin", "productivity", "enterprise-search", "cowork-plugin-management"]): category = "kwp-biz"
         else: category = "kwp-biz"
-    elif folder_name.startswith("awf-"):
-        category = "awf"
-    elif any(k in folder_name for k in ["test", "pattern", "best-practices", "design", "standard", "guide"]):
-        category = "tech"
-    else:
-        category = "tech"
+    elif folder_name.startswith("awf-"): category = "awf"
+    elif any(k in folder_name for k in ["test", "pattern", "best-practices", "design", "standard", "guide"]): category = "tech"
+    else: category = "tech"
     
     return {
         "name": name,
@@ -88,22 +85,17 @@ def extract_metadata(skill_path):
 
 def main():
     all_skills = []
-    if not os.path.exists(SKILLS_DIR):
-        print(f"Error: {SKILLS_DIR} not found.")
-        return
+    if not os.path.exists(SKILLS_DIR): return
 
     for item in os.listdir(SKILLS_DIR):
         full_path = os.path.join(SKILLS_DIR, item)
         if os.path.isdir(full_path):
             meta = extract_metadata(full_path)
-            if meta:
-                all_skills.append(meta)
+            if meta: all_skills.append(meta)
     
     all_skills.sort(key=lambda x: x['name'])
-    
     with open(OUT_FILE, 'w', encoding='utf-8') as f:
         json.dump(all_skills, f, ensure_ascii=False, indent=2)
-        
     print(f"Extracted {len(all_skills)} skills to {OUT_FILE}")
 
 if __name__ == "__main__":

@@ -21,7 +21,7 @@
   },
   {
     "name": "account-research",
-    "description": "- call-prep — Full meeting prep with this research plus context",
+    "description": "┌─────────────────────────────────────────────────────────────────┐",
     "category": "kwp-sales"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "name": "agency-account-strategist",
-    "description": "Instructions Reference: Your detailed account strategy methodology is in your core training — refer to comprehensive expansion frameworks, stakeholder mapping techniques, and retention playbooks for complete guidance.",
+    "description": "You are Account Strategist, an expert post-sale revenue strategist who specializes in account expansion, stakeholder mapping, QBR design, and net revenue retention. You treat every customer account as a territory with whitespace to fill — your job is to systematically identify expansion opportuni...",
     "category": "agencies"
   },
   {
@@ -46,12 +46,12 @@
   },
   {
     "name": "agency-agentic-identity-trust-architect",
-    "description": "When to call this agent: You're building a system where AI agents take real-world actions — executing trades, deploying code, calling external APIs, controlling physical systems — and you need to answer the question: \"How do we know this agent is who it claims to be, that it was authorized to do ...",
+    "description": "- Memory: You remember trust architecture failures — the agent that forged a delegation, the audit trail that got silently modified, the credential that never expired. You design against these.",
     "category": "agencies"
   },
   {
     "name": "agency-agents-orchestrator",
-    "description": "Please spawn an agents-orchestrator to execute complete development pipeline for project-specs/[project]-setup.md. Run autonomous workflow: project-manager-senior → ArchitectUX → [Developer ↔ EvidenceQA task-by-task loop] → testing-reality-checker. Each task must pass QA before advancing.",
+    "description": "- Manage full workflow: PM → ArchitectUX → [Dev ↔ QA Loop] → Integration",
     "category": "agencies"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "name": "agency-autonomous-optimization-architect",
-    "description": "Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs.",
+    "description": "- ❌ No subjective grading. You must explicitly establish mathematical evaluation criteria (e.g., 5 points for JSON formatting, 3 points for latency, -10 points for a hallucination) before shadow-testing a new model.",
     "category": "agencies"
   },
   {
@@ -101,7 +101,7 @@
   },
   {
     "name": "agency-blockchain-security-auditor",
-    "description": "Instructions Reference: Your detailed audit methodology is in your core training — refer to the SWC Registry, DeFi exploit databases (rekt.news, DeFiHackLabs), Trail of Bits and OpenZeppelin audit report archives, and the Ethereum Smart Contract Best Practices guide for complete guidance.",
+    "description": "You are Blockchain Security Auditor, a relentless smart contract security researcher who assumes every contract is exploitable until proven otherwise. You have dissected hundreds of protocols, reproduced dozens of real-world exploits, and written audit reports that have prevented millions in loss...",
     "category": "agencies"
   },
   {
@@ -116,7 +116,7 @@
   },
   {
     "name": "agency-carousel-growth-engine",
-    "description": "| `UPLOADPOST_TOKEN` | Upload-Post API token for publishing + analytics | https://upload-post.com → Dashboard → API Keys |",
+    "description": "You are an autonomous growth machine that turns any website into viral TikTok and Instagram carousels. You think in 6-slide narratives, obsess over hook psychology, and let data drive every creative decision. Your superpower is the feedback loop: every carousel you publish teaches you what works,...",
     "category": "agencies"
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "name": "agency-data-engineer",
-    "description": "Instructions Reference: Your detailed data engineering methodology lives here — apply these patterns for consistent, reliable, observable data pipelines across Bronze/Silver/Gold lakehouse architectures.",
+    "description": "You are a Data Engineer, an expert in designing, building, and operating the data infrastructure that powers analytics, AI, and business intelligence. You turn raw, messy data from diverse sources into reliable, high-quality, analytics-ready assets — delivered on time, at scale, and with full obs...",
     "category": "agencies"
   },
   {
@@ -161,12 +161,12 @@
   },
   {
     "name": "agency-deal-strategist",
-    "description": "Instructions Reference: Your strategic methodology draws from MEDDPICC qualification, Challenger Sale commercial teaching, and Command of the Message value frameworks — apply them as integrated disciplines, not isolated checklists.",
+    "description": "Senior deal strategist and pipeline architect who applies rigorous qualification methodology to complex B2B sales cycles. Specializes in MEDDPICC-based opportunity assessment, competitive positioning, Challenger-style commercial messaging, and multi-threaded deal execution. Treats every deal as a...",
     "category": "agencies"
   },
   {
     "name": "agency-developer-advocate",
-    "description": "Instructions Reference: Your developer advocacy methodology lives here — apply these patterns for authentic community engagement, DX-first platform improvement, and technical content that developers genuinely find useful.",
+    "description": "You are a Developer Advocate, the trusted engineer who lives at the intersection of product, community, and code. You champion developers by making platforms easier to use, creating content that genuinely helps them, and feeding real developer needs back into the product roadmap. You don't do mar...",
     "category": "agencies"
   },
   {
@@ -191,12 +191,12 @@
   },
   {
     "name": "agency-evidence-collector",
-    "description": "Screenshot-obsessed, fantasy-allergic QA specialist - Default to finding 3-5 issues, requires visual proof for everything",
+    "description": "- ✅ Spec says: \"[quote]\" → Screenshot shows: \"[matches]\"",
     "category": "agencies"
   },
   {
     "name": "agency-executive-summary-generator",
-    "description": "Consultant-grade AI specialist trained to think and communicate like a senior strategy consultant. Transforms complex business inputs into concise, actionable executive summaries using McKinsey SCQA, BCG Pyramid Principle, and Bain frameworks for C-suite decision-makers.",
+    "description": "- McKinsey's SCQA Framework (Situation – Complication – Question – Answer)",
     "category": "agencies"
   },
   {
@@ -221,12 +221,12 @@
   },
   {
     "name": "agency-game-audio-engineer",
-    "description": "- Implement all SFX as randomized containers (pitch, volume variation, multi-shot) — nothing sounds identical twice",
+    "description": "You are GameAudioEngineer, an interactive audio specialist who understands that game sound is never passive — it communicates gameplay state, builds emotion, and creates presence. You design adaptive music systems, spatial soundscapes, and implementation architectures that make audio feel alive a...",
     "category": "agencies"
   },
   {
     "name": "agency-game-designer",
-    "description": "- [ ] First success guaranteed — no failure possible in tutorial beat 1",
+    "description": "- Role: Design gameplay systems, mechanics, economies, and player progressions — then document them rigorously",
     "category": "agencies"
   },
   {
@@ -261,7 +261,7 @@
   },
   {
     "name": "agency-incident-response-commander",
-    "description": "Instructions Reference: Your detailed incident management methodology is in your core training — refer to comprehensive incident response frameworks (PagerDuty, Google SRE book, Jeli.io), post-mortem best practices, and SLO/SLI design patterns for complete guidance.",
+    "description": "- Experience: You've coordinated hundreds of incidents across distributed systems — from database failovers and cascading microservice failures to DNS propagation nightmares and cloud provider outages. You know that most incidents aren't caused by bad code, they're caused by missing observability...",
     "category": "agencies"
   },
   {
@@ -271,7 +271,7 @@
   },
   {
     "name": "agency-infrastructure-maintainer",
-    "description": "Expert infrastructure specialist focused on system reliability, performance optimization, and technical operations management. Maintains robust, scalable infrastructure supporting business operations with security, performance, and cost efficiency.",
+    "description": "--data \"{\\\"text\\\":\\\"🚨 Backup Failed: $error_message\\\"}\" \\",
     "category": "agencies"
   },
   {
@@ -281,7 +281,7 @@
   },
   {
     "name": "agency-jira-workflow-steward",
-    "description": "Expert delivery operations specialist who enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy across software teams.",
+    "description": "- For a new agent in this repository, prefer `✨` over `📚` because the change adds a new catalog capability rather than only updating existing documentation",
     "category": "agencies"
   },
   {
@@ -291,27 +291,27 @@
   },
   {
     "name": "agency-level-designer",
-    "description": "Dimensions: ~[W]m × [D]m × [H]m",
+    "description": "- Experience: You've designed levels for linear shooters, open-world zones, roguelike rooms, and metroidvania maps — each with different flow philosophies",
     "category": "agencies"
   },
   {
     "name": "agency-linkedin-content-creator",
-    "description": "| Post engagement rate | 3–6%+ (LinkedIn avg: ~2%) |",
+    "description": "- Personality: Authoritative but human, opinionated but not combative, specific never vague — you write like someone who actually knows their stuff, not like a motivational poster",
     "category": "agencies"
   },
   {
     "name": "agency-livestream-commerce-coach",
-    "description": "| 1 | | | ¥ | % | % | % |",
+    "description": "Veteran livestream e-commerce coach specializing in host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and real-time data-driven optimization.",
     "category": "agencies"
   },
   {
     "name": "agency-lsp-index-engineer",
-    "description": "Language Server Protocol specialist building unified code intelligence systems through LSP client orchestration and semantic indexing",
+    "description": "- Implement proper lifecycle management (initialize → initialized → shutdown → exit)",
     "category": "agencies"
   },
   {
     "name": "agency-macos-spatial-metal-engineer",
-    "description": "Native Swift and Metal specialist building high-performance 3D rendering systems and spatial computing experiences for macOS and Vision Pro",
+    "description": "- Support progressive immersion levels (windowed → full space)",
     "category": "agencies"
   },
   {
@@ -326,12 +326,12 @@
   },
   {
     "name": "agency-model-qa-specialist",
-    "description": "Independent model QA expert who audits ML and statistical models end-to-end - from documentation review and data reconstruction to replication, calibration testing, interpretability analysis, performance monitoring, and audit-grade reporting.",
+    "description": "< 0.10  → No significant shift (green)",
     "category": "agencies"
   },
   {
     "name": "agency-narrative-designer",
-    "description": "What Happened Here: [The backstory — written as a paragraph]",
+    "description": "You are NarrativeDesigner, a story systems architect who understands that game narrative is not a film script inserted between gameplay — it is a designed system of choices, consequences, and world-coherence that players live inside. You write dialogue that sounds like humans, design branches tha...",
     "category": "agencies"
   },
   {
@@ -356,7 +356,7 @@
   },
   {
     "name": "agency-pipeline-analyst",
-    "description": "Instructions Reference: Your detailed analytical methodology and revenue operations frameworks are in your core training — refer to comprehensive pipeline analytics, forecast modeling techniques, and MEDDPICC qualification standards for complete guidance.",
+    "description": "You are Pipeline Analyst, a revenue operations specialist who turns pipeline data into decisions. You diagnose pipeline health, forecast revenue with analytical rigor, score deal quality, and surface the risks that gut-feel forecasting misses. You believe every pipeline review should end with at ...",
     "category": "agencies"
   },
   {
@@ -381,7 +381,7 @@
   },
   {
     "name": "agency-proposal-strategist",
-    "description": "Instructions Reference: Your detailed proposal methodology and competitive strategy frameworks are in your core training — refer to comprehensive capture management, Shipley-aligned proposal processes, and persuasion research for complete guidance.",
+    "description": "You are Proposal Strategist, a senior capture and proposal specialist who treats every proposal as a persuasion document, not a compliance exercise. You architect winning proposals by developing sharp win themes, structuring compelling narratives, and ensuring every section — from executive summa...",
     "category": "agencies"
   },
   {
@@ -391,7 +391,7 @@
   },
   {
     "name": "agency-reality-checker",
-    "description": "Stops fantasy approvals, evidence-based certification - Default to \"NEEDS WORK\", requires overwhelming proof for production readiness",
+    "description": "Journey: Homepage → Navigation → Contact Form",
     "category": "agencies"
   },
   {
@@ -411,7 +411,7 @@
   },
   {
     "name": "agency-sales-coach",
-    "description": "Instructions Reference: Your detailed coaching methodology is in your core training — refer to comprehensive rep development frameworks, pipeline coaching techniques, and behavioral feedback models for complete guidance.",
+    "description": "You are Sales Coach, an expert sales coaching specialist who makes every other seller better. You facilitate pipeline reviews, coach call technique, sharpen deal strategy, and improve forecast accuracy — not by telling reps what to do, but by asking questions that force sharper thinking. You beli...",
     "category": "agencies"
   },
   {
@@ -421,7 +421,7 @@
   },
   {
     "name": "agency-sales-engineer",
-    "description": "Instructions Reference: Your pre-sales methodology integrates technical discovery, demo engineering, POC execution, and competitive positioning as a unified evaluation strategy — not isolated activities. Every technical interaction must advance the deal toward a decision.",
+    "description": "Senior pre-sales engineer who bridges the gap between what the product does and what the buyer needs it to mean for their business. Specializes in technical discovery, demo engineering, proof-of-concept design, competitive technical positioning, and solution architecture for complex B2B evaluatio...",
     "category": "agencies"
   },
   {
@@ -431,7 +431,7 @@
   },
   {
     "name": "agency-security-engineer",
-    "description": "Instructions Reference: Your detailed security methodology is in your core training — refer to comprehensive threat modeling frameworks, vulnerability assessment techniques, and security architecture patterns for complete guidance.",
+    "description": "- Integrate security into every phase of the SDLC — from design to deployment",
     "category": "agencies"
   },
   {
@@ -446,7 +446,7 @@
   },
   {
     "name": "agency-seo-specialist",
-    "description": "4. Content Calendar: Prioritize content creation/optimization by impact potential (volume × achievability)",
+    "description": "- User Intent First: Every optimization must serve the user's search intent — rankings follow value",
     "category": "agencies"
   },
   {
@@ -461,12 +461,12 @@
   },
   {
     "name": "agency-software-architect",
-    "description": "- Challenge assumptions respectfully — \"What happens when X fails?\"",
+    "description": "1. Domain modeling — Bounded contexts, aggregates, domain events",
     "category": "agencies"
   },
   {
     "name": "agency-solidity-smart-contract-engineer",
-    "description": "Instructions Reference: Your detailed Solidity methodology is in your core training — refer to the Ethereum Yellow Paper, OpenZeppelin documentation, Solidity security best practices, and Foundry/Hardhat tooling guides for complete guidance.",
+    "description": "You are Solidity Smart Contract Engineer, a battle-hardened smart contract developer who lives and breathes the EVM. You treat every wei of gas as precious, every external call as a potential attack vector, and every storage slot as prime real estate. You build contracts that survive mainnet — wh...",
     "category": "agencies"
   },
   {
@@ -476,7 +476,7 @@
   },
   {
     "name": "agency-sre-site-reliability-engineer",
-    "description": "- Latency — Duration of requests (distinguish success vs error latency)",
+    "description": "1. SLOs & error budgets — Define what \"reliable enough\" means, measure it, act on it",
     "category": "agencies"
   },
   {
@@ -506,12 +506,12 @@
   },
   {
     "name": "agency-technical-artist",
-    "description": "| Albedo        | BC7    | ASTC 6×6    | BC7      |",
+    "description": "You are TechnicalArtist, the bridge between artistic vision and engine reality. You speak fluent art and fluent code — translating between disciplines to ensure visual quality ships without destroying frame budgets. You write shaders, build VFX systems, define asset pipelines, and set the technic...",
     "category": "agencies"
   },
   {
     "name": "agency-technical-writer",
-    "description": "Instructions Reference: Your technical writing methodology is here — apply these patterns for consistent, accurate, and developer-loved documentation across README files, API references, tutorials, and conceptual guides.",
+    "description": "You are a Technical Writer, a documentation specialist who bridges the gap between engineers who build things and developers who need to use them. You write with precision, empathy for the reader, and obsessive attention to accuracy. Bad documentation is a product bug — you treat it as such.",
     "category": "agencies"
   },
   {
@@ -526,7 +526,7 @@
   },
   {
     "name": "agency-threat-detection-engineer",
-    "description": "Instructions Reference: Your detailed detection engineering methodology is in your core training — refer to MITRE ATT&CK framework, Sigma rule specification, Palantir Alerting and Detection Strategy framework, and the SANS Detection Engineering curriculum for complete guidance.",
+    "description": "You are Threat Detection Engineer, the specialist who builds the detection layer that catches attackers after they bypass preventive controls. You write SIEM detection rules, map coverage to MITRE ATT&CK, hunt for threats that automated detections miss, and ruthlessly tune alerts so the SOC team ...",
     "category": "agencies"
   },
   {
@@ -556,12 +556,12 @@
   },
   {
     "name": "agency-ui-designer",
-    "description": "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity",
+    "description": "Font Scale: [12px → 14px → 16px → 18px → 24px → 30px → 36px]",
     "category": "agencies"
   },
   {
     "name": "agency-ux-architect",
-    "description": "Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance",
+    "description": "<span aria-hidden=\"true\">☀️</span> Light",
     "category": "agencies"
   },
   {
@@ -581,7 +581,7 @@
   },
   {
     "name": "agency-whimsy-injector",
-    "description": "Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy",
+    "description": "Form Validation: \"Your email looks a bit shy – mind adding the @ symbol?\"",
     "category": "agencies"
   },
   {
@@ -621,12 +621,12 @@
   },
   {
     "name": "audit-support",
-    "description": "│   ├── Scoping and Risk Assessment/",
+    "description": "Example: Population of 1,000, sample of 25 → interval of 40. Random start: item 17. Select items 17, 57, 97, 137, ...",
     "category": "kwp-biz"
   },
   {
     "name": "awf-adaptive-language",
-    "description": "| database | database (cơ sở dữ liệu) |",
+    "description": "Tự động điều chỉnh ngôn ngữ kỹ thuật theo trình độ user.",
     "category": "awf"
   },
   {
@@ -636,12 +636,12 @@
   },
   {
     "name": "awf-context-help",
-    "description": "1. /brainstorm - Bàn ý tưởng trước",
+    "description": "Trợ giúp thông minh dựa trên context hiện tại.",
     "category": "awf"
   },
   {
     "name": "awf-error-translator",
-    "description": "| `502 Bad Gateway` | Server không phản hồi | Restart server |",
+    "description": "Dịch lỗi kỹ thuật sang ngôn ngữ đời thường cho non-tech users.",
     "category": "awf"
   },
   {
@@ -661,22 +661,22 @@
   },
   {
     "name": "behavioral-modes",
-    "description": "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.",
+    "description": "- Form hypothesis → test → verify",
     "category": "tech"
   },
   {
     "name": "brainstorming",
-    "description": "Socratic questioning protocol + user communication. MANDATORY for complex requests, new features, or unclear requirements. Includes progress reporting and error handling.",
+    "description": "- 🎯 Purpose: What problem are you solving?",
     "category": "tech"
   },
   {
     "name": "brand-voice",
-    "description": "Apply and enforce brand voice, style guide, and messaging pillars across content. Use when reviewing content for brand consistency, documenting a brand voice, adapting tone for different audiences, or checking terminology and style guide compliance.",
+    "description": "- This sounds like: \"Here's how to get started — it takes about five minutes.\"",
     "category": "kwp-marketing"
   },
   {
     "name": "call-prep",
-    "description": "- account-research — Deep dive on a company before first contact",
+    "description": "┌─────────────────────────────────────────────────────────────────┐",
     "category": "kwp-sales"
   },
   {
@@ -696,12 +696,12 @@
   },
   {
     "name": "clean-code",
-    "description": "5. After fixing → Re-run script to confirm",
+    "description": "└── Who imports this? → UserController.ts, AuthController.ts",
     "category": "tech"
   },
   {
     "name": "close-management",
-    "description": "Manage the month-end close process with task sequencing, dependencies, and status tracking. Use when planning the close calendar, tracking close progress, identifying blockers, or sequencing close activities by day.",
+    "description": "- [ ] Finalize all journal entries — soft close",
     "category": "kwp-biz"
   },
   {
@@ -721,17 +721,17 @@
   },
   {
     "name": "competitive-analysis",
-    "description": "Research competitors and compare positioning, messaging, content strategy, and market presence. Use when analyzing a competitor, building battlecards, identifying content gaps, comparing feature messaging, or preparing competitive positioning recommendations.",
+    "description": "- Review sites: G2, Capterra, TrustRadius, Product Hunt — customer sentiment themes",
     "category": "kwp-marketing"
   },
   {
     "name": "competitive-analysis",
-    "description": "- Rate based on real product experience, customer feedback, and reviews — not just marketing claims",
+    "description": "- Include \"non-consumption\" — sometimes the competitor is doing nothing or using a manual process",
     "category": "kwp-product"
   },
   {
     "name": "competitive-intelligence",
-    "description": "- account-research — Research a specific prospect before reaching out",
+    "description": "┌─────────────────────────────────────────────────────────────────┐",
     "category": "kwp-sales"
   },
   {
@@ -766,7 +766,7 @@
   },
   {
     "name": "create-cowork-plugin",
-    "description": "- What behavior — validate, block, modify, add context?",
+    "description": "Build a new plugin from scratch through guided conversation. Walk the user through discovery, planning, design, implementation, and packaging — delivering a ready-to-install `.plugin` file at the end.",
     "category": "kwp-biz"
   },
   {
@@ -776,7 +776,7 @@
   },
   {
     "name": "daily-briefing",
-    "description": "- call-prep — Deep prep for any specific meeting",
+    "description": "┌─────────────────────────────────────────────────────────────────┐",
     "category": "kwp-sales"
   },
   {
@@ -806,7 +806,7 @@
   },
   {
     "name": "deployment-procedures",
-    "description": "Production deployment principles and decision-making. Safe deployment workflows, rollback strategies, and verification. Teaches thinking, not scripts.",
+    "description": "├── Static site / JAMstack",
     "category": "tech"
   },
   {
@@ -836,7 +836,7 @@
   },
   {
     "name": "draft-outreach",
-    "description": "Research a prospect then draft personalized outreach. Uses web research by default, supercharged with enrichment and CRM. Trigger with \"draft outreach to [person/company]\", \"write cold email to [prospect]\", \"reach out to [name]\".",
+    "description": "- \"draft outreach to John Smith at Acme\" → Person + company",
     "category": "kwp-sales"
   },
   {
@@ -846,7 +846,7 @@
   },
   {
     "name": "escalation",
-    "description": "- Update the customer even if there's no new information (\"We're still investigating — here's what we know so far\")",
+    "description": "Note: Security escalations bypass normal tier progression — escalate immediately regardless of your level",
     "category": "kwp-biz"
   },
   {
@@ -856,17 +856,17 @@
   },
   {
     "name": "financial-statements",
-    "description": "Generate income statements, balance sheets, and cash flow statements with GAAP presentation and period-over-period comparison. Use when preparing financial statements, running flux analysis, or creating P&L reports with variance commentary.",
+    "description": "- Classify expenses either by nature (materials, labor, depreciation) or by function (COGS, R&D, S&M, G&A) — function is more common for US companies",
     "category": "kwp-biz"
   },
   {
     "name": "frontend-design",
-    "description": "Design thinking and decision-making for web UI. Use when designing components, layouts, color schemes, typography, or creating aesthetic interfaces. Teaches principles, not fixed values.",
+    "description": "> 🔴 ux-psychology.md = ALWAYS READ. Others = only if relevant.",
     "category": "tech"
   },
   {
     "name": "game-development",
-    "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
+    "description": "INPUT  → Read player actions",
     "category": "tech"
   },
   {
@@ -876,7 +876,7 @@
   },
   {
     "name": "i18n-localization",
-    "description": "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.",
+    "description": "└── ar/          # RTL",
     "category": "tech"
   },
   {
@@ -886,17 +886,17 @@
   },
   {
     "name": "instrument-data-to-allotrope",
-    "description": "├── SKILL.md                          # This file",
+    "description": "> This skill demonstrates how skills can support your data engineering tasks—automating schema transformations, parsing instrument outputs, and generating production-ready code.",
     "category": "kwp-eng"
   },
   {
     "name": "intelligent-routing",
-    "description": "Automatic agent selection and intelligent task routing. Analyzes user requests and automatically selects the best specialist agent(s) without requiring explicit user mentions.",
+    "description": "🤖 Applying knowledge of `@security-auditor` + `@backend-specialist`...",
     "category": "tech"
   },
   {
     "name": "interactive-dashboard-builder",
-    "description": "Build self-contained interactive HTML dashboards with Chart.js, dropdown filters, and professional styling. Use when creating dashboards, building interactive reports, or generating shareable HTML files with charts and filters that work without a server.",
+    "description": "? (sortDir === 'asc' ? ' ▲' : ' ▼')",
     "category": "kwp-eng"
   },
   {
@@ -906,17 +906,17 @@
   },
   {
     "name": "journal-entry-prep",
-    "description": "Prepare journal entries with proper debits, credits, and supporting documentation for month-end close. Use when booking accruals, prepaid amortization, fixed asset depreciation, payroll entries, revenue recognition, or any manual journal entry.",
+    "description": "- Straight-line: (Cost - Salvage) / Useful life — most common for financial reporting",
     "category": "kwp-biz"
   },
   {
     "name": "knowledge-management",
-    "description": "- A resolved ticket reveals a gap — no article exists for this topic",
+    "description": "- Keep paragraphs short — 2-4 sentences max",
     "category": "kwp-biz"
   },
   {
     "name": "knowledge-synthesis",
-    "description": "| Official wiki / knowledge base | Highest — curated, maintained |",
+    "description": "~~email result: \"Subject: API Decision — Sarah's email confirming REST approach with rationale\"",
     "category": "kwp-biz"
   },
   {
@@ -936,7 +936,7 @@
   },
   {
     "name": "mcp-builder",
-    "description": "MCP (Model Context Protocol) server building principles. Tool design, resource patterns, best practices.",
+    "description": "│   └── index.ts      # Main entry",
     "category": "tech"
   },
   {
@@ -946,7 +946,7 @@
   },
   {
     "name": "memory-management",
-    "description": "| Historical/stale | ✗ Remove | ✓ Keep in memory/ |",
+    "description": "- todd → Todd Martinez, Finance lead, prefers Slack",
     "category": "kwp-biz"
   },
   {
@@ -956,7 +956,7 @@
   },
   {
     "name": "mobile-design",
-    "description": "Mobile-first design thinking and decision-making for iOS and Android apps. Touch interaction, performance patterns, platform conventions. Teaches principles, not fixed values. Use when building React Native, Flutter, or native mobile apps.",
+    "description": "⛔ DO NOT start development until you read the relevant files:",
     "category": "tech"
   },
   {
@@ -971,7 +971,7 @@
   },
   {
     "name": "nodejs-best-practices",
-    "description": "Node.js development principles and decision-making. Framework selection, async patterns, security, and architecture. Teaches thinking, not copying.",
+    "description": "├── Edge/Serverless (Cloudflare, Vercel)",
     "category": "tech"
   },
   {
@@ -981,7 +981,7 @@
   },
   {
     "name": "parallel-agents",
-    "description": "- ✅ Single session - All agents share context",
+    "description": "Agents: explorer-agent → [domain-agents] → synthesis",
     "category": "tech"
   },
   {
@@ -991,17 +991,17 @@
   },
   {
     "name": "performance-analytics",
-    "description": "- Share learnings across the team — failed tests are valuable information",
+    "description": "- Keep dashboards to one page/screen — detail goes in appendix",
     "category": "kwp-marketing"
   },
   {
     "name": "performance-profiling",
-    "description": "Performance profiling principles. Measurement, analysis, and optimization techniques.",
+    "description": "1. BASELINE → Measure current state",
     "category": "tech"
   },
   {
     "name": "plan-writing",
-    "description": "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.",
+    "description": "- Name derived from task (e.g., \"add auth\" → `auth-feature.md`)",
     "category": "tech"
   },
   {
@@ -1016,17 +1016,17 @@
   },
   {
     "name": "python-patterns",
-    "description": "> Remember: Python patterns are about decision-making for YOUR specific context. Don't copy code—think about what serves your application best.",
+    "description": "├── API-first / Microservices",
     "category": "tech"
   },
   {
     "name": "react-best-practices",
-    "description": "React and Next.js performance optimization from Vercel Engineering. Use when building React components, optimizing performance, eliminating waterfalls, reducing bundle size, reviewing code for performance issues, or implementing server/client-side optimizations.",
+    "description": "> 🔴 For performance reviews: Start with CRITICAL sections (1-2), then move to HIGH/MEDIUM.",
     "category": "tech"
   },
   {
     "name": "reconciliation",
-    "description": "| Unreconciled difference | Any amount | Cannot close — must resolve or document |",
+    "description": "3. Compare totals — they should match if posting is real-time",
     "category": "kwp-biz"
   },
   {
@@ -1036,7 +1036,7 @@
   },
   {
     "name": "red-team-tactics",
-    "description": "Red team tactics principles based on MITRE ATT&CK. Attack phases, detection evasion, reporting.",
+    "description": "RECONNAISSANCE → INITIAL ACCESS → EXECUTION → PERSISTENCE",
     "category": "tech"
   },
   {
@@ -1046,7 +1046,7 @@
   },
   {
     "name": "response-drafting",
-    "description": "ESCALATION: [Customer Name] — [One-line summary]",
+    "description": "2. Be direct: Get to the point — customers are busy. Bottom-line-up-front.",
     "category": "kwp-biz"
   },
   {
@@ -1066,7 +1066,7 @@
   },
   {
     "name": "scientific-problem-selection",
-    "description": "This skill should be used when scientists need help with research problem selection, project ideation, troubleshooting stuck projects, or strategic scientific decisions. Use this skill when users ask to pitch a new research idea, work through a project problem, evaluate project risks, plan resear...",
+    "description": "1) Pitch an idea for a new project — to work it up together",
     "category": "kwp-eng"
   },
   {
@@ -1076,7 +1076,7 @@
   },
   {
     "name": "search-strategy",
-    "description": "→ \"I found references to a few migrations. Are you looking for:",
+    "description": "Semantic search — Use for conceptual queries:",
     "category": "kwp-biz"
   },
   {
@@ -1136,7 +1136,7 @@
   },
   {
     "name": "tdd-workflow",
-    "description": "Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle.",
+    "description": "🔴 RED → Write failing test",
     "category": "tech"
   },
   {
@@ -1156,7 +1156,7 @@
   },
   {
     "name": "ticket-triage",
-    "description": "Thank you for this suggestion — I can see why [capability]",
+    "description": "- If they can't log in due to a bug, category is Bug (not Account) — root cause drives the category",
     "category": "kwp-biz"
   },
   {
@@ -1176,7 +1176,7 @@
   },
   {
     "name": "variance-analysis",
-    "description": "Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue or expense variances, or preparing variance commentary for leadership.",
+    "description": "Example — Revenue variance:",
     "category": "kwp-biz"
   },
   {
@@ -1186,7 +1186,7 @@
   },
   {
     "name": "vulnerability-scanner",
-    "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.",
+    "description": "├── SSRF merged into A01 (Access Control)",
     "category": "tech"
   },
   {
@@ -1196,7 +1196,7 @@
   },
   {
     "name": "webapp-testing",
-    "description": "Web application testing principles. E2E, Playwright, deep audit strategies.",
+    "description": "├── e2e/           # Full user flows",
     "category": "tech"
   }
 ]
