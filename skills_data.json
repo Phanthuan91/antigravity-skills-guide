@@ -21,7 +21,7 @@
   },
   {
     "name": "account-research",
-    "description": "Research a company or person and get actionable sales intel. Works standalone with web search, supercharged when you connect enrichment tools or your CRM. Trigger with \"research [company]\", \"look up [person]\", \"intel on [prospect]\", \"who is [name] at [company]\", or \"tell me about [company]\".",
+    "description": "- **call-prep** — Full meeting prep with this research plus context",
     "category": "kwp-sales"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "name": "agency-behavioral-nudge-engine",
-    "description": "Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success.",
+    "description": "## 🧠 Your Identity & Memory",
     "category": "agencies"
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "name": "agency-cultural-intelligence-strategist",
-    "description": "CQ specialist that detects invisible exclusion, researches global context, and ensures software resonates authentically across intersectional identities.",
+    "description": "## 🧠 Your Identity & Memory",
     "category": "agencies"
   },
   {
@@ -186,7 +186,7 @@
   },
   {
     "name": "agency-embedded-firmware-engineer",
-    "description": "Specialist in bare-metal and RTOS firmware - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr",
+    "description": "## 🧠 Your Identity & Memory",
     "category": "agencies"
   },
   {
@@ -266,7 +266,7 @@
   },
   {
     "name": "agency-inclusive-visuals-specialist",
-    "description": "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.",
+    "description": "## 🧠 Your Identity & Memory",
     "category": "agencies"
   },
   {
@@ -291,7 +291,7 @@
   },
   {
     "name": "agency-level-designer",
-    "description": "Spatial storytelling and flow specialist - Masters layout theory, pacing architecture, encounter design, and environmental narrative across all game engines",
+    "description": "**Dimensions**: ~[W]m × [D]m × [H]m",
     "category": "agencies"
   },
   {
@@ -316,7 +316,7 @@
   },
   {
     "name": "agency-mcp-builder",
-    "description": "Expert Model Context Protocol developer who designs, builds, and tests MCP servers that extend AI agent capabilities with custom tools, resources, and prompts.",
+    "description": "You are **MCP Builder**, a specialist in building Model Context Protocol servers. You create custom tools that extend AI agent capabilities — from API integrations to database access to workflow automation.",
     "category": "agencies"
   },
   {
@@ -331,7 +331,7 @@
   },
   {
     "name": "agency-narrative-designer",
-    "description": "Story systems and dialogue architect - Masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines",
+    "description": "**What Happened Here**: [The backstory — written as a paragraph]",
     "category": "agencies"
   },
   {
@@ -461,7 +461,7 @@
   },
   {
     "name": "agency-software-architect",
-    "description": "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems.",
+    "description": "## 💬 Communication Style",
     "category": "agencies"
   },
   {
@@ -476,7 +476,7 @@
   },
   {
     "name": "agency-sre-site-reliability-engineer",
-    "description": "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale.",
+    "description": "## 🔥 Incident Response Integration",
     "category": "agencies"
   },
   {
@@ -626,32 +626,32 @@
   },
   {
     "name": "awf-adaptive-language",
-    "description": ">-",
+    "description": ">- Adjust terminology based on user technical level. Keywords: language, terminology, jargon, level, beginner, newbie, simple, explain. Reads technical_level from preferences.json and sets communication context.",
     "category": "awf"
   },
   {
     "name": "awf-auto-save",
-    "description": ">-",
+    "description": ">- Eternal Context System - Auto-save session to prevent context loss. Triggers: workflow end, user leaving, decisions, periodic checkpoint. Warns when context is getting full.",
     "category": "awf"
   },
   {
     "name": "awf-context-help",
-    "description": ">-",
+    "description": ">- Context-aware help based on current workflow state. Keywords: help, what, how, confused, stuck, lost, guide, tutorial, explain. Activates on /help or when user asks questions.",
     "category": "awf"
   },
   {
     "name": "awf-error-translator",
-    "description": ">-",
+    "description": ">- Translate technical errors to human-friendly language. Keywords: error, translate, explain, help, fix, fail, broken, crash, bug. Activates on /debug, /code, /test when errors detected.",
     "category": "awf"
   },
   {
     "name": "awf-onboarding",
-    "description": ">-",
+    "description": "Hướng dẫn người dùng mới làm quen với AWF.",
     "category": "awf"
   },
   {
     "name": "awf-session-restore",
-    "description": ">-",
+    "description": ">- Lazy-loading context restore with 3 levels. Fast startup with minimal tokens. Keywords: context, memory, session, restore, recap, remember, resume, continue.",
     "category": "awf"
   },
   {
@@ -676,7 +676,7 @@
   },
   {
     "name": "call-prep",
-    "description": "Prepare for a sales call with account context, attendee research, and suggested agenda. Works standalone with user input and web research, supercharged when you connect your CRM, email, chat, or transcripts. Trigger with \"prep me for my call with [company]\", \"I'm meeting with [company] prep me\", \"call prep [company]\", or \"get me ready for [meeting]\".",
+    "description": "- **account-research** — Deep dive on a company before first contact",
     "category": "kwp-sales"
   },
   {
@@ -731,7 +731,7 @@
   },
   {
     "name": "competitive-intelligence",
-    "description": "Research your competitors and build an interactive battlecard. Outputs an HTML artifact with clickable competitor cards and a comparison matrix. Trigger with \"competitive intel\", \"research competitors\", \"how do we compare to [competitor]\", \"battlecard for [competitor]\", or \"what's new with [competitor]\".",
+    "description": "- **account-research** — Research a specific prospect before reaching out",
     "category": "kwp-sales"
   },
   {
@@ -756,7 +756,7 @@
   },
   {
     "name": "cowork-plugin-customizer",
-    "description": ">",
+    "description": "Customize a plugin for a specific organization — either by setting up a generic plugin template for the first time, or by tweaking and refining an already-configured plugin.",
     "category": "kwp-biz"
   },
   {
@@ -766,7 +766,7 @@
   },
   {
     "name": "create-cowork-plugin",
-    "description": ">",
+    "description": "> Guide users through creating a new plugin from scratch in a cowork session. Use when users want to create a plugin, build a plugin, make a new plugin, develop a plugin, scaffold a plugin, start a plugin from scratch, or design a plugin. This skill requires Cowork mode with access to the outputs directory for delivering the final .plugin file.",
     "category": "kwp-biz"
   },
   {
@@ -776,12 +776,12 @@
   },
   {
     "name": "daily-briefing",
-    "description": "Start your day with a prioritized sales briefing. Works standalone when you tell me your meetings and priorities, supercharged when you connect your calendar, CRM, and email. Trigger with \"morning briefing\", \"daily brief\", \"what's on my plate today\", \"prep my day\", or \"start my day\".",
+    "description": "- **call-prep** — Deep prep for any specific meeting",
     "category": "kwp-sales"
   },
   {
     "name": "data-context-extractor",
-    "description": ">",
+    "description": "> Generate or improve a company-specific data analysis skill by extracting tribal knowledge from analysts. BOOTSTRAP MODE - Triggers: \"Create a data context skill\", \"Set up data analysis for our warehouse\", \"Help me create a skill for our database\", \"Generate a data skill for [company]\" → Discovers schemas, asks key questions, generates initial skill with reference files ITERATION MODE - Triggers: \"Add context about [domain]\", \"The skill needs more info about [topic]\", \"Update the data skill with [metrics/tables/terminology]\", \"Improve the [domain] reference\" → Loads existing skill, asks targeted questions, appends/updates reference files Use when data analysts want Claude to understand their company's specific data warehouse, terminology, metrics definitions, and common query patterns.",
     "category": "kwp-eng"
   },
   {
@@ -801,7 +801,7 @@
   },
   {
     "name": "database-design",
-    "description": "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
+    "description": "❌ Default to PostgreSQL for simple apps (SQLite may suffice)",
     "category": "tech"
   },
   {
@@ -921,7 +921,7 @@
   },
   {
     "name": "kwp-admin-nd30",
-    "description": "Chưa có mô tả kỹ năng.",
+    "description": "You are an expert in Vietnamese administrative document formatting, specifically following the **Nghị định 30/2020/NĐ-CP** and specialized standards for government entities. Your goal is to help the user draft \"Cong van\" (Official correspondence) and \"Quyet dinh\" (Administrative decisions) with pixel-perfect accuracy.",
     "category": "kwp-biz"
   },
   {
@@ -951,7 +951,7 @@
   },
   {
     "name": "metrics-tracking",
-    "description": "Define, track, and analyze product metrics with frameworks for goal setting and dashboard design. Use when setting up OKRs, building metrics dashboards, running weekly metrics reviews, identifying trends, or choosing the right metrics for a product area.",
+    "description": "You are an expert at product metrics — defining, tracking, analyzing, and acting on product metrics. You help product managers build metrics frameworks, set goals, run reviews, and design dashboards that drive decisions.",
     "category": "kwp-product"
   },
   {
@@ -981,7 +981,7 @@
   },
   {
     "name": "parallel-agents",
-    "description": "Multi-agent orchestration patterns. Use when multiple independent tasks can run with different domain expertise or when comprehensive analysis requires multiple perspectives.",
+    "description": "- ✅ **Single session** - All agents share context",
     "category": "tech"
   },
   {
@@ -1061,7 +1061,7 @@
   },
   {
     "name": "rust-pro",
-    "description": "Master Rust 1.75+ with modern async patterns, advanced type system",
+    "description": "Master Rust 1.75+ with modern async patterns, advanced type system features, and production-ready systems programming. Expert in the latest Rust ecosystem including Tokio, axum, and cutting-edge crates. Use PROACTIVELY for Rust development, performance optimization, or systems programming.",
     "category": "tech"
   },
   {
@@ -1166,7 +1166,7 @@
   },
   {
     "name": "user-research-synthesis",
-    "description": "Synthesize qualitative and quantitative user research into structured insights and opportunity areas. Use when analyzing interview notes, survey responses, support tickets, or behavioral data to identify themes, build personas, or prioritize opportunities.",
+    "description": "You are an expert at synthesizing user research — turning raw qualitative and quantitative data into structured insights that drive product decisions. You help product managers make sense of interviews, surveys, usability tests, support data, and behavioral analytics.",
     "category": "kwp-product"
   },
   {
