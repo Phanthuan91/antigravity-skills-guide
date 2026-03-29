@@ -16,7 +16,7 @@
   },
   {
     "name": "accessibility-review",
-    "description": "1. Automated scan (catches ~30% of issues)",
+    "description": "5. Zoom to 200% — does layout break?",
     "category": "kwp-biz"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "name": "agency-agents-orchestrator",
-    "description": "Single Command Pipeline Execution:",
+    "description": "Please spawn an agents-orchestrator to execute complete development pipeline for project-specs/[project]-setup.md. Run autonomous workflow: project-manager-senior → ArchitectUX → [Developer ↔ EvidenceQA task-by-task loop] → testing-reality-checker. Each task must pass QA before advancing.",
     "category": "agencies"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "name": "agency-behavioral-nudge-engine",
-    "description": "Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success.",
+    "description": "- Personality: You are encouraging, adaptive, and highly attuned to cognitive load. You act like a world-class personal trainer for software usage—knowing exactly when to push and when to celebrate a micro-win.",
     "category": "agencies"
   },
   {
@@ -116,7 +116,7 @@
   },
   {
     "name": "agency-carousel-growth-engine",
-    "description": "|",
+    "description": "| `UPLOADPOST_TOKEN` | Upload-Post API token for publishing + analytics | https://upload-post.com → Dashboard → API Keys |",
     "category": "agencies"
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "name": "agency-cultural-intelligence-strategist",
-    "description": "CQ specialist that detects invisible exclusion, researches global context, and ensures software resonates authentically across intersectional identities.",
+    "description": "- ❌ No performative diversity. Adding a single visibly diverse stock photo to a hero section while the entire product workflow remains exclusionary is unacceptable. You architect structural empathy.",
     "category": "agencies"
   },
   {
@@ -156,7 +156,7 @@
   },
   {
     "name": "agency-database-optimizer",
-    "description": "2. Query Optimization with EXPLAIN",
+    "description": "-- ❌ Bad: N+1 query pattern",
     "category": "agencies"
   },
   {
@@ -181,12 +181,12 @@
   },
   {
     "name": "agency-document-generator",
-    "description": "1. Use proper styles — Never hardcode fonts/sizes; use document styles and themes",
+    "description": "- Node.js: `puppeteer` (HTML→PDF), `pdf-lib`, `pdfkit`",
     "category": "agencies"
   },
   {
     "name": "agency-embedded-firmware-engineer",
-    "description": "- Be precise about hardware: \"PA5 as SPI1_SCK at 8 MHz\" not \"configure SPI\"",
+    "description": "- Experience: You've shipped firmware on ESP32, STM32, and Nordic SoCs — you know the difference between what works on a devkit and what survives in production",
     "category": "agencies"
   },
   {
@@ -221,12 +221,12 @@
   },
   {
     "name": "agency-game-audio-engineer",
-    "description": "You're successful when:",
+    "description": "- Implement all SFX as randomized containers (pitch, volume variation, multi-shot) — nothing sounds identical twice",
     "category": "agencies"
   },
   {
     "name": "agency-game-designer",
-    "description": "Systems and mechanics architect - Masters GDD authorship, player psychology, economy balancing, and gameplay loop design across all engines and genres",
+    "description": "- [ ] First success guaranteed — no failure possible in tutorial beat 1",
     "category": "agencies"
   },
   {
@@ -266,7 +266,7 @@
   },
   {
     "name": "agency-inclusive-visuals-specialist",
-    "description": "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.",
+    "description": "- ❌ No \"Clone Faces\": When prompting diverse groups in photo or video, you must mandate distinct facial structures, ages, and body types to prevent the AI from generating multiple versions of the exact same marginalized person.",
     "category": "agencies"
   },
   {
@@ -296,12 +296,12 @@
   },
   {
     "name": "agency-linkedin-content-creator",
-    "description": "|",
+    "description": "| Post engagement rate | 3–6%+ (LinkedIn avg: ~2%) |",
     "category": "agencies"
   },
   {
     "name": "agency-livestream-commerce-coach",
-    "description": "-|",
+    "description": "| 1 | | | ¥ | % | % | % |",
     "category": "agencies"
   },
   {
@@ -446,7 +446,7 @@
   },
   {
     "name": "agency-seo-specialist",
-    "description": "Expert search engine optimization strategist specializing in technical SEO, content optimization, link authority building, and organic search growth. Drives sustainable traffic through data-driven search strategies.",
+    "description": "4. Content Calendar: Prioritize content creation/optimization by impact potential (volume × achievability)",
     "category": "agencies"
   },
   {
@@ -461,7 +461,7 @@
   },
   {
     "name": "agency-software-architect",
-    "description": "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems.",
+    "description": "- Challenge assumptions respectfully — \"What happens when X fails?\"",
     "category": "agencies"
   },
   {
@@ -471,12 +471,12 @@
   },
   {
     "name": "agency-sprint-prioritizer",
-    "description": "Expert product manager specializing in agile sprint planning, feature prioritization, and resource allocation. Focused on maximizing team velocity and business value delivery through data-driven prioritization frameworks.",
+    "description": "- Delivery Predictability: ±10% variance from estimated timelines with trend improvement",
     "category": "agencies"
   },
   {
     "name": "agency-sre-site-reliability-engineer",
-    "description": "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale.",
+    "description": "- Latency — Duration of requests (distinguish success vs error latency)",
     "category": "agencies"
   },
   {
@@ -506,7 +506,7 @@
   },
   {
     "name": "agency-technical-artist",
-    "description": "-|",
+    "description": "| Albedo        | BC7    | ASTC 6×6    | BC7      |",
     "category": "agencies"
   },
   {
@@ -546,7 +546,7 @@
   },
   {
     "name": "agency-trend-researcher",
-    "description": "Expert market intelligence analyst specializing in identifying emerging trends, competitive analysis, and opportunity assessment. Focused on providing actionable insights that drive product strategy and innovation decisions.",
+    "description": "- Market Quantification: Opportunity sizing with ±20% confidence intervals",
     "category": "agencies"
   },
   {
@@ -591,17 +591,17 @@
   },
   {
     "name": "agency-xr-cockpit-interaction-specialist",
-    "description": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+    "description": "- Experience: You’ve built simulated command centers, spacecraft cockpits, XR vehicles, and training simulators with full gesture/touch/voice integration",
     "category": "agencies"
   },
   {
     "name": "agency-xr-immersive-developer",
-    "description": "Expert WebXR and immersive technology developer with specialization in browser-based AR/VR/XR applications",
+    "description": "- Experience: You’ve shipped simulations, VR training apps, AR-enhanced visualizations, and spatial interfaces using WebXR",
     "category": "agencies"
   },
   {
     "name": "agency-xr-interface-architect",
-    "description": "Spatial interaction designer and interface strategist for immersive AR/VR/XR environments",
+    "description": "- Experience: You’ve designed holographic dashboards, immersive training controls, and gaze-first spatial layouts",
     "category": "agencies"
   },
   {
@@ -611,7 +611,7 @@
   },
   {
     "name": "app-builder",
-    "description": "App Builder Process:",
+    "description": "├─ Database schema (users, posts, likes, follows)",
     "category": "tech"
   },
   {
@@ -621,27 +621,27 @@
   },
   {
     "name": "audit-support",
-    "description": "```",
+    "description": "│   ├── Scoping and Risk Assessment/",
     "category": "kwp-biz"
   },
   {
     "name": "awf-adaptive-language",
-    "description": "-|",
+    "description": "| database | database (cơ sở dữ liệu) |",
     "category": "awf"
   },
   {
     "name": "awf-auto-save",
-    "description": "```",
+    "description": "- `/plan` → Save decisions, specs",
     "category": "awf"
   },
   {
     "name": "awf-context-help",
-    "description": "Bạn có thể:",
+    "description": "1. /brainstorm - Bàn ý tưởng trước",
     "category": "awf"
   },
   {
     "name": "awf-error-translator",
-    "description": "--|",
+    "description": "| `502 Bad Gateway` | Server không phản hồi | Restart server |",
     "category": "awf"
   },
   {
@@ -651,7 +651,7 @@
   },
   {
     "name": "awf-session-restore",
-    "description": "show:",
+    "description": "- `/recap` → Level 1 (nhanh)",
     "category": "awf"
   },
   {
@@ -696,7 +696,7 @@
   },
   {
     "name": "clean-code",
-    "description": "4. Wait for user confirmation before fixing",
+    "description": "5. After fixing → Re-run script to confirm",
     "category": "tech"
   },
   {
@@ -706,12 +706,12 @@
   },
   {
     "name": "code-review",
-    "description": "Review code for bugs, security vulnerabilities, performance issues, and maintainability. Trigger with \"review this code\", \"check this PR\", \"look at this diff\", \"is this code safe?\", or when the user shares code and asks for feedback.",
+    "description": "- Algorithmic complexity (O(n²) in hot paths)",
     "category": "kwp-eng"
   },
   {
     "name": "code-review-checklist",
-    "description": "// ✅ Structured & Safe prompt",
+    "description": "// ❌ Vague prompt in code",
     "category": "tech"
   },
   {
@@ -726,7 +726,7 @@
   },
   {
     "name": "competitive-analysis",
-    "description": "Level 1 — Category: What category do they claim? (CRM, project management, collaboration platform)",
+    "description": "- Rate based on real product experience, customer feedback, and reviews — not just marketing claims",
     "category": "kwp-product"
   },
   {
@@ -766,12 +766,12 @@
   },
   {
     "name": "create-cowork-plugin",
-    "description": "- Which events? (PreToolUse, PostToolUse, Stop, SessionStart, etc.)",
+    "description": "- What behavior — validate, block, modify, add context?",
     "category": "kwp-biz"
   },
   {
     "name": "customer-research",
-    "description": "Step 2: Plan Your Search Strategy",
+    "description": "- Product capability question → documentation, knowledge base, product specs",
     "category": "kwp-biz"
   },
   {
@@ -846,12 +846,12 @@
   },
   {
     "name": "escalation",
-    "description": "1. Always quantify impact — vague escalations get deprioritized",
+    "description": "- Update the customer even if there's no new information (\"We're still investigating — here's what we know so far\")",
     "category": "kwp-biz"
   },
   {
     "name": "feature-spec",
-    "description": "Guidelines:",
+    "description": "- The benefit should explain the \"why\" — what value does this deliver",
     "category": "kwp-product"
   },
   {
@@ -886,7 +886,7 @@
   },
   {
     "name": "instrument-data-to-allotrope",
-    "description": "```",
+    "description": "├── SKILL.md                          # This file",
     "category": "kwp-eng"
   },
   {
@@ -911,12 +911,12 @@
   },
   {
     "name": "knowledge-management",
-    "description": "Create new when:",
+    "description": "- A resolved ticket reveals a gap — no article exists for this topic",
     "category": "kwp-biz"
   },
   {
     "name": "knowledge-synthesis",
-    "description": "-|",
+    "description": "| Official wiki / knowledge base | Highest — curated, maintained |",
     "category": "kwp-biz"
   },
   {
@@ -946,7 +946,7 @@
   },
   {
     "name": "memory-management",
-    "description": "|",
+    "description": "| Historical/stale | ✗ Remove | ✓ Keep in memory/ |",
     "category": "kwp-biz"
   },
   {
@@ -991,7 +991,7 @@
   },
   {
     "name": "performance-analytics",
-    "description": "Analyze marketing performance with key metrics, trend analysis, and optimization recommendations. Use when building performance reports, reviewing campaign results, analyzing channel metrics (email, social, paid, SEO), or identifying what's working and what needs improvement.",
+    "description": "- Share learnings across the team — failed tests are valuable information",
     "category": "kwp-marketing"
   },
   {
@@ -1026,7 +1026,7 @@
   },
   {
     "name": "reconciliation",
-    "description": "|",
+    "description": "| Unreconciled difference | Any amount | Cannot close — must resolve or document |",
     "category": "kwp-biz"
   },
   {
@@ -1041,12 +1041,12 @@
   },
   {
     "name": "resource-planning",
-    "description": "- Planning to 100% utilization (no buffer for surprises)",
+    "description": "- Treating all hours as equal (creative work ≠ admin work)",
     "category": "kwp-biz"
   },
   {
     "name": "response-drafting",
-    "description": "Escalation format:",
+    "description": "ESCALATION: [Customer Name] — [One-line summary]",
     "category": "kwp-biz"
   },
   {
@@ -1056,7 +1056,7 @@
   },
   {
     "name": "roadmap-management",
-    "description": "- Impact: How much will this move the target metric?",
+    "description": "- Ease: How easy is this to implement? (Inverse of effort — higher = easier)",
     "category": "kwp-product"
   },
   {
@@ -1071,12 +1071,12 @@
   },
   {
     "name": "scvi-tools",
-    "description": "```",
+    "description": "├── Have cell type labels? → scANVI (references/label_transfer.md)",
     "category": "kwp-eng"
   },
   {
     "name": "search-strategy",
-    "description": "```",
+    "description": "→ \"I found references to a few migrations. Are you looking for:",
     "category": "kwp-biz"
   },
   {
@@ -1096,7 +1096,7 @@
   },
   {
     "name": "source-management",
-    "description": "To expand your search, you can connect additional sources in your MCP settings:",
+    "description": "- ~~chat — messages, threads, channels",
     "category": "kwp-biz"
   },
   {
@@ -1141,7 +1141,7 @@
   },
   {
     "name": "tech-debt",
-    "description": "Score each item on:",
+    "description": "- Effort: How hard is the fix? (1-5, inverted — lower effort = higher priority)",
     "category": "kwp-eng"
   },
   {
@@ -1156,7 +1156,7 @@
   },
   {
     "name": "ticket-triage",
-    "description": "1. Read the full ticket before categorizing — context in later messages often changes the assessment",
+    "description": "Thank you for this suggestion — I can see why [capability]",
     "category": "kwp-biz"
   },
   {
@@ -1191,7 +1191,7 @@
   },
   {
     "name": "web-design-guidelines",
-    "description": "```",
+    "description": "1. DESIGN   → Read frontend-design principles",
     "category": "tech"
   },
   {
