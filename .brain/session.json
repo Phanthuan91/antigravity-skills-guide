@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-03-29T16:03:00Z",
+  "working_on": {
+    "feature": "Migration & Skills Guide",
+    "task": "Handover documentation & UI improvement",
+    "status": "planning",
+    "files": ["c:/Users/Phan Thuan/.gemini/antigravity/skills-guide/app.js"],
+    "blockers": [],
+    "notes": "Transitioning system between machines."
+  },
+  "pending_tasks": [
+    { "task": "Check mcp_config.json after migration", "priority": "high" },
+    { "task": "Finalize search logic in app.js", "priority": "medium" }
+  ],
+  "recent_changes": [
+    { "timestamp": "2026-03-29", "type": "docs", "description": "Provided migration guide for Antigravity system.", "files": [] }
+  ],
+  "decisions_made": [
+    { "decision": "Backup entire .gemini/antigravity folder for state persistence", "reason": "Avoid loss of session history and custom skills." }
+  ]
+}

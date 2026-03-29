@@ -1,0 +1,14 @@
+{
+  "meta": { "schema_version": "1.1.0", "awf_version": "4.0.2" },
+  "project": { "name": "Antigravity Migration Support", "type": "tooling", "status": "active" },
+  "tech_stack": { "frontend": "HTML/Vanilla CSS/Javascript", "backend": "None (Static Guide)", "database": "JSON Files" },
+  "features": [
+    { "name": "Antigravity Skills Migration", "description": "Procedure to copy .gemini/antigravity folder to another machine." },
+    { "name": "Interactive Skills Guide", "description": "Portal to navigate and search through all 240+ Antigravity skills." }
+  ],
+  "knowledge_items": {
+    "patterns": ["AWF Workflow usage", "Slash commands system"],
+    "gotchas": ["Absolute paths in mcp_config.json on some setups"],
+    "conventions": ["Skill storage in .gemini/antigravity/skills/"]
+  }
+}
