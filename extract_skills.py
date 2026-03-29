@@ -5,6 +5,9 @@ import json
 SKILLS_DIR = r"C:\Users\Phan Thuan\.gemini\antigravity\skills"
 OUT_FILE = r"C:\Users\Phan Thuan\.gemini\antigravity\skills-guide\skills_data.json"
 
+# Vietnamese character set for robust detection
+VN_CHARS = "àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴĐ"
+
 # AI Translation Map for common keywords and patterns
 TRANSLATION_MAP = {
     "Expert accessibility specialist who audits interfaces against WCAG standards": "Chuyên gia tiếp cận (accessibility) chuyên kiểm tra giao diện theo chuẩn WCAG",
@@ -20,19 +23,21 @@ TRANSLATION_MAP = {
     "Senior pre-sales engineer specializing in technical discovery": "Kỹ sư giải pháp (Pre-sales) chuyên về tư vấn kỹ thuật và demo",
     "Expert UI designer specializing in visual design systems": "Thiết kế giao diện UI chuyên về hệ thống thiết kế (Design Systems)",
     "Expert user experience researcher specializing in user behavior analysis": "Chuyên gia nghiên cứu trải nghiệm người dùng (UX Researcher)",
-    "Apply and enforce brand voice, style guide, and messaging pillars across content": "Áp dụng và thực thi giọng điệu thương hiệu, quy chuẩn phong cách và các trụ cột thông điệp trong nội dung.",
-    "Draft marketing content across channels": "Soạn thảo nội dung marketing đa kênh (blog, social, email...)",
-    "Benchmark compensation against market data": "Đánh giá mức lương so với dữ liệu thị trường.",
-    "Audit designs and code for WCAG 2.1 AA compliance": "Kiểm định thiết kế và mã nguồn về mức độ tuân thủ tiêu chuẩn WCAG 2.1 AA.",
-    "Research a company or person and get actionable sales intel": "Nghiên cứu công ty hoặc cá nhân để lấy thông tin kinh doanh hữu ích.",
+    "Apply and enforce brand voice, style guide, and messaging pillars across content": "Áp dụng và thực thi giọng điệu thương hiệu, quy chuẩn phong cách và thông điệp cốt lõi.",
+    "Draft marketing content across channels": "Soạn thảo nội dung marketing đa kênh (blog, mạng xã hội, email...)",
+    "Benchmark compensation against market data": "Đánh giá mức lương và phúc lợi so với dữ liệu thị trường thực tế.",
+    "Audit designs and code for WCAG 2.1 AA compliance": "Kiểm định thiết kế và mã nguồn về mức độ tuân thủ tiêu chuẩn tiếp cận WCAG 2.1 AA.",
+    "Research a company or person and get actionable sales intel": "Nghiên cứu công ty/cá nhân để thu thập thông tin tình báo kinh doanh phục vụ bán hàng.",
+    "Performance profiling principles. Measurement, analysis, and optimization techniques.": "Nguyên lý định danh hiệu năng (profiling). Các kỹ thuật đo lường, phân tích và tối ưu hóa.",
+    "Pragmatic coding standards - concise, direct, no over-engineering": "Quy chuẩn mã nguồn tinh gọn - súc tích, trực diện, không lạm dụng thiết kế.",
 }
 
 def translate_to_vn(text, skill_name):
-    # If already has VN chars, return as is
-    if any(ord(c) > 127 for c in text):
+    # If already has true VN chars, return as is
+    if any(c in VN_CHARS for c in text):
         return text
         
-    # Check exact map
+    # Check exact map (case insensitive)
     for eng, vn in TRANSLATION_MAP.items():
         if eng.lower() in text.lower():
             return vn
@@ -41,31 +46,30 @@ def translate_to_vn(text, skill_name):
     if skill_name.startswith("agency-"):
         role = skill_name.replace("agency-", "").replace("-", " ").title()
         role_map = {
-            "Accessibility Auditor": "Chuyên gia Kiểm định Tiếp cận",
-            "Account Strategist": "Chuyên gia Chiến lược Khách hàng",
-            "Accounts Payable Agent": "Đại lý Thanh toán Phải trả",
-            "Ad Creative Strategist": "Chiến lược gia Sáng tạo Quảng cáo",
-            "Ai Engineer": "Kỹ sư Trí tuệ Nhân tạo",
+            "Accessibility Auditor": "Kiểm định Tiếp cận",
+            "Account Strategist": "Chiến lược Khách hàng",
+            "Accounts Payable Agent": "Đại lý Thanh toán",
+            "Ad Creative Strategist": "Sáng tạo Quảng cáo",
+            "Ai Engineer": "Kỹ sư AI",
             "Backend Architect": "Kiến trúc sư Backend",
             "Frontend Developer": "Lập trình viên Frontend",
-            "Devops Automator": "Chuyên gia Tự động hóa DevOps",
+            "Devops Automator": "Tự động hóa DevOps",
             "Security Engineer": "Kỹ sư Bảo mật",
             "Software Architect": "Kiến trúc sư Phần mềm",
             "Ui Designer": "Thiết kế Giao diện UI",
-            "Ux Architect": "Kiến trúc sư Trải nghiệm UX",
-            "Workflow Optimizer": "Chuyên gia Tối ưu Quy trình",
-            "Technical Writer": "Chuyên viên Viết tài liệu Kỹ thuật",
-            "Content Creator": "Người Sáng tạo Nội dung",
+            "Ux Architect": "Kiến trúc sư Trải nghiệm",
+            "Workflow Optimizer": "Tối ưu Quy trình",
+            "Technical Writer": "Viết tài liệu Kỹ thuật",
+            "Content Creator": "Sáng tạo Nội dung",
             "Seo Specialist": "Chuyên gia SEO",
-            "Social Media Strategist": "Chiến lược gia Mạng xã hội",
-            "Analytics Reporter": "Chuyên gia Báo cáo Phân tích",
-            "Api Tester": "Kỹ sư Kiểm thử API",
-            "Devops Automator": "Chuyên gia Tự động hóa DevOps",
-            "Brand Guardian": "Người Bảo vệ Thương hiệu",
-            "Growth Hacker": "Chuyên gia Tăng trưởng",
+            "Social Media Strategist": "Chiến lược Mạng xã hội",
+            "Data Engineer": "Kỹ sư Dữ liệu",
+            "Product Manager": "Quản lý Sản phẩm",
+            "Sprint Prioritizer": "Ưu tiên Sprint",
+            "Growth Hacker": "Tăng trưởng (Growth)",
         }
         translated_role = role_map.get(role, role)
-        return f"Chuyên gia AI Agent ({translated_role}) dành cho các doanh nghiệp, chuyên xử lý nhiệm vụ về {role.lower()}."
+        return f"Hệ thống AI chuyên trách ({translated_role}) hỗ trợ doanh nghiệp thực hiện các nhiệm vụ chuyên sâu về {role.lower()}."
 
     # Pattern matching for KWP skills
     if skill_name.startswith("kwp-"):
@@ -73,19 +77,21 @@ def translate_to_vn(text, skill_name):
         category = parts[1] if len(parts) > 1 else ""
         action = parts[-1].replace("-", " ")
         cat_map = {
-            "sales": "Kinh doanh/Bán hàng",
-            "marketing": "Tiếp thị/Marketing",
+            "sales": "Bán hàng",
+            "marketing": "Tiếp thị",
             "product": "Sản phẩm",
-            "eng": "Kỹ thuật/Engineering",
-            "biz": "Doanh nghiệp/Business",
-            "data": "Dữ liệu/Data",
-            "legal": "Pháp lý/Legal",
-            "finance": "Tài chính/Finance",
-            "hr": "Nhân sự/HR",
-            "design": "Thiết kế/Design",
-            "operations": "Vận hành/Ops",
+            "eng": "Kỹ thuật",
+            "biz": "Doanh nghiệp",
+            "data": "Dữ liệu",
+            "legal": "Pháp lý",
+            "finance": "Tài chính",
+            "hr": "Nhân sự",
+            "design": "Thiết kế",
+            "ops": "Vận hành",
+            "productivity": "Năng suất",
+            "enterprise": "Doanh nghiệp",
         }
-        return f"Quy trình Knowledge Work cho {cat_map.get(category, category)}: Chuyên mục {action}."
+        return f"Quy trình làm việc (KWP) cho bộ phận {cat_map.get(category, category)}: Tập trung vào {action}."
 
     return text # Fallback
 
@@ -121,19 +127,20 @@ def extract_metadata(skill_path):
     description = re.sub(r'^[>|]-?\s*', '', description)
     
     # Check if needs translation
-    is_pure_ascii = not any(ord(c) > 127 for c in description)
-    if not description or is_pure_ascii:
+    if not description or not any(c in VN_CHARS for c in description):
         found_vn = False
         # Look for VN text in body
         for p in body.split('\n'):
             p = p.strip()
+            # Ignore headers, tables, code blocks, short lines, and check for VN chars
             if p and not p.startswith('#') and p.count('|') < 2 and not p.startswith('```') and len(p) > 20:
-                if any(ord(c) > 127 for c in p):
+                if any(c in VN_CHARS for c in p):
                     description = p
                     found_vn = True
                     break
         
-        if not found_vn or not any(ord(c) > 127 for c in description):
+        # If still no VN text, apply AI translation patterns
+        if not found_vn or not any(c in VN_CHARS for c in description):
             description = translate_to_vn(description, skill_folder_name)
     
     if not description: description = "Chưa có mô tả kỹ năng bằng tiếng Việt."
